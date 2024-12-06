@@ -1,0 +1,1595 @@
+{
+  "49299": {
+    "nom": "Saint-Léger-sous-Cholet",
+    "priceAc_value": 2.4,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.18,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.58,
+    "priceTotal_year": 2022.0
+  },
+  "49030": {
+    "nom": "Blou",
+    "priceAc_value": 2.1,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.01,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.11,
+    "priceTotal_year": 2022.0
+  },
+  "49302": {
+    "nom": "Saint-Macaire-du-Bois",
+    "priceAc_value": 2.94,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.25,
+    "priceTotal_year": 2022.0
+  },
+  "49035": {
+    "nom": "Bouchemaine",
+    "priceAc_value": 1.8,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.8,
+    "priceTotal_year": 2022.0
+  },
+  "49306": {
+    "nom": "Saint-Martin-du-Fouilloux",
+    "priceAc_value": 1.8,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.8,
+    "priceTotal_year": 2022.0
+  },
+  "49036": {
+    "nom": "Bouillé-Ménard",
+    "priceAc_value": 1.84,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.75,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.59,
+    "priceTotal_year": 2022.0
+  },
+  "49080": {
+    "nom": "Les Hauts-d'Anjou",
+    "priceAc_value": 2.1517050394,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.7206030603,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.8723080998,
+    "priceTotal_year": 2022.0
+  },
+  "49308": {
+    "nom": "Saint-Melaine-sur-Aubance",
+    "priceAc_value": 2.97,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.54,
+    "priceTotal_year": 2022.0
+  },
+  "49038": {
+    "nom": "Bourg-l'Évêque",
+    "priceAc_value": 1.84,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.75,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.59,
+    "priceTotal_year": 2022.0
+  },
+  "49310": {
+    "nom": "Saint-Paul-du-Bois",
+    "priceAc_value": 1.72,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.18,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.9,
+    "priceTotal_year": 2022.0
+  },
+  "49311": {
+    "nom": "Saint-Philbert-du-Peuple",
+    "priceAc_value": 2.1,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.01,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.11,
+    "priceTotal_year": 2022.0
+  },
+  "49041": {
+    "nom": "Brain-sur-Allonnes",
+    "priceAc_value": 2.1,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.01,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.11,
+    "priceTotal_year": 2022.0
+  },
+  "49045": {
+    "nom": "La Breille-les-Pins",
+    "priceAc_value": 2.1,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.01,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.11,
+    "priceTotal_year": 2022.0
+  },
+  "49048": {
+    "nom": "Briollay",
+    "priceAc_value": 1.8,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.8,
+    "priceTotal_year": 2022.0
+  },
+  "49321": {
+    "nom": "Saint-Sigismond",
+    "priceAc_value": 2.0,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.51,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.51,
+    "priceTotal_year": 2022.0
+  },
+  "49053": {
+    "nom": "Brossay",
+    "priceAc_value": 2.94,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.25,
+    "priceTotal_year": 2022.0
+  },
+  "49054": {
+    "nom": "Candé",
+    "priceAc_value": 1.39,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 2.75,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.01,
+    "priceTotal_year": 2021.0
+  },
+  "49248": {
+    "nom": "Ombrée d'Anjou",
+    "priceAc_value": 1.4157685353,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 2.75,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.0357685353,
+    "priceTotal_year": 2021.0
+  },
+  "49055": {
+    "nom": "Cantenay-Épinard",
+    "priceAc_value": 1.8,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.8,
+    "priceTotal_year": 2022.0
+  },
+  "49086": {
+    "nom": "Terranjou",
+    "priceAc_value": 2.97,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.71,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.68,
+    "priceTotal_year": 2022.0
+  },
+  "49326": {
+    "nom": "Sarrigné",
+    "priceAc_value": 1.8,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.8,
+    "priceTotal_year": 2022.0
+  },
+  "49056": {
+    "nom": "Carbay",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.75,
+    "priceEp_year": 2022,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "49057": {
+    "nom": "Cernusson",
+    "priceAc_value": 2.0,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.18,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.18,
+    "priceTotal_year": 2022.0
+  },
+  "49328": {
+    "nom": "Saumur",
+    "priceAc_value": 2.94,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.25,
+    "priceTotal_year": 2022.0
+  },
+  "49058": {
+    "nom": "Les Cerqueux",
+    "priceAc_value": 2.2,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.18,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.38,
+    "priceTotal_year": 2022.0
+  },
+  "49329": {
+    "nom": "Savennières",
+    "priceAc_value": 1.8,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.8,
+    "priceTotal_year": 2022.0
+  },
+  "49125": {
+    "nom": "Doué-en-Anjou",
+    "priceAc_value": 2.94,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.25,
+    "priceTotal_year": 2022.0
+  },
+  "49330": {
+    "nom": "Sceaux-d'Anjou",
+    "priceAc_value": 2.0,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.73,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.73,
+    "priceTotal_year": 2022.0
+  },
+  "49061": {
+    "nom": "Challain-la-Potherie",
+    "priceAc_value": 1.84,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.75,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.59,
+    "priceTotal_year": 2022.0
+  },
+  "49332": {
+    "nom": "La Séguinière",
+    "priceAc_value": 2.4,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.18,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.58,
+    "priceTotal_year": 2022.0
+  },
+  "49333": {
+    "nom": "Seiches-sur-le-Loir",
+    "priceAc_value": 2.04,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.73,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.77,
+    "priceTotal_year": 2022.0
+  },
+  "49003": {
+    "nom": "Tuffalun",
+    "priceAc_value": 2.94,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.25,
+    "priceTotal_year": 2022.0
+  },
+  "49063": {
+    "nom": "Chalonnes-sur-Loire",
+    "priceAc_value": 2.97,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.54,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.51,
+    "priceTotal_year": 2022.0
+  },
+  "49334": {
+    "nom": "Sermaise",
+    "priceAc_value": 1.9,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.73,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.63,
+    "priceTotal_year": 2022.0
+  },
+  "49064": {
+    "nom": "Chambellay",
+    "priceAc_value": 2.0,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.69,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.69,
+    "priceTotal_year": 2022.0
+  },
+  "49336": {
+    "nom": "Somloire",
+    "priceAc_value": 2.26,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.18,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.44,
+    "priceTotal_year": 2022.0
+  },
+  "49338": {
+    "nom": "Soulaines-sur-Aubance",
+    "priceAc_value": 1.8,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.8,
+    "priceTotal_year": 2022.0
+  },
+  "49068": {
+    "nom": "Champtocé-sur-Loire",
+    "priceAc_value": 2.97,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.46,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.43,
+    "priceTotal_year": 2022.0
+  },
+  "49339": {
+    "nom": "Soulaire-et-Bourg",
+    "priceAc_value": 1.8,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.8,
+    "priceTotal_year": 2022.0
+  },
+  "49341": {
+    "nom": "Souzay-Champigny",
+    "priceAc_value": 2.94,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.25,
+    "priceTotal_year": 2022.0
+  },
+  "49070": {
+    "nom": "Chanteloup-les-Bois",
+    "priceAc_value": 2.4,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.18,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.58,
+    "priceTotal_year": 2022.0
+  },
+  "49343": {
+    "nom": "La Tessoualle",
+    "priceAc_value": 2.4,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.18,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.58,
+    "priceTotal_year": 2022.0
+  },
+  "49344": {
+    "nom": "Thorigné-d'Anjou",
+    "priceAc_value": 1.86,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.69,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.55,
+    "priceTotal_year": 2022.0
+  },
+  "49347": {
+    "nom": "Tiercé",
+    "priceAc_value": 2.04,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.73,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.77,
+    "priceTotal_year": 2022.0
+  },
+  "49076": {
+    "nom": "La Chapelle-Saint-Laud",
+    "priceAc_value": 1.9,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.73,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.63,
+    "priceTotal_year": 2022.0
+  },
+  "49018": {
+    "nom": "Baugé-en-Anjou",
+    "priceAc_value": 2.91,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.26,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.17,
+    "priceTotal_year": 2022.0
+  },
+  "49352": {
+    "nom": "Toutlemonde",
+    "priceAc_value": 2.4,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.18,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.58,
+    "priceTotal_year": 2022.0
+  },
+  "49353": {
+    "nom": "Trélazé",
+    "priceAc_value": 1.8,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.8,
+    "priceTotal_year": 2022.0
+  },
+  "49220": {
+    "nom": "Morannes sur Sarthe-Daumeray",
+    "priceAc_value": 1.9813617154,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.73,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.7113617154,
+    "priceTotal_year": 2022.0
+  },
+  "49138": {
+    "nom": "Les Bois d'Anjou",
+    "priceAc_value": 2.91,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.26,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.17,
+    "priceTotal_year": 2022.0
+  },
+  "49082": {
+    "nom": "Chaudefonds-sur-Layon",
+    "priceAc_value": 2.97,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.35,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.32,
+    "priceTotal_year": 2022.0
+  },
+  "49355": {
+    "nom": "Trémentines",
+    "priceAc_value": 2.4,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.18,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.58,
+    "priceTotal_year": 2022.0
+  },
+  "49358": {
+    "nom": "Turquant",
+    "priceAc_value": 2.94,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.25,
+    "priceTotal_year": 2022.0
+  },
+  "49359": {
+    "nom": "Les Ulmes",
+    "priceAc_value": 2.94,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.25,
+    "priceTotal_year": 2022.0
+  },
+  "49361": {
+    "nom": "Varennes-sur-Loire",
+    "priceAc_value": 2.94,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.25,
+    "priceTotal_year": 2022.0
+  },
+  "49089": {
+    "nom": "Chazé-sur-Argos",
+    "priceAc_value": 1.84,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.75,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.59,
+    "priceTotal_year": 2022.0
+  },
+  "49362": {
+    "nom": "Varrains",
+    "priceAc_value": 2.94,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.25,
+    "priceTotal_year": 2022.0
+  },
+  "49090": {
+    "nom": "Cheffes",
+    "priceAc_value": 1.9,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.73,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.63,
+    "priceTotal_year": 2022.0
+  },
+  "49364": {
+    "nom": "Vaudelnay",
+    "priceAc_value": 2.94,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.25,
+    "priceTotal_year": 2022.0
+  },
+  "49368": {
+    "nom": "Vernantes",
+    "priceAc_value": 2.1,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.01,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.11,
+    "priceTotal_year": 2022.0
+  },
+  "49373": {
+    "nom": "Lys-Haut-Layon",
+    "priceAc_value": 2.2805763219,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.18,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.4605763219,
+    "priceTotal_year": 2022.0
+  },
+  "49369": {
+    "nom": "Vernoil-le-Fourrier",
+    "priceAc_value": 2.1,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.01,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.11,
+    "priceTotal_year": 2022.0
+  },
+  "49370": {
+    "nom": "Verrie",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2022,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "49371": {
+    "nom": "Vezins",
+    "priceAc_value": 2.4,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.18,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.58,
+    "priceTotal_year": 2022.0
+  },
+  "49099": {
+    "nom": "Cholet",
+    "priceAc_value": 2.4,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.18,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.58,
+    "priceTotal_year": 2022.0
+  },
+  "49100": {
+    "nom": "Cizay-la-Madeleine",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2022,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "49029": {
+    "nom": "Blaison-Saint-Sulpice",
+    "priceAc_value": 2.97,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.71,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.68,
+    "priceTotal_year": 2022.0
+  },
+  "49374": {
+    "nom": "Villebernier",
+    "priceAc_value": 2.94,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.25,
+    "priceTotal_year": 2022.0
+  },
+  "49102": {
+    "nom": "Cléré-sur-Layon",
+    "priceAc_value": 2.0,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.18,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.18,
+    "priceTotal_year": 2022.0
+  },
+  "49378": {
+    "nom": "Vivy",
+    "priceAc_value": 2.1,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.01,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.11,
+    "priceTotal_year": 2022.0
+  },
+  "49107": {
+    "nom": "Cornillé-les-Caves",
+    "priceAc_value": 1.9,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.73,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.63,
+    "priceTotal_year": 2022.0
+  },
+  "49381": {
+    "nom": "Yzernay",
+    "priceAc_value": 2.28,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.18,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.46,
+    "priceTotal_year": 2022.0
+  },
+  "49109": {
+    "nom": "Coron",
+    "priceAc_value": 2.28,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.18,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.46,
+    "priceTotal_year": 2022.0
+  },
+  "49110": {
+    "nom": "Corzé",
+    "priceAc_value": 1.9,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.73,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.63,
+    "priceTotal_year": 2022.0
+  },
+  "49021": {
+    "nom": "Beaufort-en-Anjou",
+    "priceAc_value": 2.91,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.26,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.17,
+    "priceTotal_year": 2022.0
+  },
+  "49112": {
+    "nom": "Le Coudray-Macouard",
+    "priceAc_value": 2.94,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.25,
+    "priceTotal_year": 2022.0
+  },
+  "49113": {
+    "nom": "Courchamps",
+    "priceAc_value": 2.94,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.25,
+    "priceTotal_year": 2022.0
+  },
+  "49114": {
+    "nom": "Courléon",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.01,
+    "priceEp_year": 2022,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "49120": {
+    "nom": "Denée",
+    "priceAc_value": 2.92,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.6,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.52,
+    "priceTotal_year": 2022.0
+  },
+  "49121": {
+    "nom": "Dénezé-sous-Doué",
+    "priceAc_value": 2.94,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.25,
+    "priceTotal_year": 2022.0
+  },
+  "49377": {
+    "nom": "Rives-du-Loir-en-Anjou",
+    "priceAc_value": 1.8,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.8,
+    "priceTotal_year": 2022.0
+  },
+  "49123": {
+    "nom": "Distré",
+    "priceAc_value": 2.94,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.25,
+    "priceTotal_year": 2022.0
+  },
+  "49127": {
+    "nom": "Durtal",
+    "priceAc_value": 2.04,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.73,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.77,
+    "priceTotal_year": 2022.0
+  },
+  "49129": {
+    "nom": "Écouflant",
+    "priceAc_value": 1.8,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.8,
+    "priceTotal_year": 2022.0
+  },
+  "49130": {
+    "nom": "Écuillé",
+    "priceAc_value": 1.8,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.8,
+    "priceTotal_year": 2022.0
+  },
+  "49131": {
+    "nom": "Épieds",
+    "priceAc_value": 2.94,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.25,
+    "priceTotal_year": 2022.0
+  },
+  "49132": {
+    "nom": "Étriché",
+    "priceAc_value": 1.9,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.73,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.63,
+    "priceTotal_year": 2022.0
+  },
+  "49135": {
+    "nom": "Feneu",
+    "priceAc_value": 1.8,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.8,
+    "priceTotal_year": 2022.0
+  },
+  "49140": {
+    "nom": "Fontevraud-l'Abbaye",
+    "priceAc_value": 2.94,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.25,
+    "priceTotal_year": 2022.0
+  },
+  "49155": {
+    "nom": "Grez-Neuville",
+    "priceAc_value": 2.0,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.75,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.75,
+    "priceTotal_year": 2022.0
+  },
+  "49161": {
+    "nom": "La Jaille-Yvon",
+    "priceAc_value": 2.0,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.69,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.69,
+    "priceTotal_year": 2022.0
+  },
+  "49170": {
+    "nom": "Juvardeil",
+    "priceAc_value": 2.0,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.73,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.73,
+    "priceTotal_year": 2022.0
+  },
+  "49171": {
+    "nom": "La Lande-Chasles",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.01,
+    "priceEp_year": 2022,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "49178": {
+    "nom": "Loiré",
+    "priceAc_value": 1.84,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.75,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.59,
+    "priceTotal_year": 2022.0
+  },
+  "49180": {
+    "nom": "Longué-Jumelles",
+    "priceAc_value": 2.1,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.01,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.11,
+    "priceTotal_year": 2022.0
+  },
+  "49160": {
+    "nom": "Ingrandes-Le Fresne sur Loire",
+    "priceAc_value": 2.35,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.07,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.42,
+    "priceTotal_year": 2022.0
+  },
+  "49182": {
+    "nom": "Louresse-Rochemenier",
+    "priceAc_value": 2.94,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.25,
+    "priceTotal_year": 2022.0
+  },
+  "49167": {
+    "nom": "Les Garennes sur Loire",
+    "priceAc_value": 2.97,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.54,
+    "priceTotal_year": 2022.0
+  },
+  "49188": {
+    "nom": "Marcé",
+    "priceAc_value": 1.9,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.73,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.63,
+    "priceTotal_year": 2022.0
+  },
+  "49218": {
+    "nom": "Montrevault-sur-Èvre",
+    "priceAc_value": 2.08,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.82,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.75,
+    "priceTotal_year": 2021.0
+  },
+  "49367": {
+    "nom": "Erdre-en-Anjou",
+    "priceAc_value": 2.0,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.46,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.46,
+    "priceTotal_year": 2022.0
+  },
+  "49192": {
+    "nom": "Maulévrier",
+    "priceAc_value": 2.26,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.18,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.44,
+    "priceTotal_year": 2022.0
+  },
+  "49193": {
+    "nom": "Le May-sur-Èvre",
+    "priceAc_value": 2.4,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.18,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.58,
+    "priceTotal_year": 2022.0
+  },
+  "49244": {
+    "nom": "Mauges-sur-Loire",
+    "priceAc_value": 2.08,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.82,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.8041891312,
+    "priceTotal_year": 2021.0
+  },
+  "49163": {
+    "nom": "Jarzé Villages",
+    "priceAc_value": 1.9813617154,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.73,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.7113617154,
+    "priceTotal_year": 2022.0
+  },
+  "49195": {
+    "nom": "Mazières-en-Mauges",
+    "priceAc_value": 2.4,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.18,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.58,
+    "priceTotal_year": 2022.0
+  },
+  "49023": {
+    "nom": "Beaupréau-en-Mauges",
+    "priceAc_value": 2.08,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.82,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.75,
+    "priceTotal_year": 2021.0
+  },
+  "49201": {
+    "nom": "La Ménitré",
+    "priceAc_value": 2.91,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.26,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.17,
+    "priceTotal_year": 2022.0
+  },
+  "49205": {
+    "nom": "Miré",
+    "priceAc_value": 2.0,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.73,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.73,
+    "priceTotal_year": 2022.0
+  },
+  "49292": {
+    "nom": "Val-du-Layon",
+    "priceAc_value": 2.97,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.6,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.57,
+    "priceTotal_year": 2022.0
+  },
+  "49050": {
+    "nom": "Brissac Loire Aubance",
+    "priceAc_value": 2.97,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.71,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.68,
+    "priceTotal_year": 2022.0
+  },
+  "49301": {
+    "nom": "Sèvremoine",
+    "priceAc_value": 2.08,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.82,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.28,
+    "priceTotal_year": 2021.0
+  },
+  "49209": {
+    "nom": "Montigné-lès-Rairies",
+    "priceAc_value": 1.9,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.73,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.63,
+    "priceTotal_year": 2022.0
+  },
+  "49211": {
+    "nom": "Montilliers",
+    "priceAc_value": 2.05,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.18,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.23,
+    "priceTotal_year": 2022.0
+  },
+  "49214": {
+    "nom": "Montreuil-Juigné",
+    "priceAc_value": 1.8,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.8,
+    "priceTotal_year": 2022.0
+  },
+  "49215": {
+    "nom": "Montreuil-Bellay",
+    "priceAc_value": 2.94,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.25,
+    "priceTotal_year": 2022.0
+  },
+  "49216": {
+    "nom": "Montreuil-sur-Loir",
+    "priceAc_value": 1.9,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.73,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.63,
+    "priceTotal_year": 2022.0
+  },
+  "49176": {
+    "nom": "Le Lion-d'Angers",
+    "priceAc_value": 2.57,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.75,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.32,
+    "priceTotal_year": 2022.0
+  },
+  "49217": {
+    "nom": "Montreuil-sur-Maine",
+    "priceAc_value": 2.0,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.75,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.75,
+    "priceTotal_year": 2022.0
+  },
+  "49092": {
+    "nom": "Chemillé-en-Anjou",
+    "priceAc_value": 2.08,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.82,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.75,
+    "priceTotal_year": 2021.0
+  },
+  "49219": {
+    "nom": "Montsoreau",
+    "priceAc_value": 2.94,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.25,
+    "priceTotal_year": 2022.0
+  },
+  "49069": {
+    "nom": "Orée d'Anjou",
+    "priceAc_value": 2.08,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.82,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.2,
+    "priceTotal_year": 2021.0
+  },
+  "49221": {
+    "nom": "Mouliherne",
+    "priceAc_value": 2.1,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.01,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.11,
+    "priceTotal_year": 2022.0
+  },
+  "49222": {
+    "nom": "Mozé-sur-Louet",
+    "priceAc_value": 2.44,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.6,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.04,
+    "priceTotal_year": 2022.0
+  },
+  "49298": {
+    "nom": "Saint-Léger-de-Linières",
+    "priceAc_value": 1.8,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.8,
+    "priceTotal_year": 2022.0
+  },
+  "49223": {
+    "nom": "Mûrs-Erigné",
+    "priceAc_value": 1.8,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.8,
+    "priceTotal_year": 2022.0
+  },
+  "49224": {
+    "nom": "Neuillé",
+    "priceAc_value": 2.1,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.01,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.11,
+    "priceTotal_year": 2022.0
+  },
+  "49183": {
+    "nom": "Val d'Erdre-Auxence",
+    "priceAc_value": 2.0,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.46,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.46,
+    "priceTotal_year": 2022.0
+  },
+  "49067": {
+    "nom": "Chenillé-Champteussé",
+    "priceAc_value": 2.0,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.69,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.69,
+    "priceTotal_year": 2022.0
+  },
+  "49231": {
+    "nom": "Nuaillé",
+    "priceAc_value": 2.4,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.18,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.58,
+    "priceTotal_year": 2022.0
+  },
+  "49174": {
+    "nom": "Huillé-Lézigné",
+    "priceAc_value": 1.9,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.73,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.63,
+    "priceTotal_year": 2022.0
+  },
+  "49323": {
+    "nom": "Verrières-en-Anjou",
+    "priceAc_value": 1.8,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.8,
+    "priceTotal_year": 2022.0
+  },
+  "49235": {
+    "nom": "Parnay",
+    "priceAc_value": 2.94,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.25,
+    "priceTotal_year": 2022.0
+  },
+  "49236": {
+    "nom": "Passavant-sur-Layon",
+    "priceAc_value": 1.78,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.18,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.96,
+    "priceTotal_year": 2022.0
+  },
+  "49237": {
+    "nom": "La Pellerine",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.26,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.74,
+    "priceTotal_year": 2022.0
+  },
+  "49240": {
+    "nom": "La Plaine",
+    "priceAc_value": 2.28,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.18,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.46,
+    "priceTotal_year": 2022.0
+  },
+  "49200": {
+    "nom": "Longuenée-en-Anjou",
+    "priceAc_value": 1.8,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.8,
+    "priceTotal_year": 2022.0
+  },
+  "49241": {
+    "nom": "Le Plessis-Grammoire",
+    "priceAc_value": 1.8,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.8,
+    "priceTotal_year": 2022.0
+  },
+  "49194": {
+    "nom": "Mazé-Milon",
+    "priceAc_value": 2.91,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.26,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.17,
+    "priceTotal_year": 2022.0
+  },
+  "49246": {
+    "nom": "Les Ponts-de-Cé",
+    "priceAc_value": 1.8,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.8,
+    "priceTotal_year": 2022.0
+  },
+  "49247": {
+    "nom": "La Possonnière",
+    "priceAc_value": 2.97,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.51,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.48,
+    "priceTotal_year": 2022.0
+  },
+  "49060": {
+    "nom": "Bellevigne-les-Châteaux",
+    "priceAc_value": 2.94,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.25,
+    "priceTotal_year": 2022.0
+  },
+  "49253": {
+    "nom": "Le Puy-Notre-Dame",
+    "priceAc_value": 2.94,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.25,
+    "priceTotal_year": 2022.0
+  },
+  "49257": {
+    "nom": "Les Rairies",
+    "priceAc_value": 1.9,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.73,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.63,
+    "priceTotal_year": 2022.0
+  },
+  "49261": {
+    "nom": "Gennes-Val-de-Loire",
+    "priceAc_value": 2.94,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.25,
+    "priceTotal_year": 2022.0
+  },
+  "49259": {
+    "nom": "Rochefort-sur-Loire",
+    "priceAc_value": 2.97,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.6,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.57,
+    "priceTotal_year": 2022.0
+  },
+  "49260": {
+    "nom": "La Romagne",
+    "priceAc_value": 2.4,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.18,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.58,
+    "priceTotal_year": 2022.0
+  },
+  "49262": {
+    "nom": "Rou-Marson",
+    "priceAc_value": 2.94,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.25,
+    "priceTotal_year": 2022.0
+  },
+  "49331": {
+    "nom": "Segré-en-Anjou Bleu",
+    "priceAc_value": 1.4991734631,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 2.7375343284,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.1029862343,
+    "priceTotal_year": 2021.0
+  },
+  "49266": {
+    "nom": "Saint-Augustin-des-Bois",
+    "priceAc_value": 2.0,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.46,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.46,
+    "priceTotal_year": 2022.0
+  },
+  "49267": {
+    "nom": "Saint-Barthélemy-d'Anjou",
+    "priceAc_value": 1.8,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.8,
+    "priceTotal_year": 2022.0
+  },
+  "49269": {
+    "nom": "Saint-Christophe-du-Bois",
+    "priceAc_value": 2.4,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.18,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.58,
+    "priceTotal_year": 2022.0
+  },
+  "49002": {
+    "nom": "Allonnes",
+    "priceAc_value": 2.1,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.01,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.11,
+    "priceTotal_year": 2022.0
+  },
+  "49271": {
+    "nom": "Saint-Clément-de-la-Place",
+    "priceAc_value": 1.8,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.8,
+    "priceTotal_year": 2022.0
+  },
+  "49272": {
+    "nom": "Saint-Clément-des-Levées",
+    "priceAc_value": 2.94,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.25,
+    "priceTotal_year": 2022.0
+  },
+  "49007": {
+    "nom": "Angers",
+    "priceAc_value": 1.8,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.8,
+    "priceTotal_year": 2022.0
+  },
+  "49008": {
+    "nom": "Angrie",
+    "priceAc_value": 1.84,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.75,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.59,
+    "priceTotal_year": 2022.0
+  },
+  "49009": {
+    "nom": "Antoigné",
+    "priceAc_value": 2.94,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.25,
+    "priceTotal_year": 2022.0
+  },
+  "49278": {
+    "nom": "Sainte-Gemmes-sur-Loire",
+    "priceAc_value": 1.8,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.8,
+    "priceTotal_year": 2022.0
+  },
+  "49010": {
+    "nom": "Armaillé",
+    "priceAc_value": 1.84,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.75,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.59,
+    "priceTotal_year": 2022.0
+  },
+  "49228": {
+    "nom": "Noyant-Villages",
+    "priceAc_value": 3.85,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.26,
+    "priceEp_year": 2022,
+    "priceTotal_value": 6.11,
+    "priceTotal_year": 2022.0
+  },
+  "49011": {
+    "nom": "Artannes-sur-Thouet",
+    "priceAc_value": 2.94,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.25,
+    "priceTotal_year": 2022.0
+  },
+  "49012": {
+    "nom": "Aubigné-sur-Layon",
+    "priceAc_value": 2.97,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.56,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.53,
+    "priceTotal_year": 2022.0
+  },
+  "49283": {
+    "nom": "Saint-Georges-sur-Loire",
+    "priceAc_value": 2.97,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.46,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.43,
+    "priceTotal_year": 2022.0
+  },
+  "49015": {
+    "nom": "Avrillé",
+    "priceAc_value": 1.8,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.8,
+    "priceTotal_year": 2022.0
+  },
+  "49307": {
+    "nom": "Loire-Authion",
+    "priceAc_value": 1.8,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.8,
+    "priceTotal_year": 2022.0
+  },
+  "49284": {
+    "nom": "Saint-Germain-des-Prés",
+    "priceAc_value": 2.97,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.46,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.43,
+    "priceTotal_year": 2022.0
+  },
+  "49017": {
+    "nom": "Baracé",
+    "priceAc_value": 1.9,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.73,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.63,
+    "priceTotal_year": 2022.0
+  },
+  "49288": {
+    "nom": "Saint-Jean-de-la-Croix",
+    "priceAc_value": 2.87,
+    "priceAc_year": 2020.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.13,
+    "priceTotal_year": 2020.0
+  },
+  "49020": {
+    "nom": "Beaucouzé",
+    "priceAc_value": 1.8,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.8,
+    "priceTotal_year": 2022.0
+  },
+  "49291": {
+    "nom": "Saint-Just-sur-Dive",
+    "priceAc_value": 2.94,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.25,
+    "priceTotal_year": 2022.0
+  },
+  "49022": {
+    "nom": "Beaulieu-sur-Layon",
+    "priceAc_value": 2.97,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.6,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.57,
+    "priceTotal_year": 2022.0
+  },
+  "49294": {
+    "nom": "Saint-Lambert-la-Potherie",
+    "priceAc_value": 1.8,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.8,
+    "priceTotal_year": 2022.0
+  },
+  "49026": {
+    "nom": "Bécon-les-Granits",
+    "priceAc_value": 2.0,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.46,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.46,
+    "priceTotal_year": 2022.0
+  },
+  "49345": {
+    "nom": "Bellevigne-en-Layon",
+    "priceAc_value": 2.97,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.6793590361,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.6493590361,
+    "priceTotal_year": 2022.0
+  },
+  "49027": {
+    "nom": "Bégrolles-en-Mauges",
+    "priceAc_value": 2.19,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.18,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.37,
+    "priceTotal_year": 2022.0
+  },
+  "49028": {
+    "nom": "Béhuard",
+    "priceAc_value": 1.8,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.8,
+    "priceTotal_year": 2022.0
+  }
+}

@@ -1,0 +1,1775 @@
+{
+  "04120": {
+    "nom": "Val d'Oronaye",
+    "priceAc_value": 2.31,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.19,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.5,
+    "priceTotal_year": 2022.0
+  },
+  "04033": {
+    "nom": "Ubaye-Serre-Ponçon",
+    "priceAc_value": 1.23,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.46,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.69,
+    "priceTotal_year": 2022.0
+  },
+  "04001": {
+    "nom": "Aiglun",
+    "priceAc_value": 1.76,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.88,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.64,
+    "priceTotal_year": 2022.0
+  },
+  "04004": {
+    "nom": "Allemagne-en-Provence",
+    "priceAc_value": 1.7206300819,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.052022249,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.7726523309,
+    "priceTotal_year": 2022.0
+  },
+  "04005": {
+    "nom": "Allons",
+    "priceAc_value": 0.97,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.29,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.26,
+    "priceTotal_year": 2022.0
+  },
+  "04006": {
+    "nom": "Allos",
+    "priceAc_value": 2.4,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.39,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.86,
+    "priceTotal_year": 2021.0
+  },
+  "04007": {
+    "nom": "Angles",
+    "priceAc_value": 0.78,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.0,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 1.78,
+    "priceTotal_year": 2022.0
+  },
+  "04008": {
+    "nom": "Annot",
+    "priceAc_value": 1.41,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.37,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.78,
+    "priceTotal_year": 2022.0
+  },
+  "04009": {
+    "nom": "Archail",
+    "priceAc_value": 1.75,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.88,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.63,
+    "priceTotal_year": 2022.0
+  },
+  "04012": {
+    "nom": "Aubenas-les-Alpes",
+    "priceAc_value": 0.83,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 2.35,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.18,
+    "priceTotal_year": 2021.0
+  },
+  "04013": {
+    "nom": "Aubignosc",
+    "priceAc_value": 1.29,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 2.06,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 3.35,
+    "priceTotal_year": 2021.0
+  },
+  "04016": {
+    "nom": "Authon",
+    "priceAc_value": 1.16,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.31,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.47,
+    "priceTotal_year": 2022.0
+  },
+  "04017": {
+    "nom": "Auzet",
+    "priceAc_value": 1.76,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.88,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 3.64,
+    "priceTotal_year": 2021.0
+  },
+  "04018": {
+    "nom": "Banon",
+    "priceAc_value": 1.37,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.68,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.05,
+    "priceTotal_year": 2022.0
+  },
+  "04019": {
+    "nom": "Barcelonnette",
+    "priceAc_value": 2.31,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.27,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.58,
+    "priceTotal_year": 2022.0
+  },
+  "04020": {
+    "nom": "Barles",
+    "priceAc_value": 1.76,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.88,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 3.64,
+    "priceTotal_year": 2021.0
+  },
+  "04021": {
+    "nom": "Barras",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 1.88,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "04022": {
+    "nom": "Barrême",
+    "priceAc_value": 1.52,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.58,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.1,
+    "priceTotal_year": 2022.0
+  },
+  "04023": {
+    "nom": "Bayons",
+    "priceAc_value": 1.26,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.36,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.62,
+    "priceTotal_year": 2022.0
+  },
+  "04024": {
+    "nom": "Beaujeu",
+    "priceAc_value": 1.76,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.88,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.64,
+    "priceTotal_year": 2022.0
+  },
+  "04025": {
+    "nom": "Beauvezer",
+    "priceAc_value": 1.5,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.91,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 3.41,
+    "priceTotal_year": 2021.0
+  },
+  "04026": {
+    "nom": "Bellaffaire",
+    "priceAc_value": 1.17,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.72,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.89,
+    "priceTotal_year": 2022.0
+  },
+  "04027": {
+    "nom": "Bevons",
+    "priceAc_value": 1.28,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.03,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.31,
+    "priceTotal_year": 2022.0
+  },
+  "04028": {
+    "nom": "Beynes",
+    "priceAc_value": 1.86,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.88,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.82,
+    "priceTotal_year": 2021.0
+  },
+  "04030": {
+    "nom": "Blieux",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 1.27,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "04031": {
+    "nom": "Bras-d'Asse",
+    "priceAc_value": 1.55,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.88,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.35,
+    "priceTotal_year": 2021.0
+  },
+  "04032": {
+    "nom": "Braux",
+    "priceAc_value": 1.13,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.19,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.32,
+    "priceTotal_year": 2022.0
+  },
+  "04034": {
+    "nom": "La Brillanne",
+    "priceAc_value": 1.7210285504,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0532093959,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.7742379463,
+    "priceTotal_year": 2022.0
+  },
+  "04035": {
+    "nom": "Brunet",
+    "priceAc_value": 1.72,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0510743329,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.7710743329,
+    "priceTotal_year": 2022.0
+  },
+  "04036": {
+    "nom": "Le Brusquet",
+    "priceAc_value": 1.55,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.88,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.2,
+    "priceTotal_year": 2021.0
+  },
+  "04037": {
+    "nom": "Le Caire",
+    "priceAc_value": 1.38,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.61,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.99,
+    "priceTotal_year": 2022.0
+  },
+  "04039": {
+    "nom": "Castellane",
+    "priceAc_value": 1.45,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.6,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 3.05,
+    "priceTotal_year": 2021.0
+  },
+  "04040": {
+    "nom": "Le Castellard-Melan",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 1.88,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "04041": {
+    "nom": "Le Castellet",
+    "priceAc_value": 1.7203249516,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0509576675,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.7712826191,
+    "priceTotal_year": 2022.0
+  },
+  "04042": {
+    "nom": "Castellet-lès-Sausses",
+    "priceAc_value": 1.29,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.97,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.26,
+    "priceTotal_year": 2022.0
+  },
+  "04043": {
+    "nom": "Val-de-Chalvagne",
+    "priceAc_value": 0.93,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.65,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.58,
+    "priceTotal_year": 2022.0
+  },
+  "04045": {
+    "nom": "Céreste",
+    "priceAc_value": 2.45,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.47,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.92,
+    "priceTotal_year": 2022.0
+  },
+  "04046": {
+    "nom": "Le Chaffaut-Saint-Jurson",
+    "priceAc_value": 1.52,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.88,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.61,
+    "priceTotal_year": 2021.0
+  },
+  "04047": {
+    "nom": "Champtercier",
+    "priceAc_value": 1.72,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.88,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.58,
+    "priceTotal_year": 2021.0
+  },
+  "04049": {
+    "nom": "Château-Arnoux-Saint-Auban",
+    "priceAc_value": 2.18,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.78,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.96,
+    "priceTotal_year": 2022.0
+  },
+  "04050": {
+    "nom": "Châteaufort",
+    "priceAc_value": 1.96,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.27,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.23,
+    "priceTotal_year": 2022.0
+  },
+  "04051": {
+    "nom": "Châteauneuf-Miravail",
+    "priceAc_value": 1.28,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.03,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.31,
+    "priceTotal_year": 2022.0
+  },
+  "04053": {
+    "nom": "Châteauneuf-Val-Saint-Donat",
+    "priceAc_value": 1.35,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.58,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.93,
+    "priceTotal_year": 2022.0
+  },
+  "04054": {
+    "nom": "Châteauredon",
+    "priceAc_value": 1.64,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.88,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.4,
+    "priceTotal_year": 2021.0
+  },
+  "04055": {
+    "nom": "Chaudon-Norante",
+    "priceAc_value": 1.13,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.52,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.65,
+    "priceTotal_year": 2022.0
+  },
+  "04057": {
+    "nom": "Clamensane",
+    "priceAc_value": 1.38,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.46,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.84,
+    "priceTotal_year": 2022.0
+  },
+  "04058": {
+    "nom": "Claret",
+    "priceAc_value": 1.28,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.51,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.79,
+    "priceTotal_year": 2022.0
+  },
+  "04059": {
+    "nom": "Clumanc",
+    "priceAc_value": 0.5,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.36,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 1.86,
+    "priceTotal_year": 2022.0
+  },
+  "04061": {
+    "nom": "Colmars",
+    "priceAc_value": 1.5,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.7,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.2,
+    "priceTotal_year": 2021.0
+  },
+  "04062": {
+    "nom": "La Condamine-Châtelard",
+    "priceAc_value": 2.31,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.74,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.05,
+    "priceTotal_year": 2022.0
+  },
+  "04063": {
+    "nom": "Corbières-en-Provence",
+    "priceAc_value": 1.7212372563,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0536273905,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.7748646468,
+    "priceTotal_year": 2022.0
+  },
+  "04065": {
+    "nom": "Cruis",
+    "priceAc_value": 1.65,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.28,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.93,
+    "priceTotal_year": 2022.0
+  },
+  "04066": {
+    "nom": "Curbans",
+    "priceAc_value": 1.28,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.24,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.52,
+    "priceTotal_year": 2022.0
+  },
+  "04067": {
+    "nom": "Curel",
+    "priceAc_value": 1.28,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.03,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.31,
+    "priceTotal_year": 2022.0
+  },
+  "04068": {
+    "nom": "Dauphin",
+    "priceAc_value": 1.01,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.37,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.38,
+    "priceTotal_year": 2022.0
+  },
+  "04069": {
+    "nom": "Demandolx",
+    "priceAc_value": 0.0,
+    "priceAc_year": 2020.0,
+    "priceEp_value": 0.0,
+    "priceEp_year": 2020.0,
+    "priceTotal_value": 0.0,
+    "priceTotal_year": 2020.0
+  },
+  "04070": {
+    "nom": "Digne-les-Bains",
+    "priceAc_value": 2.79,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.86,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.65,
+    "priceTotal_year": 2022.0
+  },
+  "04072": {
+    "nom": "Draix",
+    "priceAc_value": 1.48,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.88,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.1,
+    "priceTotal_year": 2021.0
+  },
+  "04073": {
+    "nom": "Enchastrayes",
+    "priceAc_value": 2.31,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.75,
+    "priceTotal_year": 2022.0
+  },
+  "04074": {
+    "nom": "Entrages",
+    "priceAc_value": 1.64,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.88,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.54,
+    "priceTotal_year": 2021.0
+  },
+  "04075": {
+    "nom": "Entrepierres",
+    "priceAc_value": 1.71,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.78,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.49,
+    "priceTotal_year": 2022.0
+  },
+  "04076": {
+    "nom": "Entrevaux",
+    "priceAc_value": 3.23,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 3.56,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 6.79,
+    "priceTotal_year": 2022.0
+  },
+  "04077": {
+    "nom": "Entrevennes",
+    "priceAc_value": 1.72014881,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0506933,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.7708421099,
+    "priceTotal_year": 2022.0
+  },
+  "04079": {
+    "nom": "L' Escale",
+    "priceAc_value": 1.84,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.88,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.72,
+    "priceTotal_year": 2022.0
+  },
+  "04081": {
+    "nom": "Esparron-de-Verdon",
+    "priceAc_value": 1.7206003825,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0530488062,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.7736491886,
+    "priceTotal_year": 2022.0
+  },
+  "04084": {
+    "nom": "Estoublon",
+    "priceAc_value": 1.3,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 2.19,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.7,
+    "priceTotal_year": 2021.0
+  },
+  "04085": {
+    "nom": "Faucon-du-Caire",
+    "priceAc_value": 1.28,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.35,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.63,
+    "priceTotal_year": 2022.0
+  },
+  "04086": {
+    "nom": "Faucon-de-Barcelonnette",
+    "priceAc_value": 2.31,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.13,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.44,
+    "priceTotal_year": 2022.0
+  },
+  "04087": {
+    "nom": "Fontienne",
+    "priceAc_value": 0.82,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.03,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.85,
+    "priceTotal_year": 2022.0
+  },
+  "04088": {
+    "nom": "Forcalquier",
+    "priceAc_value": 1.71,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.29,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.0,
+    "priceTotal_year": 2022.0
+  },
+  "04090": {
+    "nom": "Le Fugeret",
+    "priceAc_value": 0.55,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.19,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 1.74,
+    "priceTotal_year": 2022.0
+  },
+  "04091": {
+    "nom": "Ganagobie",
+    "priceAc_value": 1.76,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.97,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.73,
+    "priceTotal_year": 2022.0
+  },
+  "04092": {
+    "nom": "La Garde",
+    "priceAc_value": 1.2,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.54,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.74,
+    "priceTotal_year": 2022.0
+  },
+  "04093": {
+    "nom": "Gigors",
+    "priceAc_value": 1.11,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.33,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.44,
+    "priceTotal_year": 2022.0
+  },
+  "04094": {
+    "nom": "Gréoux-les-Bains",
+    "priceAc_value": 1.7136306183,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0283655019,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.7419961202,
+    "priceTotal_year": 2022.0
+  },
+  "04095": {
+    "nom": "L' Hospitalet",
+    "priceAc_value": 2.02,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.09,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.11,
+    "priceTotal_year": 2022.0
+  },
+  "04096": {
+    "nom": "Jausiers",
+    "priceAc_value": 2.31,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.95,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.26,
+    "priceTotal_year": 2022.0
+  },
+  "04097": {
+    "nom": "La Javie",
+    "priceAc_value": 1.48,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.88,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.16,
+    "priceTotal_year": 2021.0
+  },
+  "04099": {
+    "nom": "Lambruisse",
+    "priceAc_value": 0.91,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.31,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.22,
+    "priceTotal_year": 2022.0
+  },
+  "04101": {
+    "nom": "Lardiers",
+    "priceAc_value": 2.28,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.2,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.48,
+    "priceTotal_year": 2022.0
+  },
+  "04102": {
+    "nom": "Le Lauzet-Ubaye",
+    "priceAc_value": 2.31,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.25,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.56,
+    "priceTotal_year": 2022.0
+  },
+  "04104": {
+    "nom": "Limans",
+    "priceAc_value": 2.41,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.27,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.68,
+    "priceTotal_year": 2022.0
+  },
+  "04106": {
+    "nom": "Lurs",
+    "priceAc_value": 1.54,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 3.02,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.56,
+    "priceTotal_year": 2022.0
+  },
+  "04107": {
+    "nom": "Majastres",
+    "priceAc_value": 1.47,
+    "priceAc_year": 2020.0,
+    "priceEp_value": 1.88,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.23,
+    "priceTotal_year": 2020.0
+  },
+  "04108": {
+    "nom": "Malijai",
+    "priceAc_value": 1.76,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.88,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.64,
+    "priceTotal_year": 2022.0
+  },
+  "04109": {
+    "nom": "Mallefougasse-Augès",
+    "priceAc_value": 1.76,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.96,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.72,
+    "priceTotal_year": 2022.0
+  },
+  "04110": {
+    "nom": "Mallemoisson",
+    "priceAc_value": 1.48,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 2.33,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.28,
+    "priceTotal_year": 2021.0
+  },
+  "04111": {
+    "nom": "Mane",
+    "priceAc_value": 1.41,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.62,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.03,
+    "priceTotal_year": 2022.0
+  },
+  "04112": {
+    "nom": "Manosque",
+    "priceAc_value": 1.7023502309,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.9885539438,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.6909041747,
+    "priceTotal_year": 2022.0
+  },
+  "04113": {
+    "nom": "Marcoux",
+    "priceAc_value": 1.78,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.88,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.4,
+    "priceTotal_year": 2021.0
+  },
+  "04115": {
+    "nom": "Méailles",
+    "priceAc_value": 1.45,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.63,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.08,
+    "priceTotal_year": 2022.0
+  },
+  "04116": {
+    "nom": "Les Mées",
+    "priceAc_value": 1.95,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.88,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.83,
+    "priceTotal_year": 2022.0
+  },
+  "04118": {
+    "nom": "Melve",
+    "priceAc_value": 1.28,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.69,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.97,
+    "priceTotal_year": 2022.0
+  },
+  "04121": {
+    "nom": "Mézel",
+    "priceAc_value": 1.48,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.88,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.28,
+    "priceTotal_year": 2021.0
+  },
+  "04122": {
+    "nom": "Mirabeau",
+    "priceAc_value": 1.48,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.88,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.32,
+    "priceTotal_year": 2021.0
+  },
+  "04123": {
+    "nom": "Mison",
+    "priceAc_value": 1.82,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.84,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.66,
+    "priceTotal_year": 2022.0
+  },
+  "04124": {
+    "nom": "Montagnac-Montpezat",
+    "priceAc_value": 1.7207279099,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0529207001,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.77364861,
+    "priceTotal_year": 2022.0
+  },
+  "04126": {
+    "nom": "Montclar",
+    "priceAc_value": 1.76,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.88,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 3.64,
+    "priceTotal_year": 2021.0
+  },
+  "04127": {
+    "nom": "Montfort",
+    "priceAc_value": 1.53,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.95,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.48,
+    "priceTotal_year": 2022.0
+  },
+  "04128": {
+    "nom": "Montfuron",
+    "priceAc_value": 1.7201999426,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0507824247,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.7709823673,
+    "priceTotal_year": 2022.0
+  },
+  "04129": {
+    "nom": "Montjustin",
+    "priceAc_value": 1.23,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.21,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.44,
+    "priceTotal_year": 2022.0
+  },
+  "04130": {
+    "nom": "Montlaux",
+    "priceAc_value": 1.77,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.15,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.92,
+    "priceTotal_year": 2022.0
+  },
+  "04132": {
+    "nom": "Montsalier",
+    "priceAc_value": 0.82,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.81,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.63,
+    "priceTotal_year": 2022.0
+  },
+  "04133": {
+    "nom": "Moriez",
+    "priceAc_value": 0.81,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.32,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.13,
+    "priceTotal_year": 2022.0
+  },
+  "04134": {
+    "nom": "La Motte-du-Caire",
+    "priceAc_value": 0.97,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.61,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.58,
+    "priceTotal_year": 2022.0
+  },
+  "04135": {
+    "nom": "Moustiers-Sainte-Marie",
+    "priceAc_value": 1.67,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.88,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.47,
+    "priceTotal_year": 2021.0
+  },
+  "04136": {
+    "nom": "La Mure-Argens",
+    "priceAc_value": 2.38,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.2,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.58,
+    "priceTotal_year": 2022.0
+  },
+  "04137": {
+    "nom": "Nibles",
+    "priceAc_value": 1.53,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.27,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.8,
+    "priceTotal_year": 2022.0
+  },
+  "04138": {
+    "nom": "Niozelles",
+    "priceAc_value": 1.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.93,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.52,
+    "priceTotal_year": 2022.0
+  },
+  "04139": {
+    "nom": "Noyers-sur-Jabron",
+    "priceAc_value": 1.28,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.03,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.31,
+    "priceTotal_year": 2022.0
+  },
+  "04140": {
+    "nom": "Les Omergues",
+    "priceAc_value": 1.17,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.61,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.78,
+    "priceTotal_year": 2022.0
+  },
+  "04141": {
+    "nom": "Ongles",
+    "priceAc_value": 1.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.95,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.78,
+    "priceTotal_year": 2022.0
+  },
+  "04142": {
+    "nom": "Oppedette",
+    "priceAc_value": 0.66,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 3.17,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 3.83,
+    "priceTotal_year": 2021.0
+  },
+  "04143": {
+    "nom": "Oraison",
+    "priceAc_value": 1.7256894614,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0661030473,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.7917925086,
+    "priceTotal_year": 2022.0
+  },
+  "04144": {
+    "nom": "La Palud-sur-Verdon",
+    "priceAc_value": 1.62,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.68,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.3,
+    "priceTotal_year": 2022.0
+  },
+  "04145": {
+    "nom": "Peipin",
+    "priceAc_value": 1.87,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.07,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.94,
+    "priceTotal_year": 2022.0
+  },
+  "04148": {
+    "nom": "Peyroules",
+    "priceAc_value": 1.21,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.33,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.54,
+    "priceTotal_year": 2022.0
+  },
+  "04149": {
+    "nom": "Peyruis",
+    "priceAc_value": 1.69,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.83,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.52,
+    "priceTotal_year": 2022.0
+  },
+  "04150": {
+    "nom": "Piégut",
+    "priceAc_value": 1.53,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 0.4,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 1.93,
+    "priceTotal_year": 2022.0
+  },
+  "04151": {
+    "nom": "Pierrerue",
+    "priceAc_value": 1.76,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.91,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.67,
+    "priceTotal_year": 2022.0
+  },
+  "04152": {
+    "nom": "Pierrevert",
+    "priceAc_value": 1.7237280421,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0335300739,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.7572581159,
+    "priceTotal_year": 2022.0
+  },
+  "04154": {
+    "nom": "Pontis",
+    "priceAc_value": 3.19,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.76,
+    "priceTotal_year": 2022.0
+  },
+  "04155": {
+    "nom": "Prads-Haute-Bléone",
+    "priceAc_value": 1.16,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.36,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.42,
+    "priceTotal_year": 2021.0
+  },
+  "04156": {
+    "nom": "Puimichel",
+    "priceAc_value": 1.7203019836,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0509993487,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.7713013323,
+    "priceTotal_year": 2022.0
+  },
+  "04157": {
+    "nom": "Puimoisson",
+    "priceAc_value": 1.7207614437,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0524614897,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.7732229334,
+    "priceTotal_year": 2022.0
+  },
+  "04158": {
+    "nom": "Quinson",
+    "priceAc_value": 1.7208166053,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0524669685,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.7732835737,
+    "priceTotal_year": 2022.0
+  },
+  "04159": {
+    "nom": "Redortiers",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.77,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "04160": {
+    "nom": "Reillanne",
+    "priceAc_value": 1.16,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.36,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.52,
+    "priceTotal_year": 2022.0
+  },
+  "04161": {
+    "nom": "Méolans-Revel",
+    "priceAc_value": 2.31,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.64,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.95,
+    "priceTotal_year": 2022.0
+  },
+  "04162": {
+    "nom": "Revest-des-Brousses",
+    "priceAc_value": 2.02,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.09,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.11,
+    "priceTotal_year": 2022.0
+  },
+  "04163": {
+    "nom": "Revest-du-Bion",
+    "priceAc_value": 2.02,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.6,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.62,
+    "priceTotal_year": 2022.0
+  },
+  "04164": {
+    "nom": "Revest-Saint-Martin",
+    "priceAc_value": 1.64,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.97,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.61,
+    "priceTotal_year": 2022.0
+  },
+  "04166": {
+    "nom": "Riez",
+    "priceAc_value": 1.7219188285,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0560712062,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.7779900347,
+    "priceTotal_year": 2022.0
+  },
+  "04167": {
+    "nom": "La Robine-sur-Galabre",
+    "priceAc_value": 1.55,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.88,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.62,
+    "priceTotal_year": 2021.0
+  },
+  "04169": {
+    "nom": "La Rochegiron",
+    "priceAc_value": 0.94,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.33,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.27,
+    "priceTotal_year": 2022.0
+  },
+  "04170": {
+    "nom": "La Rochette",
+    "priceAc_value": 0.33,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.09,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 1.42,
+    "priceTotal_year": 2022.0
+  },
+  "04171": {
+    "nom": "Rougon",
+    "priceAc_value": 1.64,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.76,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.4,
+    "priceTotal_year": 2022.0
+  },
+  "04172": {
+    "nom": "Roumoules",
+    "priceAc_value": 1.7208234943,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0524779252,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.7733014194,
+    "priceTotal_year": 2022.0
+  },
+  "04173": {
+    "nom": "Saint-André-les-Alpes",
+    "priceAc_value": 2.46,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.68,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.14,
+    "priceTotal_year": 2022.0
+  },
+  "04174": {
+    "nom": "Saint-Benoît",
+    "priceAc_value": 1.64,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.18,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.82,
+    "priceTotal_year": 2022.0
+  },
+  "04175": {
+    "nom": "Sainte-Croix-à-Lauze",
+    "priceAc_value": 0.76,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.62,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.38,
+    "priceTotal_year": 2022.0
+  },
+  "04176": {
+    "nom": "Sainte-Croix-du-Verdon",
+    "priceAc_value": 1.55,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 2.28,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 3.83,
+    "priceTotal_year": 2021.0
+  },
+  "04177": {
+    "nom": "Hautes-Duyes",
+    "priceAc_value": 1.48,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.88,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.18,
+    "priceTotal_year": 2021.0
+  },
+  "04178": {
+    "nom": "Saint-Étienne-les-Orgues",
+    "priceAc_value": 1.36,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.74,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.1,
+    "priceTotal_year": 2022.0
+  },
+  "04179": {
+    "nom": "Saint-Geniez",
+    "priceAc_value": 1.27,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.76,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.03,
+    "priceTotal_year": 2022.0
+  },
+  "04180": {
+    "nom": "Saint-Jacques",
+    "priceAc_value": 0.65,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.38,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.03,
+    "priceTotal_year": 2022.0
+  },
+  "04181": {
+    "nom": "Saint-Jeannet",
+    "priceAc_value": 1.64,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.88,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.4,
+    "priceTotal_year": 2021.0
+  },
+  "04182": {
+    "nom": "Saint-Julien-d'Asse",
+    "priceAc_value": 1.55,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.88,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.36,
+    "priceTotal_year": 2021.0
+  },
+  "04183": {
+    "nom": "Saint-Julien-du-Verdon",
+    "priceAc_value": 0.48,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.19,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 1.67,
+    "priceTotal_year": 2022.0
+  },
+  "04184": {
+    "nom": "Saint-Jurs",
+    "priceAc_value": 1.48,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.88,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.52,
+    "priceTotal_year": 2021.0
+  },
+  "04186": {
+    "nom": "Saint-Laurent-du-Verdon",
+    "priceAc_value": 1.720176892,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0510548977,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.7712317898,
+    "priceTotal_year": 2022.0
+  },
+  "04187": {
+    "nom": "Saint-Lions",
+    "priceAc_value": 1.12,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.65,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.77,
+    "priceTotal_year": 2022.0
+  },
+  "04188": {
+    "nom": "Saint-Maime",
+    "priceAc_value": 1.64,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.25,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.89,
+    "priceTotal_year": 2022.0
+  },
+  "04189": {
+    "nom": "Saint-Martin-de-Brômes",
+    "priceAc_value": 1.7207555283,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0523655644,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.7731210928,
+    "priceTotal_year": 2022.0
+  },
+  "04190": {
+    "nom": "Saint-Martin-les-Eaux",
+    "priceAc_value": 0.33,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.33,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 1.66,
+    "priceTotal_year": 2022.0
+  },
+  "04192": {
+    "nom": "Saint-Michel-l'Observatoire",
+    "priceAc_value": 1.52,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.11,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.63,
+    "priceTotal_year": 2022.0
+  },
+  "04193": {
+    "nom": "Saint-Paul-sur-Ubaye",
+    "priceAc_value": 2.31,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.82,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.13,
+    "priceTotal_year": 2022.0
+  },
+  "04194": {
+    "nom": "Saint-Pierre",
+    "priceAc_value": 1.0,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 3.88,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.88,
+    "priceTotal_year": 2022.0
+  },
+  "04195": {
+    "nom": "Saint-Pons",
+    "priceAc_value": 2.31,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.39,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.7,
+    "priceTotal_year": 2022.0
+  },
+  "04197": {
+    "nom": "Sainte-Tulle",
+    "priceAc_value": 1.7233154611,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0597566194,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.7830720805,
+    "priceTotal_year": 2022.0
+  },
+  "04199": {
+    "nom": "Saint-Vincent-sur-Jabron",
+    "priceAc_value": 1.56,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.22,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.78,
+    "priceTotal_year": 2022.0
+  },
+  "04200": {
+    "nom": "Salignac",
+    "priceAc_value": 1.35,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.78,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.13,
+    "priceTotal_year": 2022.0
+  },
+  "04201": {
+    "nom": "Saumane",
+    "priceAc_value": 2.02,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.09,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.11,
+    "priceTotal_year": 2022.0
+  },
+  "04202": {
+    "nom": "Sausses",
+    "priceAc_value": 1.72,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.9,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 3.54,
+    "priceTotal_year": 2021.0
+  },
+  "04203": {
+    "nom": "Selonnet",
+    "priceAc_value": 1.76,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.88,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 3.64,
+    "priceTotal_year": 2021.0
+  },
+  "04204": {
+    "nom": "Senez",
+    "priceAc_value": 1.49,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.61,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.1,
+    "priceTotal_year": 2022.0
+  },
+  "04205": {
+    "nom": "Seyne",
+    "priceAc_value": 1.76,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.88,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 3.64,
+    "priceTotal_year": 2021.0
+  },
+  "04206": {
+    "nom": "Sigonce",
+    "priceAc_value": 1.79,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.08,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.87,
+    "priceTotal_year": 2022.0
+  },
+  "04207": {
+    "nom": "Sigoyer",
+    "priceAc_value": 0.97,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.73,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.7,
+    "priceTotal_year": 2022.0
+  },
+  "04208": {
+    "nom": "Simiane-la-Rotonde",
+    "priceAc_value": 1.06,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 3.88,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.94,
+    "priceTotal_year": 2022.0
+  },
+  "04209": {
+    "nom": "Sisteron",
+    "priceAc_value": 2.27,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.75,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.02,
+    "priceTotal_year": 2022.0
+  },
+  "04210": {
+    "nom": "Soleilhas",
+    "priceAc_value": 0.8,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 0.67,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 1.47,
+    "priceTotal_year": 2022.0
+  },
+  "04211": {
+    "nom": "Sourribes",
+    "priceAc_value": 1.54,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.95,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.49,
+    "priceTotal_year": 2022.0
+  },
+  "04214": {
+    "nom": "Tartonne",
+    "priceAc_value": 1.4,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.94,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.34,
+    "priceTotal_year": 2022.0
+  },
+  "04216": {
+    "nom": "Thèze",
+    "priceAc_value": 1.62,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.89,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.51,
+    "priceTotal_year": 2022.0
+  },
+  "04217": {
+    "nom": "Thoard",
+    "priceAc_value": 1.52,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 3.03,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 4.55,
+    "priceTotal_year": 2021.0
+  },
+  "04218": {
+    "nom": "Thorame-Basse",
+    "priceAc_value": 1.16,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.28,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.44,
+    "priceTotal_year": 2022.0
+  },
+  "04219": {
+    "nom": "Thorame-Haute",
+    "priceAc_value": 1.5,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.29,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.79,
+    "priceTotal_year": 2021.0
+  },
+  "04220": {
+    "nom": "Les Thuiles",
+    "priceAc_value": 2.31,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.27,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.58,
+    "priceTotal_year": 2022.0
+  },
+  "04222": {
+    "nom": "Turriers",
+    "priceAc_value": 1.38,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.61,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.99,
+    "priceTotal_year": 2022.0
+  },
+  "04224": {
+    "nom": "Ubraye",
+    "priceAc_value": 0.37,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.19,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 1.56,
+    "priceTotal_year": 2022.0
+  },
+  "04226": {
+    "nom": "Uvernet-Fours",
+    "priceAc_value": 2.31,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.71,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.02,
+    "priceTotal_year": 2022.0
+  },
+  "04227": {
+    "nom": "Vachères",
+    "priceAc_value": 1.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.56,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.39,
+    "priceTotal_year": 2022.0
+  },
+  "04228": {
+    "nom": "Valavoire",
+    "priceAc_value": 0.73,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.41,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.14,
+    "priceTotal_year": 2022.0
+  },
+  "04229": {
+    "nom": "Valbelle",
+    "priceAc_value": 1.5,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.77,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.27,
+    "priceTotal_year": 2022.0
+  },
+  "04230": {
+    "nom": "Valensole",
+    "priceAc_value": 1.7098936918,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0672755863,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.7771692782,
+    "priceTotal_year": 2022.0
+  },
+  "04231": {
+    "nom": "Valernes",
+    "priceAc_value": 1.86,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.73,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.59,
+    "priceTotal_year": 2022.0
+  },
+  "04233": {
+    "nom": "Vaumeilh",
+    "priceAc_value": 1.29,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.59,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.88,
+    "priceTotal_year": 2022.0
+  },
+  "04234": {
+    "nom": "Venterol",
+    "priceAc_value": 1.53,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.35,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.88,
+    "priceTotal_year": 2022.0
+  },
+  "04235": {
+    "nom": "Verdaches",
+    "priceAc_value": 1.36,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.45,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.81,
+    "priceTotal_year": 2022.0
+  },
+  "04236": {
+    "nom": "Vergons",
+    "priceAc_value": 1.0,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.23,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.23,
+    "priceTotal_year": 2022.0
+  },
+  "04237": {
+    "nom": "Le Vernet",
+    "priceAc_value": 1.76,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.88,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 3.64,
+    "priceTotal_year": 2021.0
+  },
+  "04240": {
+    "nom": "Villars-Colmars",
+    "priceAc_value": 1.5,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.41,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 2.91,
+    "priceTotal_year": 2021.0
+  },
+  "04241": {
+    "nom": "Villemus",
+    "priceAc_value": 1.26,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.99,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.25,
+    "priceTotal_year": 2022.0
+  },
+  "04242": {
+    "nom": "Villeneuve",
+    "priceAc_value": 1.7239126712,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.0619260762,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.7858387474,
+    "priceTotal_year": 2022.0
+  },
+  "04244": {
+    "nom": "Volonne",
+    "priceAc_value": 1.76,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.33,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.09,
+    "priceTotal_year": 2022.0
+  },
+  "04245": {
+    "nom": "Volx",
+    "priceAc_value": 1.723189031,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.059186293,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.7823753241,
+    "priceTotal_year": 2022.0
+  }
+}

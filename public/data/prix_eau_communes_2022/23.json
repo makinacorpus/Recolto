@@ -1,0 +1,2054 @@
+{
+  "23038": {
+    "nom": "Bussière-Saint-Georges",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 3.29,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23039": {
+    "nom": "La Celle-Dunoise",
+    "priceAc_value": 1.23,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 3.01,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 4.24,
+    "priceTotal_year": 2021.0
+  },
+  "23040": {
+    "nom": "La Celle-sous-Gouzon",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.9,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23041": {
+    "nom": "La Cellette",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 1.91,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23042": {
+    "nom": "Ceyroux",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.35,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23192": {
+    "nom": "Fursac",
+    "priceAc_value": 2.85,
+    "priceAc_year": 2019.0,
+    "priceEp_value": 2.35,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.14,
+    "priceTotal_year": 2019.0
+  },
+  "23043": {
+    "nom": "Chamberaud",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 4.17,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23046": {
+    "nom": "Chambonchard",
+    "priceAc_value": 1.78,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 4.61,
+    "priceTotal_year": 2021.0
+  },
+  "23047": {
+    "nom": "Chamborand",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.35,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23048": {
+    "nom": "Champagnat",
+    "priceAc_value": 2.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.66,
+    "priceTotal_year": 2021.0
+  },
+  "23049": {
+    "nom": "Champsanglard",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 3.01,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23050": {
+    "nom": "La Chapelle-Baloue",
+    "priceAc_value": 1.66,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.61,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 3.27,
+    "priceTotal_year": 2021.0
+  },
+  "23052": {
+    "nom": "La Chapelle-Taillefert",
+    "priceAc_value": 3.15,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.61,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.76,
+    "priceTotal_year": 2022.0
+  },
+  "23053": {
+    "nom": "Chard",
+    "priceAc_value": 2.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.66,
+    "priceTotal_year": 2021.0
+  },
+  "23054": {
+    "nom": "Charron",
+    "priceAc_value": 2.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.66,
+    "priceTotal_year": 2021.0
+  },
+  "23055": {
+    "nom": "Châtelard",
+    "priceAc_value": 2.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.66,
+    "priceTotal_year": 2021.0
+  },
+  "23056": {
+    "nom": "Châtelus-le-Marcheix",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.35,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23057": {
+    "nom": "Châtelus-Malvaleix",
+    "priceAc_value": 1.89,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 3.01,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 4.9,
+    "priceTotal_year": 2021.0
+  },
+  "23058": {
+    "nom": "Le Chauchet",
+    "priceAc_value": 2.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.66,
+    "priceTotal_year": 2021.0
+  },
+  "23059": {
+    "nom": "La Chaussade",
+    "priceAc_value": 2.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.66,
+    "priceTotal_year": 2021.0
+  },
+  "23060": {
+    "nom": "Chavanat",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 3.3,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23061": {
+    "nom": "Chénérailles",
+    "priceAc_value": 2.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 4.17,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 7.0,
+    "priceTotal_year": 2022.0
+  },
+  "23062": {
+    "nom": "Chéniers",
+    "priceAc_value": 1.48,
+    "priceAc_year": 2020.0,
+    "priceEp_value": 3.13,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.89,
+    "priceTotal_year": 2020.0
+  },
+  "23063": {
+    "nom": "Clairavaux",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.73,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23064": {
+    "nom": "Clugnat",
+    "priceAc_value": 1.78,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 3.29,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.07,
+    "priceTotal_year": 2021.0
+  },
+  "23065": {
+    "nom": "Colondannes",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.16,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23066": {
+    "nom": "Le Compas",
+    "priceAc_value": 2.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.66,
+    "priceTotal_year": 2021.0
+  },
+  "23068": {
+    "nom": "Cressat",
+    "priceAc_value": 1.78,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 4.17,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.95,
+    "priceTotal_year": 2021.0
+  },
+  "23070": {
+    "nom": "Crozant",
+    "priceAc_value": 4.08,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.95,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 6.03,
+    "priceTotal_year": 2022.0
+  },
+  "23071": {
+    "nom": "Croze",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.73,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23072": {
+    "nom": "Domeyrot",
+    "priceAc_value": 1.78,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 2.9,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.68,
+    "priceTotal_year": 2021.0
+  },
+  "23073": {
+    "nom": "Dontreix",
+    "priceAc_value": 2.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.04,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.87,
+    "priceTotal_year": 2022.0
+  },
+  "23074": {
+    "nom": "Le Donzeil",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 3.3,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23075": {
+    "nom": "Dun-le-Palestel",
+    "priceAc_value": 1.13,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.83,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.88,
+    "priceTotal_year": 2021.0
+  },
+  "23077": {
+    "nom": "Faux-la-Montagne",
+    "priceAc_value": 1.38,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 2.43,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 3.81,
+    "priceTotal_year": 2021.0
+  },
+  "23078": {
+    "nom": "Faux-Mazuras",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.34,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23079": {
+    "nom": "Felletin",
+    "priceAc_value": 2.7,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 2.73,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.43,
+    "priceTotal_year": 2021.0
+  },
+  "23080": {
+    "nom": "Féniers",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 1.33,
+    "priceEp_year": 2020.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23082": {
+    "nom": "Fleurat",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 3.17,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23083": {
+    "nom": "Fontanières",
+    "priceAc_value": 2.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.66,
+    "priceTotal_year": 2021.0
+  },
+  "23084": {
+    "nom": "La Forêt-du-Temple",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.09,
+    "priceEp_year": 2020.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23086": {
+    "nom": "Fransèches",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 4.17,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23088": {
+    "nom": "Gartempe",
+    "priceAc_value": 3.7,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.78,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 6.48,
+    "priceTotal_year": 2022.0
+  },
+  "23089": {
+    "nom": "Genouillac",
+    "priceAc_value": 1.09,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 3.01,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 3.96,
+    "priceTotal_year": 2021.0
+  },
+  "23090": {
+    "nom": "Gentioux-Pigerolles",
+    "priceAc_value": 1.16,
+    "priceAc_year": 2020.0,
+    "priceEp_value": 3.3,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 4.2838354375,
+    "priceTotal_year": 2020.0
+  },
+  "23091": {
+    "nom": "Gioux",
+    "priceAc_value": 1.61,
+    "priceAc_year": 2019.0,
+    "priceEp_value": 1.48,
+    "priceEp_year": 2019.0,
+    "priceTotal_value": 3.09,
+    "priceTotal_year": 2019.0
+  },
+  "23092": {
+    "nom": "Glénic",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23093": {
+    "nom": "Gouzon",
+    "priceAc_value": 1.78,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 2.8225280326,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.5898943713,
+    "priceTotal_year": 2021.0
+  },
+  "23095": {
+    "nom": "Le Grand-Bourg",
+    "priceAc_value": 1.65,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.35,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.0,
+    "priceTotal_year": 2022.0
+  },
+  "23096": {
+    "nom": "Guéret",
+    "priceAc_value": 2.58,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.34,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.92,
+    "priceTotal_year": 2022.0
+  },
+  "23097": {
+    "nom": "Issoudun-Létrieix",
+    "priceAc_value": 2.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 4.17,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 7.0,
+    "priceTotal_year": 2022.0
+  },
+  "23098": {
+    "nom": "Jalesches",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.9,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23099": {
+    "nom": "Janaillat",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.07,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23100": {
+    "nom": "Jarnages",
+    "priceAc_value": 1.78,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 2.9,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.68,
+    "priceTotal_year": 2021.0
+  },
+  "23101": {
+    "nom": "Jouillat",
+    "priceAc_value": 3.15,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.98,
+    "priceTotal_year": 2022.0
+  },
+  "23102": {
+    "nom": "Ladapeyre",
+    "priceAc_value": 1.78,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 2.9,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.68,
+    "priceTotal_year": 2021.0
+  },
+  "23103": {
+    "nom": "Lafat",
+    "priceAc_value": 1.33,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.52,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.85,
+    "priceTotal_year": 2022.0
+  },
+  "23104": {
+    "nom": "Lavaufranche",
+    "priceAc_value": 1.78,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 3.29,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.07,
+    "priceTotal_year": 2021.0
+  },
+  "23105": {
+    "nom": "Lavaveix-les-Mines",
+    "priceAc_value": 2.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 3.02,
+    "priceEp_year": 2020.0,
+    "priceTotal_value": 5.89,
+    "priceTotal_year": 2020.0
+  },
+  "23106": {
+    "nom": "Lépaud",
+    "priceAc_value": 1.78,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 2.9,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.68,
+    "priceTotal_year": 2021.0
+  },
+  "23107": {
+    "nom": "Lépinas",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 3.3,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23108": {
+    "nom": "Leyrat",
+    "priceAc_value": 1.78,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 3.29,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.07,
+    "priceTotal_year": 2021.0
+  },
+  "23110": {
+    "nom": "Lioux-les-Monges",
+    "priceAc_value": 2.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.66,
+    "priceTotal_year": 2021.0
+  },
+  "23111": {
+    "nom": "Lizières",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 3.17,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23112": {
+    "nom": "Lourdoueix-Saint-Pierre",
+    "priceAc_value": 1.42,
+    "priceAc_year": 2019.0,
+    "priceEp_value": 1.64,
+    "priceEp_year": 2019.0,
+    "priceTotal_value": 3.06,
+    "priceTotal_year": 2019.0
+  },
+  "23113": {
+    "nom": "Lupersat",
+    "priceAc_value": 2.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.66,
+    "priceTotal_year": 2021.0
+  },
+  "23114": {
+    "nom": "Lussat",
+    "priceAc_value": 1.78,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 2.9,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.68,
+    "priceTotal_year": 2021.0
+  },
+  "23115": {
+    "nom": "Magnat-l'Étrange",
+    "priceAc_value": 2.93,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23116": {
+    "nom": "Mainsat",
+    "priceAc_value": 2.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.66,
+    "priceTotal_year": 2021.0
+  },
+  "23117": {
+    "nom": "Maison-Feyne",
+    "priceAc_value": 1.63,
+    "priceAc_year": 2020.0,
+    "priceEp_value": 1.63,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.18,
+    "priceTotal_year": 2020.0
+  },
+  "23118": {
+    "nom": "Maisonnisses",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.08,
+    "priceEp_year": 2018.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23120": {
+    "nom": "Malleret-Boussac",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 3.29,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23122": {
+    "nom": "Mansat-la-Courrière",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 1.88,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23123": {
+    "nom": "Les Mars",
+    "priceAc_value": 2.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.66,
+    "priceTotal_year": 2021.0
+  },
+  "23124": {
+    "nom": "Marsac",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.35,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23127": {
+    "nom": "Mautes",
+    "priceAc_value": 2.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.66,
+    "priceTotal_year": 2021.0
+  },
+  "23128": {
+    "nom": "Mazeirat",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23130": {
+    "nom": "Méasnes",
+    "priceAc_value": 1.46,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.65,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 3.07,
+    "priceTotal_year": 2021.0
+  },
+  "23132": {
+    "nom": "Montaigut-le-Blanc",
+    "priceAc_value": 3.27,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.78,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 6.05,
+    "priceTotal_year": 2022.0
+  },
+  "23133": {
+    "nom": "Montboucher",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.34,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23134": {
+    "nom": "Le Monteil-au-Vicomte",
+    "priceAc_value": 1.41,
+    "priceAc_year": 2019.0,
+    "priceEp_value": 1.79,
+    "priceEp_year": 2019.0,
+    "priceTotal_value": 3.2,
+    "priceTotal_year": 2019.0
+  },
+  "23136": {
+    "nom": "Mortroux",
+    "priceAc_value": 1.27,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 2.39,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.64,
+    "priceTotal_year": 2021.0
+  },
+  "23137": {
+    "nom": "Mourioux-Vieilleville",
+    "priceAc_value": 1.38,
+    "priceAc_year": 2020.0,
+    "priceEp_value": 2.35,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.74,
+    "priceTotal_year": 2020.0
+  },
+  "23138": {
+    "nom": "Moutier-d'Ahun",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 4.17,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23139": {
+    "nom": "Moutier-Malcard",
+    "priceAc_value": 3.24,
+    "priceAc_year": 2020.0,
+    "priceEp_value": 2.09,
+    "priceEp_year": 2020.0,
+    "priceTotal_value": 5.33,
+    "priceTotal_year": 2020.0
+  },
+  "23140": {
+    "nom": "Moutier-Rozeille",
+    "priceAc_value": 0.91,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 3.74,
+    "priceTotal_year": 2021.0
+  },
+  "23141": {
+    "nom": "Naillat",
+    "priceAc_value": 0.87,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.7,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.57,
+    "priceTotal_year": 2022.0
+  },
+  "23142": {
+    "nom": "Néoux",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23143": {
+    "nom": "Noth",
+    "priceAc_value": 2.77,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.94,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.6865346535,
+    "priceTotal_year": 2021.0
+  },
+  "23144": {
+    "nom": "La Nouaille",
+    "priceAc_value": 1.62,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 3.3,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 4.92,
+    "priceTotal_year": 2021.0
+  },
+  "23145": {
+    "nom": "Nouhant",
+    "priceAc_value": 1.78,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 2.9,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.68,
+    "priceTotal_year": 2021.0
+  },
+  "23146": {
+    "nom": "Nouzerines",
+    "priceAc_value": 1.78,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 3.29,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.07,
+    "priceTotal_year": 2021.0
+  },
+  "23147": {
+    "nom": "Nouzerolles",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 1.33,
+    "priceEp_year": 2019.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23148": {
+    "nom": "Nouziers",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.09,
+    "priceEp_year": 2020.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23150": {
+    "nom": "Peyrabout",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23151": {
+    "nom": "Peyrat-la-Nonière",
+    "priceAc_value": 2.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.66,
+    "priceTotal_year": 2021.0
+  },
+  "23152": {
+    "nom": "Pierrefitte",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.34,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23154": {
+    "nom": "Pionnat",
+    "priceAc_value": 1.78,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 3.31,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.88,
+    "priceTotal_year": 2021.0
+  },
+  "23155": {
+    "nom": "Pontarion",
+    "priceAc_value": 2.03,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.75,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.78,
+    "priceTotal_year": 2022.0
+  },
+  "23156": {
+    "nom": "Pontcharraud",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23157": {
+    "nom": "La Pouge",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 3.3,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23158": {
+    "nom": "Poussanges",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23159": {
+    "nom": "Puy-Malsignat",
+    "priceAc_value": 2.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.66,
+    "priceTotal_year": 2021.0
+  },
+  "23160": {
+    "nom": "Reterre",
+    "priceAc_value": 2.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.66,
+    "priceTotal_year": 2021.0
+  },
+  "23162": {
+    "nom": "Roches",
+    "priceAc_value": 1.28,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 3.01,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 4.29,
+    "priceTotal_year": 2021.0
+  },
+  "23164": {
+    "nom": "Rougnat",
+    "priceAc_value": 2.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.66,
+    "priceTotal_year": 2021.0
+  },
+  "23165": {
+    "nom": "Royère-de-Vassivière",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.01,
+    "priceEp_year": 2019.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23166": {
+    "nom": "Sagnat",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 1.6,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23167": {
+    "nom": "Sannat",
+    "priceAc_value": 2.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.66,
+    "priceTotal_year": 2021.0
+  },
+  "23168": {
+    "nom": "Sardent",
+    "priceAc_value": 1.01,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.58,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 2.59,
+    "priceTotal_year": 2021.0
+  },
+  "23169": {
+    "nom": "La Saunière",
+    "priceAc_value": 3.27,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 6.1,
+    "priceTotal_year": 2022.0
+  },
+  "23170": {
+    "nom": "Savennes",
+    "priceAc_value": 3.2,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 6.03,
+    "priceTotal_year": 2022.0
+  },
+  "23171": {
+    "nom": "Sermur",
+    "priceAc_value": 2.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.66,
+    "priceTotal_year": 2021.0
+  },
+  "23172": {
+    "nom": "La Serre-Bussière-Vieille",
+    "priceAc_value": 2.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.66,
+    "priceTotal_year": 2021.0
+  },
+  "23174": {
+    "nom": "Soumans",
+    "priceAc_value": 1.78,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 3.29,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.07,
+    "priceTotal_year": 2021.0
+  },
+  "23175": {
+    "nom": "Sous-Parsat",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 3.3,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23176": {
+    "nom": "La Souterraine",
+    "priceAc_value": 2.21,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 2.5356823237,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 4.7456823237,
+    "priceTotal_year": 2021.0
+  },
+  "23177": {
+    "nom": "Saint-Agnant-de-Versillat",
+    "priceAc_value": 2.61,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.77,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.38,
+    "priceTotal_year": 2022.0
+  },
+  "23179": {
+    "nom": "Saint-Alpinien",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23180": {
+    "nom": "Saint-Amand",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23181": {
+    "nom": "Saint-Amand-Jartoudeix",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.34,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23182": {
+    "nom": "Saint-Avit-de-Tardes",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23183": {
+    "nom": "Saint-Avit-le-Pauvre",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 3.3,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23185": {
+    "nom": "Saint-Chabrais",
+    "priceAc_value": 2.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.34,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.17,
+    "priceTotal_year": 2022.0
+  },
+  "23186": {
+    "nom": "Saint-Christophe",
+    "priceAc_value": 3.61,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.78,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 6.39,
+    "priceTotal_year": 2022.0
+  },
+  "23187": {
+    "nom": "Saint-Dizier-la-Tour",
+    "priceAc_value": 2.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 4.17,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 7.0,
+    "priceTotal_year": 2022.0
+  },
+  "23188": {
+    "nom": "Saint-Dizier-les-Domaines",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.0,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23190": {
+    "nom": "Saint-Domet",
+    "priceAc_value": 2.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.66,
+    "priceTotal_year": 2021.0
+  },
+  "23191": {
+    "nom": "Saint-Éloi",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.61,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23193": {
+    "nom": "Sainte-Feyre",
+    "priceAc_value": 3.15,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.65,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.8,
+    "priceTotal_year": 2022.0
+  },
+  "23194": {
+    "nom": "Sainte-Feyre-la-Montagne",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23195": {
+    "nom": "Saint-Fiel",
+    "priceAc_value": 3.43,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 6.26,
+    "priceTotal_year": 2022.0
+  },
+  "23196": {
+    "nom": "Saint-Frion",
+    "priceAc_value": 0.81,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23197": {
+    "nom": "Saint-Georges-la-Pouge",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 3.1736998855,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23198": {
+    "nom": "Saint-Georges-Nigremont",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23199": {
+    "nom": "Saint-Germain-Beaupré",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 1.7,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23200": {
+    "nom": "Saint-Goussaud",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.35,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23201": {
+    "nom": "Saint-Hilaire-la-Plaine",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 3.31,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23203": {
+    "nom": "Saint-Julien-la-Genête",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23204": {
+    "nom": "Saint-Julien-le-Châtel",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23205": {
+    "nom": "Saint-Junien-la-Bregère",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.34,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23206": {
+    "nom": "Saint-Laurent",
+    "priceAc_value": 3.15,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.98,
+    "priceTotal_year": 2022.0
+  },
+  "23207": {
+    "nom": "Saint-Léger-Bridereix",
+    "priceAc_value": 2.38,
+    "priceAc_year": 2020.0,
+    "priceEp_value": 1.36,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 3.72,
+    "priceTotal_year": 2020.0
+  },
+  "23208": {
+    "nom": "Saint-Léger-le-Guérétois",
+    "priceAc_value": 3.15,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.61,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.76,
+    "priceTotal_year": 2022.0
+  },
+  "23209": {
+    "nom": "Saint-Loup",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.34,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23210": {
+    "nom": "Saint-Maixant",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23211": {
+    "nom": "Saint-Marc-à-Frongier",
+    "priceAc_value": 0.93,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 3.3,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 4.23,
+    "priceTotal_year": 2021.0
+  },
+  "23212": {
+    "nom": "Saint-Marc-à-Loubaud",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 3.3,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23213": {
+    "nom": "Saint-Marien",
+    "priceAc_value": 1.78,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 3.29,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.07,
+    "priceTotal_year": 2021.0
+  },
+  "23214": {
+    "nom": "Saint-Martial-le-Mont",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 4.17,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23216": {
+    "nom": "Saint-Martin-Château",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 1.44,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23217": {
+    "nom": "Saint-Martin-Sainte-Catherine",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.34,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23219": {
+    "nom": "Saint-Maurice-la-Souterraine",
+    "priceAc_value": 1.61,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.82,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 3.43,
+    "priceTotal_year": 2021.0
+  },
+  "23220": {
+    "nom": "Saint-Médard-la-Rochette",
+    "priceAc_value": 2.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 4.17,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 7.0,
+    "priceTotal_year": 2022.0
+  },
+  "23222": {
+    "nom": "Saint-Michel-de-Veisse",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 3.3,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23223": {
+    "nom": "Saint-Moreil",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.34,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23227": {
+    "nom": "Saint-Pardoux-Morterolles",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.1,
+    "priceEp_year": 2020.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23228": {
+    "nom": "Saint-Pardoux-le-Neuf",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23229": {
+    "nom": "Saint-Pardoux-les-Cards",
+    "priceAc_value": 2.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 4.17,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 7.0,
+    "priceTotal_year": 2022.0
+  },
+  "23230": {
+    "nom": "Saint-Pierre-Chérignat",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.34,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23233": {
+    "nom": "Saint-Pierre-le-Bost",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 3.29,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23234": {
+    "nom": "Saint-Priest",
+    "priceAc_value": 2.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.66,
+    "priceTotal_year": 2021.0
+  },
+  "23235": {
+    "nom": "Saint-Priest-la-Feuille",
+    "priceAc_value": 1.56,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.35,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.91,
+    "priceTotal_year": 2022.0
+  },
+  "23236": {
+    "nom": "Saint-Priest-la-Plaine",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 3.17,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23237": {
+    "nom": "Saint-Priest-Palus",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.34,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23238": {
+    "nom": "Saint-Quentin-la-Chabanne",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 1.79,
+    "priceEp_year": 2020.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23239": {
+    "nom": "Saint-Sébastien",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 1.95,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.33,
+    "priceTotal_year": 2021.0
+  },
+  "23240": {
+    "nom": "Saint-Silvain-Bas-le-Roc",
+    "priceAc_value": 1.78,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 3.29,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.07,
+    "priceTotal_year": 2021.0
+  },
+  "23241": {
+    "nom": "Saint-Silvain-Bellegarde",
+    "priceAc_value": 2.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.66,
+    "priceTotal_year": 2021.0
+  },
+  "23242": {
+    "nom": "Saint-Silvain-Montaigut",
+    "priceAc_value": 3.22,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.78,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 6.0,
+    "priceTotal_year": 2022.0
+  },
+  "23243": {
+    "nom": "Saint-Silvain-sous-Toulx",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.9,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23244": {
+    "nom": "Saint-Sulpice-le-Dunois",
+    "priceAc_value": 0.5,
+    "priceAc_year": 2020.0,
+    "priceEp_value": 1.73,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 2.15,
+    "priceTotal_year": 2020.0
+  },
+  "23245": {
+    "nom": "Saint-Sulpice-le-Guérétois",
+    "priceAc_value": 3.61,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.61,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 6.22,
+    "priceTotal_year": 2022.0
+  },
+  "23246": {
+    "nom": "Saint-Sulpice-les-Champs",
+    "priceAc_value": 1.18,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 3.3,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 4.21,
+    "priceTotal_year": 2021.0
+  },
+  "23247": {
+    "nom": "Saint-Vaury",
+    "priceAc_value": 3.15,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.61,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.76,
+    "priceTotal_year": 2022.0
+  },
+  "23248": {
+    "nom": "Saint-Victor-en-Marche",
+    "priceAc_value": 3.15,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.61,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.76,
+    "priceTotal_year": 2022.0
+  },
+  "23249": {
+    "nom": "Saint-Yrieix-la-Montagne",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 3.3,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23250": {
+    "nom": "Saint-Yrieix-les-Bois",
+    "priceAc_value": 3.15,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.98,
+    "priceTotal_year": 2022.0
+  },
+  "23251": {
+    "nom": "Tardes",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23252": {
+    "nom": "Tercillat",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.1,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23253": {
+    "nom": "Thauron",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 1.35,
+    "priceEp_year": 2019.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23254": {
+    "nom": "Toulx-Sainte-Croix",
+    "priceAc_value": 1.78,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 3.29,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.07,
+    "priceTotal_year": 2021.0
+  },
+  "23255": {
+    "nom": "Trois-Fonds",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.9,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23257": {
+    "nom": "Vallière",
+    "priceAc_value": 1.69,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 3.3,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 4.99,
+    "priceTotal_year": 2021.0
+  },
+  "23258": {
+    "nom": "Vareilles",
+    "priceAc_value": 3.68,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.06,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.74,
+    "priceTotal_year": 2022.0
+  },
+  "23259": {
+    "nom": "Verneiges",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.9,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23260": {
+    "nom": "Vidaillat",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 3.3,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23261": {
+    "nom": "Viersat",
+    "priceAc_value": 1.78,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 2.9,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.68,
+    "priceTotal_year": 2021.0
+  },
+  "23262": {
+    "nom": "Vigeville",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 4.17,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23263": {
+    "nom": "Villard",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 1.68,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23266": {
+    "nom": "La Villetelle",
+    "priceAc_value": 1.52,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 4.35,
+    "priceTotal_year": 2021.0
+  },
+  "23149": {
+    "nom": "Parsac-Rimondeix",
+    "priceAc_value": 1.78,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 2.9,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.68,
+    "priceTotal_year": 2021.0
+  },
+  "23189": {
+    "nom": "Saint-Dizier-Masbaraud",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.35,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23109": {
+    "nom": "Linard-Malval",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 3.13,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23001": {
+    "nom": "Ahun",
+    "priceAc_value": 2.22,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 4.17,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 6.39,
+    "priceTotal_year": 2022.0
+  },
+  "23002": {
+    "nom": "Ajain",
+    "priceAc_value": 3.15,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.98,
+    "priceTotal_year": 2022.0
+  },
+  "23003": {
+    "nom": "Alleyrat",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23004": {
+    "nom": "Anzême",
+    "priceAc_value": 3.84,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 6.67,
+    "priceTotal_year": 2022.0
+  },
+  "23005": {
+    "nom": "Arfeuille-Châtain",
+    "priceAc_value": 2.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.66,
+    "priceTotal_year": 2021.0
+  },
+  "23006": {
+    "nom": "Arrènes",
+    "priceAc_value": 1.29,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.35,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.64,
+    "priceTotal_year": 2022.0
+  },
+  "23007": {
+    "nom": "Ars",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 3.3,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23008": {
+    "nom": "Aubusson",
+    "priceAc_value": 2.79,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 3.12,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.91,
+    "priceTotal_year": 2022.0
+  },
+  "23009": {
+    "nom": "Auge",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.9,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23010": {
+    "nom": "Augères",
+    "priceAc_value": 2.2,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.35,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.55,
+    "priceTotal_year": 2022.0
+  },
+  "23011": {
+    "nom": "Aulon",
+    "priceAc_value": 1.64,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.35,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 3.99,
+    "priceTotal_year": 2022.0
+  },
+  "23012": {
+    "nom": "Auriat",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.34,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23013": {
+    "nom": "Auzances",
+    "priceAc_value": 2.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.66,
+    "priceTotal_year": 2021.0
+  },
+  "23014": {
+    "nom": "Azat-Châtenet",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.35,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23015": {
+    "nom": "Azerables",
+    "priceAc_value": 2.17,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 1.91,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.08,
+    "priceTotal_year": 2022.0
+  },
+  "23016": {
+    "nom": "Banize",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 3.3,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23018": {
+    "nom": "Bazelat",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.06,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23019": {
+    "nom": "Beissat",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23020": {
+    "nom": "Bellegarde-en-Marche",
+    "priceAc_value": 2.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.66,
+    "priceTotal_year": 2021.0
+  },
+  "23021": {
+    "nom": "Bénévent-l'Abbaye",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.35,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23022": {
+    "nom": "Bétête",
+    "priceAc_value": 1.78,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 3.29,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.07,
+    "priceTotal_year": 2021.0
+  },
+  "23023": {
+    "nom": "Blaudeix",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.9,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "23024": {
+    "nom": "Blessac",
+    "priceAc_value": 1.07,
+    "priceAc_year": 2020.0,
+    "priceEp_value": 3.3,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 4.32,
+    "priceTotal_year": 2020.0
+  },
+  "23025": {
+    "nom": "Bonnat",
+    "priceAc_value": 2.17,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 3.01,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.18,
+    "priceTotal_year": 2021.0
+  },
+  "23026": {
+    "nom": "Bord-Saint-Georges",
+    "priceAc_value": 1.78,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 2.9,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.68,
+    "priceTotal_year": 2021.0
+  },
+  "23028": {
+    "nom": "Bosroger",
+    "priceAc_value": 2.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.66,
+    "priceTotal_year": 2021.0
+  },
+  "23029": {
+    "nom": "Le Bourg-d'Hem",
+    "priceAc_value": 0.93,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 3.01,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 3.94,
+    "priceTotal_year": 2021.0
+  },
+  "23030": {
+    "nom": "Bourganeuf",
+    "priceAc_value": 2.52,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.04,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.56,
+    "priceTotal_year": 2022.0
+  },
+  "23031": {
+    "nom": "Boussac",
+    "priceAc_value": 1.78,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 3.29,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.07,
+    "priceTotal_year": 2021.0
+  },
+  "23032": {
+    "nom": "Boussac-Bourg",
+    "priceAc_value": 1.78,
+    "priceAc_year": 2021.0,
+    "priceEp_value": 3.29,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.07,
+    "priceTotal_year": 2021.0
+  },
+  "23033": {
+    "nom": "La Brionne",
+    "priceAc_value": 3.33,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.61,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.94,
+    "priceTotal_year": 2022.0
+  },
+  "23034": {
+    "nom": "Brousse",
+    "priceAc_value": 2.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.66,
+    "priceTotal_year": 2021.0
+  },
+  "23036": {
+    "nom": "Bussière-Dunoise",
+    "priceAc_value": 3.15,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.61,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.76,
+    "priceTotal_year": 2022.0
+  },
+  "23037": {
+    "nom": "Bussière-Nouvelle",
+    "priceAc_value": 2.83,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.83,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.66,
+    "priceTotal_year": 2021.0
+  }
+}

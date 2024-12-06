@@ -1,0 +1,326 @@
+{
+  "92076": {
+    "nom": "Vaucresson",
+    "priceAc_value": 3.07,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.1,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.17,
+    "priceTotal_year": 2022
+  },
+  "92077": {
+    "nom": "Ville-d'Avray",
+    "priceAc_value": 0.7,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.1,
+    "priceEp_year": 2022,
+    "priceTotal_value": 2.8,
+    "priceTotal_year": 2022
+  },
+  "92078": {
+    "nom": "Villeneuve-la-Garenne",
+    "priceAc_value": 0.94,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.32,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.26,
+    "priceTotal_year": 2022
+  },
+  "92002": {
+    "nom": "Antony",
+    "priceAc_value": 6.05,
+    "priceAc_year": 2021,
+    "priceEp_value": 2.05,
+    "priceEp_year": 2022,
+    "priceTotal_value": 8.885225434,
+    "priceTotal_year": 2021
+  },
+  "92004": {
+    "nom": "Asnières-sur-Seine",
+    "priceAc_value": 0.94,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.32,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.26,
+    "priceTotal_year": 2022
+  },
+  "92007": {
+    "nom": "Bagneux",
+    "priceAc_value": 6.05,
+    "priceAc_year": 2021,
+    "priceEp_value": 2.05,
+    "priceEp_year": 2022,
+    "priceTotal_value": 8.885225434,
+    "priceTotal_year": 2021
+  },
+  "92009": {
+    "nom": "Bois-Colombes",
+    "priceAc_value": 0.94,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.32,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.26,
+    "priceTotal_year": 2022
+  },
+  "92012": {
+    "nom": "Boulogne-Billancourt",
+    "priceAc_value": 0.7,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.05,
+    "priceEp_year": 2022,
+    "priceTotal_value": 2.75,
+    "priceTotal_year": 2022
+  },
+  "92014": {
+    "nom": "Bourg-la-Reine",
+    "priceAc_value": 6.05,
+    "priceAc_year": 2021,
+    "priceEp_value": 2.05,
+    "priceEp_year": 2022,
+    "priceTotal_value": 8.885225434,
+    "priceTotal_year": 2021
+  },
+  "92019": {
+    "nom": "Châtenay-Malabry",
+    "priceAc_value": 6.05,
+    "priceAc_year": 2021,
+    "priceEp_value": 2.05,
+    "priceEp_year": 2022,
+    "priceTotal_value": 8.885225434,
+    "priceTotal_year": 2021
+  },
+  "92020": {
+    "nom": "Châtillon",
+    "priceAc_value": 6.05,
+    "priceAc_year": 2021,
+    "priceEp_value": 2.05,
+    "priceEp_year": 2022,
+    "priceTotal_value": 8.885225434,
+    "priceTotal_year": 2021
+  },
+  "92022": {
+    "nom": "Chaville",
+    "priceAc_value": 0.7,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.05,
+    "priceEp_year": 2022,
+    "priceTotal_value": 2.75,
+    "priceTotal_year": 2022
+  },
+  "92023": {
+    "nom": "Clamart",
+    "priceAc_value": 6.05,
+    "priceAc_year": 2021,
+    "priceEp_value": 2.05,
+    "priceEp_year": 2022,
+    "priceTotal_value": 8.885225434,
+    "priceTotal_year": 2021
+  },
+  "92024": {
+    "nom": "Clichy",
+    "priceAc_value": 0.94,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.05,
+    "priceEp_year": 2022,
+    "priceTotal_value": 2.99,
+    "priceTotal_year": 2022
+  },
+  "92025": {
+    "nom": "Colombes",
+    "priceAc_value": 0.94,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.32,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.26,
+    "priceTotal_year": 2022
+  },
+  "92026": {
+    "nom": "Courbevoie",
+    "priceAc_value": 3.07,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.32,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.39,
+    "priceTotal_year": 2022
+  },
+  "92032": {
+    "nom": "Fontenay-aux-Roses",
+    "priceAc_value": 6.05,
+    "priceAc_year": 2021,
+    "priceEp_value": 2.05,
+    "priceEp_year": 2022,
+    "priceTotal_value": 8.885225434,
+    "priceTotal_year": 2021
+  },
+  "92033": {
+    "nom": "Garches",
+    "priceAc_value": 3.07,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.1,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.17,
+    "priceTotal_year": 2022
+  },
+  "92035": {
+    "nom": "La Garenne-Colombes",
+    "priceAc_value": 3.07,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.32,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.39,
+    "priceTotal_year": 2022
+  },
+  "92036": {
+    "nom": "Gennevilliers",
+    "priceAc_value": 0.94,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.32,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.26,
+    "priceTotal_year": 2022
+  },
+  "92040": {
+    "nom": "Issy-les-Moulineaux",
+    "priceAc_value": 0.7,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.05,
+    "priceEp_year": 2022,
+    "priceTotal_value": 2.75,
+    "priceTotal_year": 2022
+  },
+  "92044": {
+    "nom": "Levallois-Perret",
+    "priceAc_value": 3.07,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.05,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.12,
+    "priceTotal_year": 2022
+  },
+  "92046": {
+    "nom": "Malakoff",
+    "priceAc_value": 6.05,
+    "priceAc_year": 2021,
+    "priceEp_value": 2.05,
+    "priceEp_year": 2022,
+    "priceTotal_value": 8.885225434,
+    "priceTotal_year": 2021
+  },
+  "92047": {
+    "nom": "Marnes-la-Coquette",
+    "priceAc_value": 0.7,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.1,
+    "priceEp_year": 2022,
+    "priceTotal_value": 2.8,
+    "priceTotal_year": 2022
+  },
+  "92048": {
+    "nom": "Meudon",
+    "priceAc_value": 0.7,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.05,
+    "priceEp_year": 2022,
+    "priceTotal_value": 2.75,
+    "priceTotal_year": 2022
+  },
+  "92049": {
+    "nom": "Montrouge",
+    "priceAc_value": 6.05,
+    "priceAc_year": 2021,
+    "priceEp_value": 2.05,
+    "priceEp_year": 2022,
+    "priceTotal_value": 8.885225434,
+    "priceTotal_year": 2021
+  },
+  "92050": {
+    "nom": "Nanterre",
+    "priceAc_value": 3.07,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.32,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.39,
+    "priceTotal_year": 2022
+  },
+  "92051": {
+    "nom": "Neuilly-sur-Seine",
+    "priceAc_value": 3.07,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.05,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.12,
+    "priceTotal_year": 2022
+  },
+  "92060": {
+    "nom": "Le Plessis-Robinson",
+    "priceAc_value": 6.05,
+    "priceAc_year": 2021,
+    "priceEp_value": 2.05,
+    "priceEp_year": 2022,
+    "priceTotal_value": 8.885225434,
+    "priceTotal_year": 2021
+  },
+  "92062": {
+    "nom": "Puteaux",
+    "priceAc_value": 3.07,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.05,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.12,
+    "priceTotal_year": 2022
+  },
+  "92063": {
+    "nom": "Rueil-Malmaison",
+    "priceAc_value": 3.07,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.32,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.39,
+    "priceTotal_year": 2022
+  },
+  "92064": {
+    "nom": "Saint-Cloud",
+    "priceAc_value": 3.07,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.1,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.17,
+    "priceTotal_year": 2022
+  },
+  "92071": {
+    "nom": "Sceaux",
+    "priceAc_value": 6.05,
+    "priceAc_year": 2021,
+    "priceEp_value": 2.05,
+    "priceEp_year": 2022,
+    "priceTotal_value": 8.885225434,
+    "priceTotal_year": 2021
+  },
+  "92072": {
+    "nom": "Sèvres",
+    "priceAc_value": 0.7,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.05,
+    "priceEp_year": 2022,
+    "priceTotal_value": 2.75,
+    "priceTotal_year": 2022
+  },
+  "92073": {
+    "nom": "Suresnes",
+    "priceAc_value": 3.07,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.32,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.39,
+    "priceTotal_year": 2022
+  },
+  "92075": {
+    "nom": "Vanves",
+    "priceAc_value": 0.7,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.05,
+    "priceEp_year": 2022,
+    "priceTotal_value": 2.75,
+    "priceTotal_year": 2022
+  }
+}
