@@ -1,6 +1,6 @@
 [![Coding standards](https://github.com/makinacorpus/db-tools-bundle/actions/workflows/coding-standards.yml/badge.svg)](https://github.com/makinacorpus/db-tools-bundle/actions/workflows/coding-standards.yml) [![Static Analysis](https://github.com/makinacorpus/db-tools-bundle/actions/workflows/static-analysis.yml/badge.svg)](https://github.com/makinacorpus/db-tools-bundle/actions/workflows/static-analysis.yml) [![Documentation build](https://github.com/makinacorpus/DbToolsBundle/actions/workflows/docs-build.yml/badge.svg)](https://github.com/makinacorpus/DbToolsBundle/actions/workflows/docs-build.yml) [![Continuous Integration](https://github.com/makinacorpus/DbToolsBundle/actions/workflows/continuous-integration.yml/badge.svg)](https://github.com/makinacorpus/DbToolsBundle/actions/workflows/continuous-integration.yml)
 
-![RecoltO](/client/public/logo.png)
+![RecoltO](/public/assets/logo_recolto_violet.png)
 
 [![GitHub stars](https://img.shields.io/github/stars/makinacorpus/RecoltOh)](https://github.com/makinacorpus/RecoltO/stargazers)
 
