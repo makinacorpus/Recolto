@@ -48,7 +48,7 @@
 
       <p class="mb-4">
         Le code source du logiciel est disponible
-        sur <a href="#" target="_blank" class="underline">son dépôt github</a> sous licence MIT.
+        sur <a href="https://github.com/makinacorpus/Recolto" target="_blank" class="underline">son dépôt github</a> sous licence MIT.
       </p>
 
       <p class="mb-4">
