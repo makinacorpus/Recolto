@@ -1,0 +1,866 @@
+{
+  "21": {
+    "nom": "COTE-D'OR",
+    "priceAc_value": 2.2400167618,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.0376039692,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.2776207309,
+    "priceTotal_year": 2022
+  },
+  "25": {
+    "nom": "DOUBS",
+    "priceAc_value": 2.2206528613,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.2410369062,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.4616897675,
+    "priceTotal_year": 2022
+  },
+  "39": {
+    "nom": "JURA",
+    "priceAc_value": 2.2957214543,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.3229235439,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.6186449982,
+    "priceTotal_year": 2022
+  },
+  "58": {
+    "nom": "NIEVRE",
+    "priceAc_value": 2.0545011909,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.3129711298,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.3674723207,
+    "priceTotal_year": 2022
+  },
+  "70": {
+    "nom": "HAUTE-SAONE",
+    "priceAc_value": 2.0565570685,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.4387290022,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.4952860707,
+    "priceTotal_year": 2022
+  },
+  "71": {
+    "nom": "SAONE-ET-LOIRE",
+    "priceAc_value": 2.1362074125,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.7507811335,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.886988546,
+    "priceTotal_year": 2022
+  },
+  "89": {
+    "nom": "YONNE",
+    "priceAc_value": 2.4872480413,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.6444310181,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.1316790595,
+    "priceTotal_year": 2022
+  },
+  "90": {
+    "nom": "TERRITOIRE-DE-BELFORT",
+    "priceAc_value": 2.6197188229,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.345951415,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.9656702379,
+    "priceTotal_year": 2022
+  },
+  "08": {
+    "nom": "ARDENNES",
+    "priceAc_value": 2.5403100177,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.1240546281,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.6643646458,
+    "priceTotal_year": 2022
+  },
+  "10": {
+    "nom": "AUBE",
+    "priceAc_value": 1.5653219319,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.1032276252,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.6685495571,
+    "priceTotal_year": 2022
+  },
+  "51": {
+    "nom": "MARNE",
+    "priceAc_value": 2.0411666192,
+    "priceAc_year": 2022,
+    "priceEp_value": 1.9634828767,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.0046494959,
+    "priceTotal_year": 2022
+  },
+  "52": {
+    "nom": "HAUTE-MARNE",
+    "priceAc_value": 2.0544745672,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.1137714555,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.1682460227,
+    "priceTotal_year": 2022
+  },
+  "54": {
+    "nom": "MEURTHE-ET-MOSELLE",
+    "priceAc_value": 2.068573555,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.4886449316,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.5572184866,
+    "priceTotal_year": 2022
+  },
+  "55": {
+    "nom": "MEUSE",
+    "priceAc_value": 2.6405620714,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.713356642,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.3539187134,
+    "priceTotal_year": 2022
+  },
+  "57": {
+    "nom": "MOSELLE",
+    "priceAc_value": 2.109434675,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.2521648736,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.3615995486,
+    "priceTotal_year": 2022
+  },
+  "67": {
+    "nom": "BAS-RHIN",
+    "priceAc_value": 1.4770171363,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.0922090113,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.5692261476,
+    "priceTotal_year": 2022
+  },
+  "68": {
+    "nom": "HAUT-RHIN",
+    "priceAc_value": 2.2884814832,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.1345467278,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.423028211,
+    "priceTotal_year": 2022
+  },
+  "88": {
+    "nom": "VOSGES",
+    "priceAc_value": 1.5620939474,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.4064750051,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.9685689525,
+    "priceTotal_year": 2022
+  },
+  "2A": {
+    "nom": "CORSE-DU-SUD",
+    "priceAc_value": 2.68,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.2794238054,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.9594238054,
+    "priceTotal_year": 2022
+  },
+  "2B": {
+    "nom": "HAUTE-CORSE",
+    "priceAc_value": 2.3489101492,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.0741686862,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.4230788354,
+    "priceTotal_year": 2022
+  },
+  "44": {
+    "nom": "LOIRE-ATLANTIQUE",
+    "priceAc_value": 2.8005502983,
+    "priceAc_year": 2022,
+    "priceEp_value": 1.9907226116,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.7912729099,
+    "priceTotal_year": 2022
+  },
+  "49": {
+    "nom": "MAINE-ET-LOIRE",
+    "priceAc_value": 2.5091020295,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.2252339497,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.7343359792,
+    "priceTotal_year": 2022
+  },
+  "53": {
+    "nom": "MAYENNE",
+    "priceAc_value": 1.8535577547,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.4871443101,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.3407020648,
+    "priceTotal_year": 2022
+  },
+  "72": {
+    "nom": "SARTHE",
+    "priceAc_value": 2.4333415722,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.4153973947,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.8487389669,
+    "priceTotal_year": 2022
+  },
+  "85": {
+    "nom": "VENDEE",
+    "priceAc_value": 2.5324682776,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.2,
+    "priceEp_year": 2021,
+    "priceTotal_value": 4.5960890383,
+    "priceTotal_year": 2021
+  },
+  "75": {
+    "nom": "PARIS",
+    "priceAc_value": 1.92,
+    "priceAc_year": 2021,
+    "priceEp_value": 1.76,
+    "priceEp_year": 2021,
+    "priceTotal_value": 3.68,
+    "priceTotal_year": 2021
+  },
+  "77": {
+    "nom": "SEINE-ET-MARNE",
+    "priceAc_value": 3.1311507995,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.0960358172,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.2271866167,
+    "priceTotal_year": 2022
+  },
+  "78": {
+    "nom": "YVELINES",
+    "priceAc_value": 2.8668961144,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.0661812819,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.9330773963,
+    "priceTotal_year": 2022
+  },
+  "91": {
+    "nom": "ESSONNE",
+    "priceAc_value": 1.9902880848,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.0766754272,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.0669635121,
+    "priceTotal_year": 2022
+  },
+  "95": {
+    "nom": "VAL-D'OISE",
+    "priceAc_value": 2.2598044487,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.0980904606,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.3578949093,
+    "priceTotal_year": 2022
+  },
+  "92": {
+    "nom": "HAUTS-DE-SEINE",
+    "priceAc_value": 1.782200607,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.0857596739,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.8679602809,
+    "priceTotal_year": 2022
+  },
+  "93": {
+    "nom": "SEINE-SAINT-DENIS",
+    "priceAc_value": 3.0844762349,
+    "priceAc_year": 2022,
+    "priceEp_value": 1.9831143617,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.0675905966,
+    "priceTotal_year": 2022
+  },
+  "94": {
+    "nom": "VAL-DE-MARNE",
+    "priceAc_value": 1.72,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.05,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.77,
+    "priceTotal_year": 2022
+  },
+  "04": {
+    "nom": "ALPES-DE-HAUTE-PROVENCE",
+    "priceAc_value": 1.9193711123,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.0356536841,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.9550247964,
+    "priceTotal_year": 2022
+  },
+  "05": {
+    "nom": "HAUTES-ALPES",
+    "priceAc_value": 2.2697795069,
+    "priceAc_year": 2022,
+    "priceEp_value": 1.5784544795,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.8482339864,
+    "priceTotal_year": 2022
+  },
+  "06": {
+    "nom": "ALPES-MARITIMES",
+    "priceAc_value": 1.5204765616,
+    "priceAc_year": 2022,
+    "priceEp_value": 1.5421184152,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.0625949768,
+    "priceTotal_year": 2022
+  },
+  "13": {
+    "nom": "BOUCHES-DU-RHONE",
+    "priceAc_value": 1.9094025334,
+    "priceAc_year": 2022,
+    "priceEp_value": 1.9936553595,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.9030578929,
+    "priceTotal_year": 2022
+  },
+  "83": {
+    "nom": "VAR",
+    "priceAc_value": 1.8752008311,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.0535172583,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.9287180894,
+    "priceTotal_year": 2022
+  },
+  "84": {
+    "nom": "VAUCLUSE",
+    "priceAc_value": 2.6805964314,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.3020556071,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.9826520385,
+    "priceTotal_year": 2022
+  },
+  "01": {
+    "nom": "AIN",
+    "priceAc_value": 2.3842367062,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.2019909909,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.5862276971,
+    "priceTotal_year": 2022
+  },
+  "03": {
+    "nom": "ALLIER",
+    "priceAc_value": 1.9481602036,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.6170020161,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.5651622197,
+    "priceTotal_year": 2022
+  },
+  "07": {
+    "nom": "ARDECHE",
+    "priceAc_value": 2.1207438124,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.5320558912,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.6527997036,
+    "priceTotal_year": 2022
+  },
+  "15": {
+    "nom": "CANTAL",
+    "priceAc_value": 2.0855166816,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.3119758539,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.3974925355,
+    "priceTotal_year": 2022
+  },
+  "26": {
+    "nom": "DROME",
+    "priceAc_value": 1.6698409507,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.1563871453,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.826228096,
+    "priceTotal_year": 2022
+  },
+  "38": {
+    "nom": "ISERE",
+    "priceAc_value": 1.6276517521,
+    "priceAc_year": 2022,
+    "priceEp_value": 1.9752390188,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.6028907709,
+    "priceTotal_year": 2022
+  },
+  "42": {
+    "nom": "LOIRE",
+    "priceAc_value": 2.1342164495,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.7787190985,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.9129355481,
+    "priceTotal_year": 2022
+  },
+  "43": {
+    "nom": "HAUTE-LOIRE",
+    "priceAc_value": 1.9824292929,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.676571892,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.659001185,
+    "priceTotal_year": 2022
+  },
+  "63": {
+    "nom": "PUY-DE-DOME",
+    "priceAc_value": 2.0621666851,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.2703107773,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.3324774624,
+    "priceTotal_year": 2022
+  },
+  "69": {
+    "nom": "RHONE",
+    "priceAc_value": 1.6579133518,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.1452787176,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.8031920694,
+    "priceTotal_year": 2022
+  },
+  "73": {
+    "nom": "SAVOIE",
+    "priceAc_value": 2.1163202458,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.2273158035,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.3436360493,
+    "priceTotal_year": 2022
+  },
+  "74": {
+    "nom": "HAUTE-SAVOIE",
+    "priceAc_value": 2.2295049857,
+    "priceAc_year": 2021,
+    "priceEp_value": 2.1,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.3887263239,
+    "priceTotal_year": 2021
+  },
+  "22": {
+    "nom": "COTES-D'ARMOR",
+    "priceAc_value": 3.1794385473,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.8056729649,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.9851115122,
+    "priceTotal_year": 2022
+  },
+  "29": {
+    "nom": "FINISTERE",
+    "priceAc_value": 2.656375168,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.4432002324,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.0995754004,
+    "priceTotal_year": 2022
+  },
+  "35": {
+    "nom": "ILLE-ET-VILAINE",
+    "priceAc_value": 3.1235003361,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.5554805909,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.678980927,
+    "priceTotal_year": 2022
+  },
+  "56": {
+    "nom": "MORBIHAN",
+    "priceAc_value": 3.04,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.14,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.18,
+    "priceTotal_year": 2022
+  },
+  "09": {
+    "nom": "ARIEGE",
+    "priceAc_value": 2.5932485774,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.2906589301,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.8839075075,
+    "priceTotal_year": 2022
+  },
+  "11": {
+    "nom": "AUDE",
+    "priceAc_value": 2.3030042183,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.7337211422,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.0367253605,
+    "priceTotal_year": 2022
+  },
+  "12": {
+    "nom": "AVEYRON",
+    "priceAc_value": 2.4269632989,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.3889595828,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.8159228817,
+    "priceTotal_year": 2022
+  },
+  "30": {
+    "nom": "GARD",
+    "priceAc_value": 1.8831290491,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.0910252718,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.9741543209,
+    "priceTotal_year": 2022
+  },
+  "31": {
+    "nom": "HAUTE-GARONNE",
+    "priceAc_value": 1.6730903295,
+    "priceAc_year": 2022,
+    "priceEp_value": 1.855334449,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.5284247785,
+    "priceTotal_year": 2022
+  },
+  "32": {
+    "nom": "GERS",
+    "priceAc_value": 2.2584001021,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.6355863105,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.8939864126,
+    "priceTotal_year": 2022
+  },
+  "34": {
+    "nom": "HERAULT",
+    "priceAc_value": 2.1949947378,
+    "priceAc_year": 2022,
+    "priceEp_value": 1.988124965,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.1831197028,
+    "priceTotal_year": 2022
+  },
+  "46": {
+    "nom": "LOT",
+    "priceAc_value": 2.9145303081,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.417946102,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.3324764101,
+    "priceTotal_year": 2022
+  },
+  "48": {
+    "nom": "LOZERE",
+    "priceAc_value": 1.9096903478,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.2672764697,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.1769668175,
+    "priceTotal_year": 2022
+  },
+  "65": {
+    "nom": "HAUTES-PYRENEES",
+    "priceAc_value": 1.8250382991,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.2716156509,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.09665395,
+    "priceTotal_year": 2022
+  },
+  "66": {
+    "nom": "PYRENEES-ORIENTALES",
+    "priceAc_value": 1.9990482762,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.0435946628,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.042642939,
+    "priceTotal_year": 2022
+  },
+  "81": {
+    "nom": "TARN",
+    "priceAc_value": 2.0210401274,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.8814940164,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.9025341438,
+    "priceTotal_year": 2022
+  },
+  "82": {
+    "nom": "TARN-ET-GARONNE",
+    "priceAc_value": 2.3961398175,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.678316158,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.0744559755,
+    "priceTotal_year": 2022
+  },
+  "18": {
+    "nom": "CHER",
+    "priceAc_value": 2.7754353535,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.4801811955,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.2556165491,
+    "priceTotal_year": 2022
+  },
+  "28": {
+    "nom": "EURE-ET-LOIR",
+    "priceAc_value": 2.9285722451,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.8107204938,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.739292739,
+    "priceTotal_year": 2022
+  },
+  "36": {
+    "nom": "INDRE",
+    "priceAc_value": 2.1591074988,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.3918827767,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.5509902756,
+    "priceTotal_year": 2022
+  },
+  "37": {
+    "nom": "INDRE-ET-LOIRE",
+    "priceAc_value": 1.6303629294,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.1738575588,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.8042204881,
+    "priceTotal_year": 2022
+  },
+  "41": {
+    "nom": "LOIR-ET-CHER",
+    "priceAc_value": 2.4734343458,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.3147887658,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.7882231116,
+    "priceTotal_year": 2022
+  },
+  "45": {
+    "nom": "LOIRET",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022,
+    "priceEp_value": 3.2487859304,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.8387859304,
+    "priceTotal_year": 2022
+  },
+  "02": {
+    "nom": "AISNE",
+    "priceAc_value": 2.926290073,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.6863839486,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.6126740216,
+    "priceTotal_year": 2022
+  },
+  "59": {
+    "nom": "NORD",
+    "priceAc_value": 2.2493662507,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.1282701831,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.3776364337,
+    "priceTotal_year": 2022
+  },
+  "60": {
+    "nom": "OISE",
+    "priceAc_value": 3.0394735868,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.4059269581,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.4454005449,
+    "priceTotal_year": 2022
+  },
+  "62": {
+    "nom": "PAS-DE-CALAIS",
+    "priceAc_value": 2.8469442856,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.2903556222,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.1372999079,
+    "priceTotal_year": 2022
+  },
+  "80": {
+    "nom": "SOMME",
+    "priceAc_value": 3.5379280876,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.2760713004,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.813999388,
+    "priceTotal_year": 2022
+  },
+  "16": {
+    "nom": "CHARENTE",
+    "priceAc_value": 2.4243640394,
+    "priceAc_year": 2021,
+    "priceEp_value": 2.403926655,
+    "priceEp_year": 2021,
+    "priceTotal_value": 4.8282906944,
+    "priceTotal_year": 2021
+  },
+  "17": {
+    "nom": "CHARENTE-MARITIME",
+    "priceAc_value": 2.8815681547,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.3994736962,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.281041851,
+    "priceTotal_year": 2022
+  },
+  "19": {
+    "nom": "CORREZE",
+    "priceAc_value": 2.5569182507,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.2959234586,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.8528417093,
+    "priceTotal_year": 2022
+  },
+  "23": {
+    "nom": "CREUSE",
+    "priceAc_value": 2.8767547887,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.8177885235,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.6945433122,
+    "priceTotal_year": 2022
+  },
+  "24": {
+    "nom": "DORDOGNE",
+    "priceAc_value": 3.1078596796,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.5619228674,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.6697825469,
+    "priceTotal_year": 2022
+  },
+  "33": {
+    "nom": "GIRONDE",
+    "priceAc_value": 2.977134877,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.0354523799,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.0125872569,
+    "priceTotal_year": 2022
+  },
+  "40": {
+    "nom": "LANDES",
+    "priceAc_value": 2.6000502177,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.0113752942,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.6114255119,
+    "priceTotal_year": 2022
+  },
+  "47": {
+    "nom": "LOT-ET-GARONNE",
+    "priceAc_value": 3.057698504,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.8164797203,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.8741782243,
+    "priceTotal_year": 2022
+  },
+  "64": {
+    "nom": "PYRENEES-ATLANTIQUES",
+    "priceAc_value": 2.5232392161,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.16,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.6832392161,
+    "priceTotal_year": 2022
+  },
+  "79": {
+    "nom": "DEUX-SEVRES",
+    "priceAc_value": 2.6441560018,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.5815432837,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.2256992855,
+    "priceTotal_year": 2022
+  },
+  "86": {
+    "nom": "VIENNE",
+    "priceAc_value": 2.2725742574,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.4412978475,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.7138721049,
+    "priceTotal_year": 2022
+  },
+  "87": {
+    "nom": "HAUTE-VIENNE",
+    "priceAc_value": 1.6571345205,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.0340216494,
+    "priceEp_year": 2022,
+    "priceTotal_value": 3.6911561699,
+    "priceTotal_year": 2022
+  },
+  "14": {
+    "nom": "CALVADOS",
+    "priceAc_value": 2.4901325573,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.3767595701,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.8668921274,
+    "priceTotal_year": 2022
+  },
+  "27": {
+    "nom": "EURE",
+    "priceAc_value": 1.8415049584,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.5937795818,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.4352845402,
+    "priceTotal_year": 2022
+  },
+  "50": {
+    "nom": "MANCHE",
+    "priceAc_value": 2.6193511933,
+    "priceAc_year": 2022,
+    "priceEp_value": 3.0855304481,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.7048816414,
+    "priceTotal_year": 2022
+  },
+  "61": {
+    "nom": "ORNE",
+    "priceAc_value": 2.9050285954,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.6758810404,
+    "priceEp_year": 2022,
+    "priceTotal_value": 5.5809096357,
+    "priceTotal_year": 2022
+  },
+  "76": {
+    "nom": "SEINE-MARITIME",
+    "priceAc_value": 2.3402439726,
+    "priceAc_year": 2022,
+    "priceEp_value": 2.4937174474,
+    "priceEp_year": 2022,
+    "priceTotal_value": 4.83396142,
+    "priceTotal_year": 2022
+  }
+}

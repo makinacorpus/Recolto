@@ -1,0 +1,2909 @@
+{
+  "09001": {
+    "nom": "Aigues-Juntes",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09002": {
+    "nom": "Aigues-Vives",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.37,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.04,
+    "priceTotal_year": 2022.0
+  },
+  "09003": {
+    "nom": "L' Aiguillon",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09062": {
+    "nom": "Bordes-Uchentein",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09004": {
+    "nom": "Albiès",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09005": {
+    "nom": "Aleu",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09006": {
+    "nom": "Alliat",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.35,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.02,
+    "priceTotal_year": 2022.0
+  },
+  "09007": {
+    "nom": "Allières",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09008": {
+    "nom": "Alos",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09009": {
+    "nom": "Alzen",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09011": {
+    "nom": "Antras",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09012": {
+    "nom": "Appy",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09013": {
+    "nom": "Arabaux",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09014": {
+    "nom": "Argein",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09015": {
+    "nom": "Arignac",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09016": {
+    "nom": "Arnave",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09017": {
+    "nom": "Arrien-en-Bethmale",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09018": {
+    "nom": "Arrout",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09019": {
+    "nom": "Artigat",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.99,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.66,
+    "priceTotal_year": 2022.0
+  },
+  "09020": {
+    "nom": "Artigues",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09021": {
+    "nom": "Artix",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.99,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "09022": {
+    "nom": "Arvigna",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09023": {
+    "nom": "Ascou",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09024": {
+    "nom": "Aston",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 0.55,
+    "priceEp_year": 2020.0,
+    "priceTotal_value": 3.003915575,
+    "priceTotal_year": 2020.0
+  },
+  "09025": {
+    "nom": "Aucazein",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09026": {
+    "nom": "Audressein",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09027": {
+    "nom": "Augirein",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09029": {
+    "nom": "Aulus-les-Bains",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09030": {
+    "nom": "Auzat",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09031": {
+    "nom": "Axiat",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09032": {
+    "nom": "Ax-les-Thermes",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09033": {
+    "nom": "Bagert",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09034": {
+    "nom": "Balacet",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09035": {
+    "nom": "Balaguères",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09037": {
+    "nom": "Barjac",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09038": {
+    "nom": "La Bastide-de-Besplas",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09039": {
+    "nom": "La Bastide-de-Bousignac",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09040": {
+    "nom": "La Bastide-de-Lordat",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09041": {
+    "nom": "La Bastide-du-Salat",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.13,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.48,
+    "priceTotal_year": 2018.0
+  },
+  "09042": {
+    "nom": "La Bastide-de-Sérou",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09043": {
+    "nom": "La Bastide-sur-l'Hers",
+    "priceAc_value": 1.93,
+    "priceAc_year": 2020.0,
+    "priceEp_value": 2.1,
+    "priceEp_year": 2020.0,
+    "priceTotal_value": 4.03,
+    "priceTotal_year": 2020.0
+  },
+  "09044": {
+    "nom": "Baulou",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09045": {
+    "nom": "Bédeilhac-et-Aynat",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.35,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.53,
+    "priceTotal_year": 2018.0
+  },
+  "09046": {
+    "nom": "Bédeille",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09047": {
+    "nom": "Bélesta",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09048": {
+    "nom": "Belloc",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09049": {
+    "nom": "Bénac",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09050": {
+    "nom": "Benagues",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.99,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.66,
+    "priceTotal_year": 2022.0
+  },
+  "09051": {
+    "nom": "Bénaix",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09052": {
+    "nom": "Besset",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 1.93,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "09053": {
+    "nom": "Bestiac",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09054": {
+    "nom": "Betchat",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09055": {
+    "nom": "Bethmale",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09057": {
+    "nom": "Biert",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09058": {
+    "nom": "Bompas",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.35,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.53,
+    "priceTotal_year": 2018.0
+  },
+  "09059": {
+    "nom": "Bonac-Irazein",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09060": {
+    "nom": "Bonnac",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09061": {
+    "nom": "Les Bordes-sur-Arize",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09063": {
+    "nom": "Le Bosc",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "09064": {
+    "nom": "Bouan",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09065": {
+    "nom": "Boussenac",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09066": {
+    "nom": "Brassac",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09067": {
+    "nom": "Brie",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09068": {
+    "nom": "Burret",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "09069": {
+    "nom": "Buzan",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09070": {
+    "nom": "Les Cabannes",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09071": {
+    "nom": "Cadarcet",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09072": {
+    "nom": "Calzan",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09073": {
+    "nom": "Camarade",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09074": {
+    "nom": "Camon",
+    "priceAc_value": 3.0,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.29,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.29,
+    "priceTotal_year": 2022.0
+  },
+  "09075": {
+    "nom": "Campagne-sur-Arize",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09076": {
+    "nom": "Canté",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2020.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "09077": {
+    "nom": "Capoulet-et-Junac",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.35,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "09078": {
+    "nom": "Carcanières",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09079": {
+    "nom": "Carla-Bayle",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09080": {
+    "nom": "Carla-de-Roquefort",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09081": {
+    "nom": "Le Carlaret",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.38,
+    "priceEp_year": 2018.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09082": {
+    "nom": "Castelnau-Durban",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09083": {
+    "nom": "Castéras",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09084": {
+    "nom": "Castex",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09085": {
+    "nom": "Castillon-en-Couserans",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09086": {
+    "nom": "Caumont",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09087": {
+    "nom": "Caussou",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09088": {
+    "nom": "Caychax",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09089": {
+    "nom": "Cazals-des-Baylès",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09090": {
+    "nom": "Cazaux",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09091": {
+    "nom": "Cazavet",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09092": {
+    "nom": "Cazenave-Serres-et-Allens",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.35,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.02,
+    "priceTotal_year": 2022.0
+  },
+  "09093": {
+    "nom": "Celles",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09094": {
+    "nom": "Cérizols",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09095": {
+    "nom": "Cescau",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09096": {
+    "nom": "Château-Verdun",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09097": {
+    "nom": "Clermont",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09098": {
+    "nom": "Contrazy",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09099": {
+    "nom": "Cos",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09100": {
+    "nom": "Couflens",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09101": {
+    "nom": "Coussa",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09102": {
+    "nom": "Coutens",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 1.93,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "09103": {
+    "nom": "Crampagna",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09104": {
+    "nom": "Dalou",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09105": {
+    "nom": "Daumazan-sur-Arize",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09106": {
+    "nom": "Dreuilhe",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.37,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.04,
+    "priceTotal_year": 2022.0
+  },
+  "09107": {
+    "nom": "Dun",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09108": {
+    "nom": "Durban-sur-Arize",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09109": {
+    "nom": "Durfort",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09110": {
+    "nom": "Encourtiech",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09111": {
+    "nom": "Engomer",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09113": {
+    "nom": "Ercé",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09114": {
+    "nom": "Erp",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09115": {
+    "nom": "Esclagne",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.37,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.42,
+    "priceTotal_year": 2018.0
+  },
+  "09116": {
+    "nom": "Escosse",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.99,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.66,
+    "priceTotal_year": 2022.0
+  },
+  "09117": {
+    "nom": "Esplas",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2020.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "09118": {
+    "nom": "Esplas-de-Sérou",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09119": {
+    "nom": "Eycheil",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09120": {
+    "nom": "Fabas",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09121": {
+    "nom": "Ferrières-sur-Ariège",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09122": {
+    "nom": "Foix",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09123": {
+    "nom": "Fornex",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09124": {
+    "nom": "Le Fossat",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09125": {
+    "nom": "Fougax-et-Barrineuf",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.58,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 5.18,
+    "priceTotal_year": 2021.0
+  },
+  "09126": {
+    "nom": "Freychenet",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09127": {
+    "nom": "Gabre",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09128": {
+    "nom": "Gajan",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09129": {
+    "nom": "Galey",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09130": {
+    "nom": "Ganac",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09131": {
+    "nom": "Garanou",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09132": {
+    "nom": "Gaudiès",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09133": {
+    "nom": "Génat",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09134": {
+    "nom": "Gestiès",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09136": {
+    "nom": "Gourbit",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.35,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.02,
+    "priceTotal_year": 2022.0
+  },
+  "09137": {
+    "nom": "Gudas",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09138": {
+    "nom": "L' Herm",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09139": {
+    "nom": "L' Hospitalet-près-l'Andorre",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09140": {
+    "nom": "Ignaux",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09141": {
+    "nom": "Illartein",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09142": {
+    "nom": "Ilhat",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09143": {
+    "nom": "Illier-et-Laramade",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.4655931985,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09145": {
+    "nom": "Les Issards",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09146": {
+    "nom": "Justiniac",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2020.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "09147": {
+    "nom": "Labatut",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2020.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "09148": {
+    "nom": "Lacave",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09149": {
+    "nom": "Lacourt",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09150": {
+    "nom": "Lagarde",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09151": {
+    "nom": "Lanoux",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09152": {
+    "nom": "Lapège",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09153": {
+    "nom": "Lapenne",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09154": {
+    "nom": "Larbont",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09155": {
+    "nom": "Larcat",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09156": {
+    "nom": "Larnat",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 1.02,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "09157": {
+    "nom": "Laroque-d'Olmes",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.37,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.04,
+    "priceTotal_year": 2022.0
+  },
+  "09158": {
+    "nom": "Lasserre",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09159": {
+    "nom": "Lassur",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09160": {
+    "nom": "Lavelanet",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09161": {
+    "nom": "Léran",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.37,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.04,
+    "priceTotal_year": 2022.0
+  },
+  "09162": {
+    "nom": "Lercoul",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09163": {
+    "nom": "Lescousse",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.99,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "09164": {
+    "nom": "Lescure",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09165": {
+    "nom": "Lesparrou",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09166": {
+    "nom": "Leychert",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09167": {
+    "nom": "Lézat-sur-Lèze",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09168": {
+    "nom": "Lieurac",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09169": {
+    "nom": "Limbrassac",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09170": {
+    "nom": "Lissac",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2020.0,
+    "priceTotal_value": 4.83,
+    "priceTotal_year": 2020.0
+  },
+  "09171": {
+    "nom": "Lordat",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09172": {
+    "nom": "Loubaut",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09173": {
+    "nom": "Loubens",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.99,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "09174": {
+    "nom": "Loubières",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09175": {
+    "nom": "Ludiès",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.35,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 4.95,
+    "priceTotal_year": 2021.0
+  },
+  "09176": {
+    "nom": "Luzenac",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09177": {
+    "nom": "Madière",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.99,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "09178": {
+    "nom": "Malegoude",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09179": {
+    "nom": "Malléon",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09180": {
+    "nom": "Manses",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09181": {
+    "nom": "Le Mas-d'Azil",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09182": {
+    "nom": "Massat",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09183": {
+    "nom": "Mauvezin-de-Prat",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09184": {
+    "nom": "Mauvezin-de-Sainte-Croix",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09185": {
+    "nom": "Mazères",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2020.0,
+    "priceTotal_value": 4.83,
+    "priceTotal_year": 2020.0
+  },
+  "09186": {
+    "nom": "Méras",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09187": {
+    "nom": "Mercenac",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09188": {
+    "nom": "Mercus-Garrabet",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09189": {
+    "nom": "Mérens-les-Vals",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09190": {
+    "nom": "Mérigon",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09192": {
+    "nom": "Miglos",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09193": {
+    "nom": "Mijanès",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09194": {
+    "nom": "Mirepoix",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09195": {
+    "nom": "Monesple",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "09196": {
+    "nom": "Montagagne",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09197": {
+    "nom": "Montaillou",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09198": {
+    "nom": "Montardit",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09199": {
+    "nom": "Montaut",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09200": {
+    "nom": "Montbel",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09201": {
+    "nom": "Montégut-en-Couserans",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09202": {
+    "nom": "Montégut-Plantaurel",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09203": {
+    "nom": "Montels",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09204": {
+    "nom": "Montesquieu-Avantès",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09334": {
+    "nom": "Val-de-Sos",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09205": {
+    "nom": "Montfa",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09206": {
+    "nom": "Montferrier",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09207": {
+    "nom": "Montgailhard",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09208": {
+    "nom": "Montgauch",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09209": {
+    "nom": "Montjoie-en-Couserans",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09210": {
+    "nom": "Montoulieu",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09211": {
+    "nom": "Montségur",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09212": {
+    "nom": "Montseron",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09214": {
+    "nom": "Moulis",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09215": {
+    "nom": "Nalzen",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09216": {
+    "nom": "Nescus",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09217": {
+    "nom": "Niaux",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.35,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.02,
+    "priceTotal_year": 2022.0
+  },
+  "09218": {
+    "nom": "Orgeix",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09219": {
+    "nom": "Orgibet",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09220": {
+    "nom": "Orlu",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09221": {
+    "nom": "Ornolac-Ussat-les-Bains",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09222": {
+    "nom": "Orus",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09223": {
+    "nom": "Oust",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09224": {
+    "nom": "Pailhès",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.99,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.66,
+    "priceTotal_year": 2022.0
+  },
+  "09225": {
+    "nom": "Pamiers",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.1863704958,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.8563704958,
+    "priceTotal_year": 2022.0
+  },
+  "09226": {
+    "nom": "Pech",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09227": {
+    "nom": "Péreille",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09228": {
+    "nom": "Perles-et-Castelet",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09229": {
+    "nom": "Le Peyrat",
+    "priceAc_value": 1.93,
+    "priceAc_year": 2020.0,
+    "priceEp_value": 2.1,
+    "priceEp_year": 2020.0,
+    "priceTotal_value": 4.03,
+    "priceTotal_year": 2020.0
+  },
+  "09230": {
+    "nom": "Le Pla",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09231": {
+    "nom": "Le Port",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09232": {
+    "nom": "Prades",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09233": {
+    "nom": "Pradettes",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09234": {
+    "nom": "Pradières",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09235": {
+    "nom": "Prat-Bonrepaux",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09236": {
+    "nom": "Prayols",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09237": {
+    "nom": "Le Puch",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09238": {
+    "nom": "Les Pujols",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09239": {
+    "nom": "Quérigut",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09240": {
+    "nom": "Quié",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.35,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.02,
+    "priceTotal_year": 2022.0
+  },
+  "09241": {
+    "nom": "Rabat-les-Trois-Seigneurs",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.35,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.02,
+    "priceTotal_year": 2022.0
+  },
+  "09242": {
+    "nom": "Raissac",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09243": {
+    "nom": "Régat",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.37,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.42,
+    "priceTotal_year": 2018.0
+  },
+  "09244": {
+    "nom": "Rieucros",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09245": {
+    "nom": "Rieux-de-Pelleport",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.99,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.66,
+    "priceTotal_year": 2022.0
+  },
+  "09246": {
+    "nom": "Rimont",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09247": {
+    "nom": "Rivèrenert",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09249": {
+    "nom": "Roquefixade",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09250": {
+    "nom": "Roquefort-les-Cascades",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09252": {
+    "nom": "Rouze",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09253": {
+    "nom": "Sabarat",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09254": {
+    "nom": "Saint-Amadou",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09256": {
+    "nom": "Saint-Bauzeil",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.99,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "09257": {
+    "nom": "Sainte-Croix-Volvestre",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09258": {
+    "nom": "Saint-Félix-de-Rieutord",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09259": {
+    "nom": "Saint-Félix-de-Tournegat",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09260": {
+    "nom": "Sainte-Foi",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09261": {
+    "nom": "Saint-Girons",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09262": {
+    "nom": "Saint-Jean-d'Aigues-Vives",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09263": {
+    "nom": "Saint-Jean-du-Castillonnais",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09264": {
+    "nom": "Saint-Jean-de-Verges",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09265": {
+    "nom": "Saint-Jean-du-Falga",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09266": {
+    "nom": "Saint-Julien-de-Gras-Capou",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09267": {
+    "nom": "Saint-Lary",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09268": {
+    "nom": "Saint-Lizier",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09269": {
+    "nom": "Saint-Martin-de-Caralp",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "09270": {
+    "nom": "Saint-Martin-d'Oydes",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09271": {
+    "nom": "Saint-Michel",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.99,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09272": {
+    "nom": "Saint-Paul-de-Jarrat",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09273": {
+    "nom": "Saint-Pierre-de-Rivière",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09274": {
+    "nom": "Saint-Quentin-la-Tour",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09275": {
+    "nom": "Saint-Quirc",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.31,
+    "priceEp_year": 2020.0,
+    "priceTotal_value": 4.83,
+    "priceTotal_year": 2020.0
+  },
+  "09276": {
+    "nom": "Saint-Victor-Rouzaud",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.99,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  },
+  "09277": {
+    "nom": "Saint-Ybars",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09279": {
+    "nom": "Salsein",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09280": {
+    "nom": "Saurat",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09281": {
+    "nom": "Sautel",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09282": {
+    "nom": "Saverdun",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09283": {
+    "nom": "Savignac-les-Ormeaux",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09284": {
+    "nom": "Ségura",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09285": {
+    "nom": "Seix",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09287": {
+    "nom": "Senconac",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09289": {
+    "nom": "Lorp-Sentaraille",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09290": {
+    "nom": "Sentein",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09291": {
+    "nom": "Sentenac-d'Oust",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09292": {
+    "nom": "Sentenac-de-Sérou",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09293": {
+    "nom": "Serres-sur-Arget",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09294": {
+    "nom": "Sieuras",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09295": {
+    "nom": "Siguer",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09297": {
+    "nom": "Sor",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09298": {
+    "nom": "Sorgeat",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09299": {
+    "nom": "Soueix-Rogalle",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09300": {
+    "nom": "Soula",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09301": {
+    "nom": "Soulan",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09303": {
+    "nom": "Surba",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.35,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.02,
+    "priceTotal_year": 2022.0
+  },
+  "09304": {
+    "nom": "Suzan",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09305": {
+    "nom": "Tabre",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.37,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.04,
+    "priceTotal_year": 2022.0
+  },
+  "09306": {
+    "nom": "Tarascon-sur-Ariège",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.35,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.02,
+    "priceTotal_year": 2022.0
+  },
+  "09307": {
+    "nom": "Taurignan-Castet",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09308": {
+    "nom": "Taurignan-Vieux",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09309": {
+    "nom": "Teilhet",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09310": {
+    "nom": "Thouars-sur-Arize",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09311": {
+    "nom": "Tignac",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09312": {
+    "nom": "La Tour-du-Crieu",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09313": {
+    "nom": "Tourtouse",
+    "priceAc_value": 2.59,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.44,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.03,
+    "priceTotal_year": 2022.0
+  },
+  "09314": {
+    "nom": "Tourtrol",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09315": {
+    "nom": "Trémoulet",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09316": {
+    "nom": "Troye-d'Ariège",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09318": {
+    "nom": "Unac",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09319": {
+    "nom": "Unzent",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.99,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.66,
+    "priceTotal_year": 2022.0
+  },
+  "09320": {
+    "nom": "Urs",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09321": {
+    "nom": "Ussat",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.35,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.02,
+    "priceTotal_year": 2022.0
+  },
+  "09322": {
+    "nom": "Ustou",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09323": {
+    "nom": "Vals",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09324": {
+    "nom": "Varilhes",
+    "priceAc_value": 2.38,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.35,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.73,
+    "priceTotal_year": 2022.0
+  },
+  "09325": {
+    "nom": "Vaychis",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 1.15,
+    "priceEp_year": 2021.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09326": {
+    "nom": "Vèbre",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09327": {
+    "nom": "Ventenac",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09328": {
+    "nom": "Verdun",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09329": {
+    "nom": "Vernajoul",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09330": {
+    "nom": "Vernaux",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09331": {
+    "nom": "Le Vernet",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09332": {
+    "nom": "Verniolle",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09335": {
+    "nom": "Villeneuve",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09336": {
+    "nom": "Villeneuve-d'Olmes",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09338": {
+    "nom": "Villeneuve-du-Latou",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09339": {
+    "nom": "Villeneuve-du-Paréage",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09340": {
+    "nom": "Vira",
+    "priceAc_value": 2.67,
+    "priceAc_year": 2022.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 5.24,
+    "priceTotal_year": 2022.0
+  },
+  "09341": {
+    "nom": "Viviès",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09342": {
+    "nom": "Sainte-Suzanne",
+    "priceAc_value": 2.48,
+    "priceAc_year": 2018.0,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": 4.86,
+    "priceTotal_year": 2018.0
+  },
+  "09296": {
+    "nom": "Aulos-Sinsat",
+    "priceAc_value": null,
+    "priceAc_year": null,
+    "priceEp_value": 2.57,
+    "priceEp_year": 2022.0,
+    "priceTotal_value": null,
+    "priceTotal_year": null
+  }
+}
