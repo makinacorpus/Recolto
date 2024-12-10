@@ -2,13 +2,13 @@
 
 ![RecoltO](/public/assets/logo_recolto_violet.png)
 
-[![GitHub stars](https://img.shields.io/github/stars/makinacorpus/RecoltOh)](https://github.com/makinacorpus/RecoltO/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/makinacorpus/RecoltO)](https://github.com/makinacorpus/RecoltO/stargazers)
 
 # Welcome to Récolt'Ô
 
 The official Récolt'Ô repository for the 2024 Open Booster.
 
-👉🏻 [Try Récolt'Ô](https://recolto.fr/app/)
+👉🏻 [Try Récolt'Ô](https://recolto.netlify.app/)
 
 In March 2023, water tables remain below normal, with 80% of levels between low and very low. Faced with the problems caused by our personal uses, how can we avoid using drinking water when rainwater would be perfectly suitable? What savings could I make by installing a water recovery system? With the global warning, will my installation still be suitable in 2, 5 or 10 years' time?
 
@@ -17,9 +17,9 @@ Récolt'Ô is designed to support the deployment of water recovery systems on al
 ![image](https://makina-corpus.com/sites/default/files/styles/600x500/public/2023-11/image.png.webp?itok=W9s7EmsA)
 
 The benefits of this solution are manifold:
-    • **Optimization of water consumption**: By using rainwater for non-potable needs such as watering gardens, washing tools, or even toilets, users can reduce their dependence on drinking water, helping to preserve this precious resource.
-    • **Adaptability to changing weather conditions**: Thanks to climate and usage simulations, Récolt'Ô can determine the right tank volume for each situation, guaranteeing efficient, sustainable use of rainwater, even in a changing climate.
-    • **Reduced pressure on drinking water networks**: By encouraging the use of rainwater for non-drinking needs, Récolt'Ô helps to relieve the pressure on drinking water networks, reducing the risk of shortages and over-consumption.
+* **Optimization of water consumption**: By using rainwater for non-potable needs such as watering gardens, washing tools, or even toilets, users can reduce their dependence on drinking water, helping to preserve this precious resource.
+* **Adaptability to changing weather conditions**: Thanks to climate and usage simulations, Récolt'Ô can determine the right tank volume for each situation, guaranteeing efficient, sustainable use of rainwater, even in a changing climate.
+* **Reduced pressure on drinking water networks**: By encouraging the use of rainwater for non-drinking needs, Récolt'Ô helps to relieve the pressure on drinking water networks, reducing the risk of shortages and over-consumption.
 
 By combining technological expertise, predictive analysis and a commitment to ecological resilience, Récolt'Ô represents an innovative and effective solution to the growing challenges of water management. By adopting Récolt'Ô, private individuals and professionals can not only contribute to preserving the environment, but also make significant savings on their drinking water consumption, while ensuring responsible use of natural resources.
 
