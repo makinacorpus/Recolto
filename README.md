@@ -72,6 +72,11 @@ npm run preview
 
 ## Contributing
 
+You want to help to build and improve the DbToolsBundle? Here is want you can do:
+- Talk about it: share this project to make it more visible
+- Report bugs you find: [Reporting issues](https://github.com/makinacorpus/Recolto/issues) is essential to help us improve this tool. Feel confident enough to correct it? PRs are welcome!
+- Want to add missing functionnality? Create an [issue](https://github.com/makinacorpus/Recolto/issues)!
+- Want to start developing ? Look at ["good first issues"](https://github.com/makinacorpus/recolto/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
 
 ## Looking Forward
 
