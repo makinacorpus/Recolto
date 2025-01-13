@@ -41,6 +41,10 @@ By referencing data from the [National Observatory of Water and Sanitation Utili
 
 ## Installation
 
+**Setup**
+Install nvm: https://github.com/nvm-sh/nvm#installing-and-updating 
+run `nvm install`.
+
 **Installing dependencies**
 
 ```bash
