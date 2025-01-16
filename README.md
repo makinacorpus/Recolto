@@ -74,6 +74,13 @@ You can preview the build locally:
 npm run preview
 ```
 
+### Environment variables
+The `.env` file can be used to store parameters or settings that may change across Récolt'Ô instances.
+
+> /!\ DON’T COMMIT SECRETS (API keys, passwords…) THERE!!
+
+To help you setup, another file, `.env.example` is provided.
+
 ## Contributing
 
 You want to help to build and improve Récolt'Ô? Here is want you can do:

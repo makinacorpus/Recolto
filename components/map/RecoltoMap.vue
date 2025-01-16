@@ -2,6 +2,13 @@
   <div id="map"></div>
 </template>
 
+<script lang="ts">
+const runtime_config = useRuntimeConfig();
+let center_coordinates = runtime_config.public.CENTER_COORDINATES ;
+export default {};
+</script>
+
+
 <script setup lang="ts">
 import { onMounted, watch } from "vue";
 import L from "leaflet";
@@ -17,7 +24,7 @@ const props = withDefaults(defineProps<{
   center?: ApiAdresse,
   drawEnabled: null | { area: "roof" | "garden" | "vegetable" | "allUsage", action?: "draw" | "clear" }
 }>(), {
-  center: () => ({ geometry: { type: "Point", coordinates: [43.6044, 1.4444] } }),
+  center: () => ({ geometry: { type: "Point", coordinates: center_coordinates } }),
   drawEnabled: null,
 });
 
@@ -36,7 +43,6 @@ const zoom = 16;
  */
 onMounted(() => {
   map = L.map("map", { zoomControl: false }).setView(props.center.geometry.coordinates, zoom);
-
   L.control.zoom({ position: "topright", zoomInTitle: "Zoomer", zoomOutTitle: "Dézoomer" }).addTo(map);
 
   // Set up the OSM layer
