@@ -16,6 +16,11 @@ export default defineNuxtConfig({
       },
     ],
   ],
+  runtimeConfig: {
+    public: {
+      CENTER_COORDINATES: process.env.NUXT_PUBLIC_CENTER_COORDINATES || [43.6044, 1.4444],
+    }
+  },
   content: {
     documentDriven: true,
     experimental: {
