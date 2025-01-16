@@ -8,7 +8,7 @@ order: 0
 
 Bienvenue sur la documentation technique de Recolt'Ô
 
-![Logo](./logo_full.svg)
+![Logo](./public/logo_full.svg)
 
 
 👉🏻 [Essayer l'instance de développement de Récolt'Ô](https://recolto.netlify.app/)
