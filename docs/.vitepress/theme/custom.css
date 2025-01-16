@@ -1,0 +1,47 @@
+:root {
+  --vp-c-brand: #2d2e83;
+  --vp-c-brand-1: #2d2e83;
+  --vp-c-brand-2: #2d2e83;
+  --vp-c-green-light: #616bf3;
+  --vp-c-brand-light: #616bf3;
+  --vp-c-brand-lighter: #a4b7fd;
+  --vp-c-brand-dark: #1b1a4c;
+  --vp-c-brand-darker: #1b1a4c;
+  --vp-button-brand-bg: var(--vp-c-brand);
+  --vp-button-brand-hover-bg: var(--vp-c-brand-dark);
+  --vp-c-text-code: #1b1a4c;
+  --vp-button-brand-border: transparent;
+  --vp-button-brand-hover-border: transparent;
+  --vp-button-brand-active-border: transparent;
+  --vp-button-alt-border: transparent;
+  --vp-button-alt-hover-border: transparent;
+  --vp-button-alt-active-border: transparent;
+  --vp-makina-logo-text: var(--vp-c-brand-dark);
+  --db-tools-standalone: unset;
+  --db-tools-symfony: none;
+}
+
+.dark {
+  --vp-c-brand: #009FE3;
+  --vp-c-brand-1: #009FE3;
+  --vp-c-brand-2: #009FE3;
+  --vp-c-green-light: #2cc4ff;
+  --vp-c-brand-light: #2cc4ff;
+  --vp-c-brand-lighter: #e4f4e4;
+  --vp-c-brand-dark: #008ad4;
+  --vp-c-brand-darker: #006eab;
+  --vp-c-text-code: #008ad4;
+  --vp-makina-logo-text: white;
+}
+
+.main img {
+  margin: auto;
+}
+
+.main .standalone {
+  display: var(--db-tools-standalone);
+}
+
+.main .symfony {
+  display: var(--db-tools-symfony);
+}
