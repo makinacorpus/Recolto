@@ -13,10 +13,6 @@ export default defineConfig({
     ['link', {
       rel: 'icon',
       href: "/favicon.ico"
-    }],
-    ['meta', {
-      property: 'og:image',
-      content: 'https://raw.githubusercontent.com/makinacorpus/DbToolsBundle/main/docs/content/public/meta.png'
     }]
   ],
   themeConfig: {
