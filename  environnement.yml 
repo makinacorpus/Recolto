@@ -1,0 +1,12 @@
+name: recolto-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - geopandas
+  - xarray
+  - dask
+  - xclim
