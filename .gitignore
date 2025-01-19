@@ -22,3 +22,15 @@ logs
 .env
 .env.*
 !.env.example
+
+# Ignore everything in public/data/FR-ID-JSON/
+public/data/FR-ID-JSON/*
+!public/data/FR-ID-JSON/.gitkeep
+
+# Ignore everything in public/data/SQR_RR_Outremer/
+public/data/SQR_RR_Outremer/*
+!public/data/SQR_RR_Outremer/.gitkeep
+
+# Ignore everything in public/data/SQR_RR_metropole/
+public/data/SQR_RR_metropole/*
+!public/data/SQR_RR_metropole/.gitkeep

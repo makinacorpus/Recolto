@@ -7,6 +7,4 @@ dependencies:
   - numpy
   - pandas
   - geopandas
-  - xarray
-  - dask
-  - xclim
+
