@@ -7,9 +7,9 @@
       <template v-slot:subtitle>
         Certains matériaux ou formes de toit perdent ± d’eau selon le volume qu’il tombe. Un coefficient de perte est pris en compte.
       </template>
-      <div class="flex flex-row">
+      <div class="flex gap-3 justify-between">
         <URadio
-          class="w-1/3 text-white font-semibold"
+          class="w-fit text-white font-semibold"
           v-for="typeRoof of typeOfRoofWithCoeff"
           :key="typeRoof.name"
           input-class="border-purple text-purple dark:border-slate-700 dark:text-slate-700 dark:bg-slate-700"
@@ -91,8 +91,9 @@ const props = defineProps<{
 
 const typeOfRoofWithCoeff = [
   { label: "Ardoise", name: "ardoise", value: 0.8 }, // "slate"
-  { label: "Tuile", name: "tuile", value: 0.9 }, // "tile"
+  { label: "Tuile / tôle", name: "tuile", value: 0.9 }, // "tile"
   { label: "Plat", name: "plat", value: 0.6 }, // "flat"
+  { label: "Végétalisé", name: "vegetal", value: 0.4 }, // "planted"
 ];
 
 </script>
