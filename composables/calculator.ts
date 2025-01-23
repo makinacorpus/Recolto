@@ -1,3 +1,5 @@
+import { CalculatorResult } from "~/declaration";
+
 export interface CopernicusData {
   years: Record<string, number>,
   months: Record<string, number>,
@@ -37,7 +39,7 @@ export function computeWaterCollectorCapacity (
   vegetableSurfaceArea: number,
   exteriorMaintenance: number,
   reserveDays: number = 30,
-) {
+): CalculatorResult {
 
   const result = {
     waterPrice, // price : €/m3

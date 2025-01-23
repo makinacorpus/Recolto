@@ -18,7 +18,8 @@ export default defineNuxtConfig({
   ],
   runtimeConfig: {
     public: {
-      CENTER_COORDINATES: process.env.NUXT_PUBLIC_CENTER_COORDINATES || [43.6044, 1.4444],
+      CENTER_COORDINATES: process.env.NUXT_PUBLIC_CENTER_COORDINATES || [ 46.77373, 2.230225 ],
+      ZOOM: process.env.NUXT_PUBLIC_ZOOM || 6,
     }
   },
   content: {

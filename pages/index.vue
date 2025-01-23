@@ -1,10 +1,8 @@
 <template>
   <div class="flex-grow relative">
     <recolto-calculator
-      class="absolute bottom-0 left-0 right-0 md:top-[10px] md:left-[10px] md:right-[unset] md:bottom-[unset] z-[1002] overflow-auto"
+      class="absolute bottom-0 left-0 right-0 md:top-[10px] md:left-[10px] md:right-[unset] md:bottom-[unset] z-[1002] overflow-auto md:max-h-[95%] scrolling-auto"
       :class="{
-        'md:min-h-[30rem]': currentStepIndex === 0 && !selectedAddress,
-        'md:max-h-[95%] scrolling-auto overflow-auto': selectedAddress,
         'h-[30rem] md:h-[95%] scrolling-auto overflow-auto': currentStepIndex === 2
       }"
 
@@ -12,7 +10,6 @@
       :result="result"
       :force-reset-input="forceResetInput"
       v-model:currentStepIndex="currentStepIndex"
-      v-model:selectedAddress="selectedAddress"
       v-model:selectedTypeRoof="selectedTypeRoof"
       v-model:selectedSewageSystem="selectedSewageSystem"
       :surface-garden-by-draw="surfaceGardenByDraw"
@@ -26,9 +23,7 @@
       @update-result="updateResultCalculator($event)"
     />
     <recolto-map
-      :center="selectedAddress"
       :draw-enabled="drawEnabled"
-
       @polygon:created="onPolygonCreated"
       @polygon:edited="onPolygonEdited"
       @polygon:deleted="onPolygonDeleted"
@@ -40,8 +35,8 @@
 import L from "leaflet";
 import RecoltoMap from "../components/map/RecoltoMap.vue";
 import RecoltoCalculator from "../components/calculator/RecoltoCalculator.vue";
-import { type ApiAdresse } from "~/declaration";
-import { prepareDataForGraph, CopernicusData } from "~/composables/calculator";
+import { CalculatorResult } from "~/declaration";
+import { prepareDataForGraph } from "~/composables/calculator";
 
 definePageMeta({
   layout: "app",
@@ -99,13 +94,6 @@ const allowDrawMap = (data: { area: "roof" | "garden" | "vegetable" | "allUsage"
   }
   drawEnabled.value = data;
 };
-
-/**
- *
- * Address management
- *
- */
-const selectedAddress = ref<ApiAdresse | undefined>(undefined);
 
 /**
  *
@@ -177,6 +165,16 @@ const onPolygonDeleted = (geodesicArea: number, area: string) => {
   }
 };
 
+const findInseeCode = async (): Promise<string|undefined> => {
+  if (data.value.centroid) {
+    const response = await fetch(`https://api-adresse.data.gouv.fr/reverse/?lon=${data.value.centroid.lng}&lat=${data.value.centroid.lat}`);
+    const res = await response.json();
+
+    if ( res.features?.length ) {
+      return res.features[0].properties.citycode
+    }
+  }
+}
 
 /**
  *
@@ -184,22 +182,7 @@ const onPolygonDeleted = (geodesicArea: number, area: string) => {
  *
  */
 const loading = ref(false);
-const result = ref<{
-  waterPrice: { price: number, year: number, division: "national" | "departemental" | "communal" }, // price : €/m3
-  lastKnownYear: string,
-  waterRecoverableQuantity: Record<string, number>, // mm * m² => L
-  savingForLastKnownYear?: number, // €/m3/year
-  idealCapacity: number, // L/year
-  waterNeeds: number, // L/year
-  copernicusData: CopernicusData, // (mm/m²)
-  roofSurfaceArea: number, // m²
-  gardenSurfaceArea: number, // m²
-  vegetableSurfaceArea: number, // m²
-  evolutionStockWater: number[], // L
-  consumptionByTapWater: number[], // L
-  driestYear: string,
-  wettestYear: string,
-} | null>(null);
+const result = ref<CalculatorResult>(null);
 
 const selectedTypeRoof = ref({ name: "ardoise", value: 0.8 });
 const selectedSewageSystem = ref(true); // Raccordement Tout-à-l'égout
@@ -245,7 +228,7 @@ async function onCompute (usageData: {
   /**
    * Get nearest centroid coordinate
    */
-  let nearestCentroidCoordinates: { lng: number, lat: number, gid: number } | null = null;
+  let nearestCentroidCoordinates: { lng: number, lat: number, gid: number }|undefined;
   let shortestDistance: number | null = null;
   centroidsCoordinates.forEach(currentPoint => {
     // Error ts caused by key "lon" instead of "lng"
@@ -262,7 +245,10 @@ async function onCompute (usageData: {
    *
    * Unit is millimeter by square meter, mm/m²
    */
-    // Todo: Can nearestCentroidCoordinates be null?
+  if (nearestCentroidCoordinates === undefined) {
+    throw 'No Copernicus data found'
+  }
+
   const copernicusDataResponse = await fetch("/data/copernicus/" + nearestCentroidCoordinates.gid + ".json");
   const copernicusData = await copernicusDataResponse.json();
 
@@ -273,7 +259,7 @@ async function onCompute (usageData: {
 
 
   let waterPrice = defaultPriceWater();
-  const codeInsee = selectedAddress.value?.properties?.citycode;
+  const codeInsee = await findInseeCode();
 
   if (codeInsee) {
     let department = codeInsee.substring(0, 2);
