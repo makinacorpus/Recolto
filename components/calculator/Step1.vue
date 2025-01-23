@@ -91,8 +91,9 @@ const props = defineProps<{
 
 const typeOfRoofWithCoeff = [
   { label: "Ardoise", name: "ardoise", value: 0.8 }, // "slate"
-  { label: "Tuile", name: "tuile", value: 0.9 }, // "tile"
+  { label: "Tuile ou tôle", name: "tuile", value: 0.9 }, // "tile"
   { label: "Plat", name: "plat", value: 0.6 }, // "flat"
+  { label: "Végétalisé", name: "vegetal", value: 0.4 }, // "planted"
 ];
 
 </script>
