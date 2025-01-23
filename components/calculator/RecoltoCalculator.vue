@@ -47,12 +47,9 @@
 
       <template v-if="currentStepIndex === 0">
         <Step1
-          v-model:currentAddress="currentAddress"
           :roof-surface="roofSurface"
           :selected-type-roof="selectedTypeRoof"
           :selected-sewage-system="selectedSewageSystem"
-          :search-results="props.geocodingResults"
-          @select="$emit('update:selectedAddress', $event)"
           @update:selected-type-roof="$emit('update:selectedTypeRoof', $event)"
           @update:selected-sewage-system="$emit('update:selectedSewageSystem', $event)"
           @draw-roof="$emit('drawRoof', $event)"
@@ -94,7 +91,6 @@
         :loading="loading"
         v-else-if="currentStepIndex === 2"
         :result="result"
-        :roof-surface="roofSurface"
         @update-result="$emit('updateResult', $event)"
       />
     </div>
@@ -102,7 +98,7 @@
 </template>
 
 <script setup lang="ts">
-import { type ApiAdresse } from "~/declaration";
+import { CalculatorResult } from "~/declaration";
 import Step1 from "./Step1.vue";
 import Step2 from "./Step2.vue";
 import Step3 from "./Step3.vue";
@@ -112,7 +108,6 @@ const emit = defineEmits([
   "drawWaterUsage",
   "editableMap",
   "update:currentStepIndex",
-  "update:selectedAddress",
   "update:selectedTypeRoof",
   "update:selectedSewageSystem",
   "compute",
@@ -143,7 +138,6 @@ const props = withDefaults(defineProps<{
   /**
    * Step 1
    */
-  selectedAddress?: ApiAdresse,
   selectedTypeRoof: { name: string, value: number },
   selectedSewageSystem: boolean,
   roofSurface: number,
@@ -154,25 +148,12 @@ const props = withDefaults(defineProps<{
   surfaceGardenByDraw: number,
   surfaceVegetableByDraw: number,
   forceResetInput: null | { area: "garden" | "vegetable", newValue: number },
+
   /**
    * Step 3
    */
   loading: boolean,
-  result: {
-    waterPrice: { price: number, year: number, division: "national" | "departemental" | "communal" }, // price : €/m3
-    lastKnownYear: string,
-    waterRecoverableQuantity: Record<string, number>, // L
-    savingForLastKnownYear?: number, // €/m3/year
-    idealCapacity?: number, // L/year
-    waterNeeds?: number, // L/year
-    roofSurfaceArea: number, // m²
-    gardenSurfaceArea: number, // m²
-    vegetableSurfaceArea: number, // m²
-    evolutionStockWater: number[], // L
-    consumptionByTapWater: number[], // L
-    driestYear: string,
-    wettestYear: string,
-  } | null
+  result: CalculatorResult
 }>(), {
   currentStepIndex: 0,
 });

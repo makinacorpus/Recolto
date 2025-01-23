@@ -5,33 +5,31 @@
 <script lang="ts">
 const runtime_config = useRuntimeConfig();
 let center_coordinates = runtime_config.public.CENTER_COORDINATES ;
+let zoom = runtime_config.public.ZOOM ;
 export default {};
 </script>
 
-
 <script setup lang="ts">
-import { onMounted, watch } from "vue";
 import L from "leaflet";
 import "./leaflet-deps";
-import { type ApiAdresse } from "~/declaration";
-
+import { LocateControl } from "leaflet.locatecontrol";
+import "leaflet.locatecontrol/dist/L.Control.Locate.min.css";
+import "leaflet-search/dist/leaflet-search.min.js";
+import "leaflet-search/dist/leaflet-search.min.css";
+import "leaflet-search-types";
 
 let map: L.DrawMap;
 let polygonDrawer: L.Draw.Polygon;
 let drawControl: L.Control.Draw;
 
 const props = withDefaults(defineProps<{
-  center?: ApiAdresse,
   drawEnabled: null | { area: "roof" | "garden" | "vegetable" | "allUsage", action?: "draw" | "clear" }
 }>(), {
-  center: () => ({ geometry: { type: "Point", coordinates: center_coordinates } }),
   drawEnabled: null,
 });
 
 const emit = defineEmits(["polygon:created", "polygon:deleted", "polygon:edited"]);
 const editableLayers = new L.FeatureGroup();
-
-const zoom = 16;
 
 /**
  * Init HTML element with a Leaflet map
@@ -42,8 +40,44 @@ const zoom = 16;
  * Returns a Leaflet.Map with helpers
  */
 onMounted(() => {
-  map = L.map("map", { zoomControl: false }).setView(props.center.geometry.coordinates, zoom);
-  L.control.zoom({ position: "topright", zoomInTitle: "Zoomer", zoomOutTitle: "Dézoomer" }).addTo(map);
+  map = L.map("map", { zoomControl: false }).setView(center_coordinates, zoom);
+
+  L.control.zoom({
+    position: "topright",
+    zoomInTitle: "Zoomer",
+    zoomOutTitle: "Dézoomer"
+  }).addTo(map);
+
+  new L.Control.Search({
+    position: "topright",
+    url: 'https://api-adresse.data.gouv.fr/search/?q={s}&limit=3',
+    minLength: 3,
+    formatData: (d: any) => {
+      const ret: any[] = []
+
+      d.features.forEach((i: any) => {
+        ret[i.properties.label] = [i.geometry.coordinates[1], i.geometry.coordinates[0]]
+      })
+
+      return ret
+    },
+    autoCollapse: true,
+    moveToLocation: (latlng, title, map) => {
+      map.flyTo(latlng, 16, {animate: true})
+    },
+    marker: false
+  }).addTo(map)
+
+  new LocateControl({
+    position: "topright",
+    strings: {
+      title: "Zoomer sur ma position"
+    },
+    locateOptions: {
+      enableHighAccuracy: true,
+    },
+    flyTo: true,
+  }).addTo(map);
 
   // Set up the OSM layer
   // https://geoservices.ign.fr/services-web-decouverte
@@ -320,5 +354,25 @@ watch(() => props.drawEnabled, () => {
   font-size: larger;
   font-weight: bolder;
   box-shadow: unset;
+}
+
+.leaflet-control-search {
+  .search-input {
+    border: none;
+    border-bottom: solid 1px;
+    margin: 4px;
+    border-radius: none;
+    width: 200px;
+    color: #000;
+  }
+  .search-tooltip {
+    background-color: #fff;
+    right: 0;
+    left: auto;
+    min-width: 100%;
+    .search-tip {
+      background: none;
+    }
+  }
 }
 </style>
