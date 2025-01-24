@@ -8,6 +8,20 @@ export interface CopernicusData {
 const coeffWaterUsage = {
   garden: 20, // L/m²/an
   vegetable: 450, // L/m²/an
+  // For toilets, we can consider the following statistics:
+  //   with a single button flush, 10L / flush
+  //   with a double button flush, 5L / flush
+  //   On average, a person flushes 4 times a day.
+  toilets: 14600, // 4 * 10 * 365, L/personne/an
+  // Typically, a washing machine consumes 75 L per use and is used on average :
+  //   2 times a week for 1 or 2 people (i.e. 21.5L / day)
+  //   4 times a week for a family of 3 or 4 (i.e. 43L / day)
+  //   6 times a week for more (i.e. 64L / day).
+  washingMachine: {
+    '1_to_2': 7847.5, // 21.5 * 365 L/personne/an
+    '3_to_4': 15695, // 43 * 365 L/personne/an
+    '5_or_more': 23360, // 64 * 365 L/personne/an
+  },
 };
 
 const system_efficiency = 0.9 // System efficiency ratio
@@ -38,6 +52,9 @@ export function computeWaterCollectorCapacity (
   gardenSurfaceArea: number,
   vegetableSurfaceArea: number,
   exteriorMaintenance: number,
+  toiletsConnected: boolean,
+  washingMachineConnected: boolean,
+  residentNumber: number,
   reserveDays: number = 30,
 ): CalculatorResult {
 
@@ -52,6 +69,9 @@ export function computeWaterCollectorCapacity (
     roofSurfaceArea, // m²
     gardenSurfaceArea, // m²
     vegetableSurfaceArea, // m²
+    toiletsConnected,
+    washingMachineConnected,
+    residentNumber,
     evolutionStockWater: [], // L
     consumptionByTapWater: [], // L
     driestYear: "",
@@ -64,7 +84,14 @@ export function computeWaterCollectorCapacity (
 
   const waterRecoverableQuantityForLastKnownYear = Math.round(copernicusData.years[result.lastKnownYear] * roofSurfaceArea * system_efficiency); // (mm * m²) => L
 
-  result.waterNeeds = gardenSurfaceArea * coeffWaterUsage.garden + vegetableSurfaceArea * coeffWaterUsage.vegetable + exteriorMaintenance;
+  result.waterNeeds = computeWaterNeeds(
+    gardenSurfaceArea,
+    vegetableSurfaceArea,
+    exteriorMaintenance,
+    toiletsConnected,
+    washingMachineConnected,
+    residentNumber
+  )
 
   result.idealCapacity = Math.round((waterRecoverableQuantityForLastKnownYear + result.waterNeeds) / 2 * (reserveDays / 365));
 
@@ -248,3 +275,27 @@ const prepareDataLineEvolution = (
   };
 };
 
+const computeWaterNeeds = (
+  gardenSurfaceArea: number,
+  vegetableSurfaceArea: number,
+  exteriorMaintenance: number,
+  toiletsConnected: boolean,
+  washingMachineConnected: boolean,
+  residentNumber: number,
+) => {
+  let waterNeeds = gardenSurfaceArea * coeffWaterUsage.garden + vegetableSurfaceArea * coeffWaterUsage.vegetable + exteriorMaintenance;
+
+  (residentNumber > 0 && toiletsConnected) || (waterNeeds += residentNumber * coeffWaterUsage.toilets);
+
+  if (residentNumber > 0 && washingMachineConnected) {
+    if (residentNumber <= 2) {
+      waterNeeds += coeffWaterUsage.washingMachine["1_to_2"];
+    } else if (residentNumber <= 4) {
+      waterNeeds += coeffWaterUsage.washingMachine["3_to_4"];
+    } else {
+      waterNeeds += coeffWaterUsage.washingMachine["5_or_more"];
+    }
+  }
+
+  return waterNeeds;
+}

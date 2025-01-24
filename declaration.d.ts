@@ -9,6 +9,9 @@ export type CalculatorResult = {
   roofSurfaceArea: number, // m²
   gardenSurfaceArea: number, // m²
   vegetableSurfaceArea: number, // m²
+  toiletsConnected: boolean,
+  washingMachineConnected: boolean,
+  residentNumber: number,
   evolutionStockWater: number[], // L
   consumptionByTapWater: number[], // L
   driestYear: string,
