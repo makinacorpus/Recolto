@@ -1,8 +1,8 @@
-[![Coding standards](https://github.com/makinacorpus/db-tools-bundle/actions/workflows/coding-standards.yml/badge.svg)](https://github.com/makinacorpus/db-tools-bundle/actions/workflows/coding-standards.yml) [![Static Analysis](https://github.com/makinacorpus/db-tools-bundle/actions/workflows/static-analysis.yml/badge.svg)](https://github.com/makinacorpus/db-tools-bundle/actions/workflows/static-analysis.yml) [![Documentation build](https://github.com/makinacorpus/DbToolsBundle/actions/workflows/docs-build.yml/badge.svg)](https://github.com/makinacorpus/DbToolsBundle/actions/workflows/docs-build.yml) [![Continuous Integration](https://github.com/makinacorpus/DbToolsBundle/actions/workflows/continuous-integration.yml/badge.svg)](https://github.com/makinacorpus/DbToolsBundle/actions/workflows/continuous-integration.yml)
+[![Documentation](https://readthedocs.org/projects/recolto/badge/?version=latest&style=social)](https://github.com/makinacorpus/DbToolsBundle/actions/workflows/docs-build.yml)
+[![GitHub stars](https://img.shields.io/github/stars/makinacorpus/RecoltO)](https://github.com/makinacorpus/RecoltO/stargazers)
 
 ![RecoltO](/public/assets/logo_recolto_violet.png)
 
-[![GitHub stars](https://img.shields.io/github/stars/makinacorpus/RecoltO)](https://github.com/makinacorpus/RecoltO/stargazers)
 
 # Welcome to Récolt'Ô
 
@@ -42,7 +42,7 @@ By referencing data from the [National Observatory of Water and Sanitation Utili
 ## Installation
 
 **Setup**
-Install nvm: https://github.com/nvm-sh/nvm#installing-and-updating 
+Install nvm: https://github.com/nvm-sh/nvm#installing-and-updating
 run `nvm install`.
 
 **Installing dependencies**
