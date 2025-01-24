@@ -17,14 +17,11 @@
     "@types/leaflet-draw": "^1.0.4",
     "@types/node": "^18.17.3",
     "@types/plotly.js-dist-min": "^2.3.3",
-    "leaflet-search-types": "^0.0.11",
     "nuxt": "^3.7.4"
   },
   "dependencies": {
     "leaflet": "^1.9.4",
     "leaflet-draw": "^1.0.4",
-    "leaflet-search": "^4.0.0",
-    "leaflet.locatecontrol": "^0.83.1",
     "plotly.js-dist-min": "^2.27.0"
   }
 }

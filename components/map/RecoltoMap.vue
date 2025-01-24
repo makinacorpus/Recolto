@@ -1,4 +1,8 @@
 <template>
+  <SearchBar
+    class="absolute top-4 left-[34rem] w-96"
+    @new-location="onNewLocation"
+  />
   <div id="map"></div>
 </template>
 
@@ -12,11 +16,7 @@ export default {};
 <script setup lang="ts">
 import L from "leaflet";
 import "./leaflet-deps";
-import { LocateControl } from "leaflet.locatecontrol";
-import "leaflet.locatecontrol/dist/L.Control.Locate.min.css";
-import "leaflet-search/dist/leaflet-search.min.js";
-import "leaflet-search/dist/leaflet-search.min.css";
-import "leaflet-search-types";
+import SearchBar from "./SearchBar.vue";
 
 let map: L.DrawMap;
 let polygonDrawer: L.Draw.Polygon;
@@ -46,37 +46,6 @@ onMounted(() => {
     position: "topright",
     zoomInTitle: "Zoomer",
     zoomOutTitle: "Dézoomer"
-  }).addTo(map);
-
-  new L.Control.Search({
-    position: "topright",
-    url: 'https://api-adresse.data.gouv.fr/search/?q={s}&limit=3',
-    minLength: 3,
-    formatData: (d: any) => {
-      const ret: any[] = []
-
-      d.features.forEach((i: any) => {
-        ret[i.properties.label] = [i.geometry.coordinates[1], i.geometry.coordinates[0]]
-      })
-
-      return ret
-    },
-    autoCollapse: true,
-    moveToLocation: (latlng, title, map) => {
-      map.flyTo(latlng, 16, {animate: true})
-    },
-    marker: false
-  }).addTo(map)
-
-  new LocateControl({
-    position: "topright",
-    strings: {
-      title: "Zoomer sur ma position"
-    },
-    locateOptions: {
-      enableHighAccuracy: true,
-    },
-    flyTo: true,
   }).addTo(map);
 
   // Set up the OSM layer
@@ -309,6 +278,20 @@ function enableDraw (data: { area: "roof" | "garden" | "vegetable" | "allUsage",
 function disableDraw () {
   polygonDrawer.disable();
   map.removeControl(drawControl);
+}
+
+/**
+ * Fly to position when the search bar emit a new location
+ */
+const onNewLocation = (to: { latlng: L.LatLngExpression, accuracy?: number }) => {
+  if (!map) {
+    return
+  }
+  if (to.accuracy === undefined) {
+    map.flyTo(to.latlng, 16, { animate: true })
+  } else {
+    map.flyToBounds(L.latLng(to.latlng).toBounds(to.accuracy), { animate: true })
+  }
 }
 
 /**
