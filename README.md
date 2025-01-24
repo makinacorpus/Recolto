@@ -1,4 +1,4 @@
-[![Documentation](https://readthedocs.org/projects/recolto/badge/?version=latest&style=social)](https://github.com/makinacorpus/DbToolsBundle/actions/workflows/docs-build.yml)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2a8dd64d-a24e-495b-93bc-d1ec3382cf89/deploy-status)](https://app.netlify.com/sites/recolto/deploys) [![Documentation](https://readthedocs.org/projects/recolto/badge/?version=latest)](https://recolto.readthedocs.io/)
 [![GitHub stars](https://img.shields.io/github/stars/makinacorpus/RecoltO)](https://github.com/makinacorpus/RecoltO/stargazers)
 
 ![RecoltO](/public/assets/logo_recolto_violet.png)
