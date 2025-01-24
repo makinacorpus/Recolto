@@ -1,6 +1,6 @@
 <template>
   <SearchBar
-    class="absolute top-4 left-[34rem] w-96"
+    class="absolute top-[10px] left-[10px] right-14 md:left-[30rem] lg:left-[34rem]"
     @new-location="onNewLocation"
   />
   <div id="map"></div>

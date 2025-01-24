@@ -1,7 +1,7 @@
 <template>
-  <div class="z-[1000] flex items-center gap-2">
+  <div class="z-[1000] flex justify-center items-center gap-2">
     <USelectMenu
-      class="flex flex-col grow"
+      class="flex flex-col"
       select-class="dark:bg-slate-700"
       size="xl"
       v-model="currentAddress"
