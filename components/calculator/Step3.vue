@@ -63,7 +63,7 @@
           Vos besoins en eau
         </div>
         <div class="w-1/3 text-base md:text-lg font-bold flex justify-end self-center">
-          {{ (result.waterNeeds).toLocaleString("fr-FR") }} L/an
+          {{ (waterNeeds).toLocaleString("fr-FR") }} L/an
         </div>
       </div>
       <div v-if="!result && !loading">
@@ -184,6 +184,12 @@ const selectedScenario = (scenario: "recently" | "driest" | "wettest") => {
   emit("updateResult", scenario);
 };
 
+const waterNeeds = computed(() => {
+  if (!props.result) {
+    return undefined
+  }
+  return props.result.waterNeeds.indoor + props.result.waterNeeds.other + props.result.waterNeeds.outdoor
+})
 const drawGraph = () => {
   if (props.result?.waterNeeds && props.result.waterRecoverableQuantity) {
     let waterRecovery: any = {
