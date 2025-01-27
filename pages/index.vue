@@ -368,7 +368,8 @@ const getWaterPriceDepartement = async (departement: string, isSewageSystem: boo
 const updateResultCalculator = (scenario = "recently") => {
   if (result.value) {
     result.value = {
-      ...result.value, ...prepareDataForGraph(
+      ...result.value,
+      ...prepareDataForGraph(
         result.value.copernicusData,
         result.value.idealCapacity,
         result.value.roofSurfaceArea,

@@ -188,7 +188,7 @@ const drawGraph = () => {
   if (props.result?.waterNeeds && props.result.waterRecoverableQuantity) {
     let waterRecovery: any = {
       x: ["Janv", "Févr", "Mars", "Avril", "Mai", "Juin", "Juil", "Août", "Sept", "Oct", "Nov", "Déc"],
-      y: Object.keys(props.result.waterRecoverableQuantity).map(key => props.result?.waterRecoverableQuantity[key]),
+      y: Object.values(props.result.waterRecoverableQuantity),
       hovertemplate: "%{y} L<extra></extra>",
       type: "bar",
       name: `Précipitations enregistrées`,
@@ -220,20 +220,7 @@ const drawGraph = () => {
 
     const waterNeeded = {
       x: ["Janv", "Févr", "Mars", "Avril", "Mai", "Juin", "Juil", "Août", "Sept", "Oct", "Nov", "Déc"],
-      y: [
-        0,
-        0,
-        0,
-        Math.round(props.result.waterNeeds / 7),
-        Math.round(props.result.waterNeeds / 7),
-        Math.round(props.result.waterNeeds / 7),
-        Math.round(props.result.waterNeeds / 7),
-        Math.round(props.result.waterNeeds / 7),
-        Math.round(props.result.waterNeeds / 7),
-        Math.round(props.result.waterNeeds / 7),
-        0,
-        0,
-      ],
+      y: Object.values(props.result.evolutionNeededWater),
       hovertemplate: "%{y} L<extra></extra>",
       type: "bar",
       name: "Besoin en eau par mois",
