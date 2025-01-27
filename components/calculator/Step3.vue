@@ -27,7 +27,7 @@
           Économie estimée
         </div>
         <div class="w-1/3 text-xl md:text-2xl font-bold flex justify-end self-center">
-          {{ (result.savingForLastKnownYear).toLocaleString("fr-FR") }} €/an
+          {{ (result?.savingForLastKnownYear ?? '').toLocaleString("fr-FR") }} €/an
         </div>
 
         <hr class="border border-t border-purple w-full my-2">
@@ -167,7 +167,7 @@ const emit = defineEmits([
 
 const props = defineProps<{
   loading: boolean,
-  result: CalculatorResult,
+  result?: CalculatorResult,
 }>();
 
 const graphToDisplay: Ref<"recently" | "driest" | "wettest"> = ref("recently");
@@ -188,7 +188,7 @@ const drawGraph = () => {
   if (props.result?.waterNeeds && props.result.waterRecoverableQuantity) {
     let waterRecovery: any = {
       x: ["Janv", "Févr", "Mars", "Avril", "Mai", "Juin", "Juil", "Août", "Sept", "Oct", "Nov", "Déc"],
-      y: Object.keys(props.result.waterRecoverableQuantity).map(key => props.result.waterRecoverableQuantity[key]),
+      y: Object.keys(props.result.waterRecoverableQuantity).map(key => props.result?.waterRecoverableQuantity[key]),
       hovertemplate: "%{y} L<extra></extra>",
       type: "bar",
       name: `Précipitations enregistrées`,

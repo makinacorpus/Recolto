@@ -50,6 +50,7 @@
           :roof-surface="roofSurface"
           :selected-type-roof="selectedTypeRoof"
           :selected-sewage-system="selectedSewageSystem"
+          @newCenter="$emit('newCenter', $event)"
           @update:selected-type-roof="$emit('update:selectedTypeRoof', $event)"
           @update:selected-sewage-system="$emit('update:selectedSewageSystem', $event)"
           @draw-roof="$emit('drawRoof', $event)"
@@ -107,6 +108,7 @@ const emit = defineEmits([
   "drawRoof",
   "drawWaterUsage",
   "editableMap",
+  "newCenter",
   "update:currentStepIndex",
   "update:selectedTypeRoof",
   "update:selectedSewageSystem",
@@ -153,12 +155,10 @@ const props = withDefaults(defineProps<{
    * Step 3
    */
   loading: boolean,
-  result: CalculatorResult
+  result?: CalculatorResult
 }>(), {
   currentStepIndex: 0,
 });
-
-const currentAddress = ref("");
 
 const onClickStep = (index: number) => {
   if (props.currentStepIndex === 2 && index < 2) {

@@ -1,8 +1,8 @@
 <template>
-  <div class="z-[1000] flex justify-center items-center gap-2">
+  <div class="flex justify-center items-center gap-2 max-w-full">
     <USelectMenu
-      class="flex flex-col"
       select-class="dark:bg-slate-700"
+      class="grow"
       size="xl"
       v-model="currentAddress"
       :searchable=searchAddress
@@ -13,15 +13,15 @@
       variant="outline"
     >
       <template #label>
-      <span v-if="currentAddress?.properties" class="truncate">
-        {{ currentAddress?.properties?.label }}
-      </span>
+        <span v-if="currentAddress?.properties" class="truncate max-w-[calc(100vw-12rem)] md:max-w-[15rem] lg:max-w-[20rem]">
+          {{ currentAddress?.properties?.label }}
+        </span>
         <span v-else class="truncate">Cherchez une adresse…</span>
       </template>
       <template #option="{ option: searchResults }">
-        <div class="truncate">
+        <span class="truncate">
           {{ searchResults.properties?.label }}
-        </div>
+        </span>
       </template>
       <template #option-empty>
         Aucun résultat trouvé
@@ -29,7 +29,7 @@
     </USelectMenu>
     <UButton
       v-if="geolocationApi"
-      icon="i-heroicons-signal"
+      icon="i-heroicons-viewfinder-circle-solid"
       :class="{
         'text-red-800': geolocateError,
         'text-sky-500': geolocated,

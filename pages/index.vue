@@ -16,14 +16,17 @@
       :surface-vegetable-by-draw="surfaceVegetableByDraw"
       :loading="loading"
 
+      @newCenter="($e) => center = $e"
       @compute="onCompute"
       @draw-roof="allowDrawMap($event)"
       @draw-water-usage="allowDrawMap($event)"
-      @editable-map="drawEnabled = null"
+      @editable-map="drawEnabled = undefined"
       @update-result="updateResultCalculator($event)"
     />
     <recolto-map
       :draw-enabled="drawEnabled"
+      :showSearchBar="currentStepIndex === 0"
+      :center="center"
       @polygon:created="onPolygonCreated"
       @polygon:edited="onPolygonEdited"
       @polygon:deleted="onPolygonDeleted"
@@ -64,15 +67,14 @@ const surfaceVegetableByDraw = ref(0);
  * Force input to 0 when user remove all area via action deleted
  * (To prevent conflict when user update value manually in input)
  */
-const forceResetInput: Ref<null | {
+const forceResetInput= ref<null | {
   area: "garden" | "vegetable",
   newValue: number
-}> = ref(null);
+}>(null);
 
 const currentStepIndex = ref(0);
 
-const drawEnabled: Ref<null | { area: "roof" | "garden" | "vegetable" | "allUsage", action?: "draw" | "clear" }> = ref(
-  null);
+const drawEnabled = ref<{ area: "roof" | "garden" | "vegetable" | "allUsage", action?: "draw" | "clear" }>();
 
 /**
  * Allow to active leaflet draw
@@ -100,6 +102,7 @@ const allowDrawMap = (data: { area: "roof" | "garden" | "vegetable" | "allUsage"
  * Map management
  *
  */
+const center = ref<{ latlng: L.LatLngExpression, accuracy?: number }>()
 
 /**
  * Manage data when a polygon is created on the map
@@ -182,7 +185,7 @@ const findInseeCode = async (): Promise<string|undefined> => {
  *
  */
 const loading = ref(false);
-const result = ref<CalculatorResult>(null);
+const result = ref<CalculatorResult>();
 
 const selectedTypeRoof = ref({ name: "ardoise", value: 0.8 });
 const selectedSewageSystem = ref(true); // Raccordement Tout-à-l'égout
