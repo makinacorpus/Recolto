@@ -152,11 +152,11 @@ Il réalise les opérations suivantes :
 
 if __name__ == "__main__":
     # Définir les paramètres
-    csv_compress ="publ/QUOT_SIM2_previous-2020-202412.csv.gz"
+    csv_compress ="public/data/QUOT_SIM2_previous-2020-202412.csv.gz"
     csv_grid_safran_path = "public/data/coordonnees_grille_safran_lambert-2-etendu.csv"
     centroid_csv_json = "public/data/centroid_coordinates_SIM_LAMBX_LAMBY.json"
-    start_date = "2024-01-01" 
-    end_date   = "2024-12-31"
+    start_date = "2022-01-01" 
+    end_date   = "2024-12-01"
     output_folder = 'public/data/FR-ID-JSON_SIM_LAMBX_LAMBY'
 
     

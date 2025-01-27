@@ -1,0 +1,201 @@
+{
+  "years": {
+    "2022": {
+      "annual_PRENEI_Q": 13.6,
+      "annual_PRELIQ_Q": 721.1,
+      "annual_PE_Q": 244.9
+    },
+    "2023": {
+      "annual_PRENEI_Q": 11.6,
+      "annual_PRELIQ_Q": 1168.0,
+      "annual_PE_Q": 578.8
+    },
+    "2024": {
+      "annual_PRENEI_Q": 12.7,
+      "annual_PRELIQ_Q": 1041.0,
+      "annual_PE_Q": 451.6
+    }
+  },
+  "months": {
+    "2022-01": {
+      "monthly_PRENEI_Q": 8.200000000000001,
+      "monthly_PRELIQ_Q": 80.10000000000001,
+      "monthly_PE_Q": 79.5
+    },
+    "2022-02": {
+      "monthly_PRENEI_Q": 1.5,
+      "monthly_PRELIQ_Q": 92.1,
+      "monthly_PE_Q": 75.6
+    },
+    "2022-03": {
+      "monthly_PRENEI_Q": 0.0,
+      "monthly_PRELIQ_Q": 23.400000000000002,
+      "monthly_PE_Q": -23.6
+    },
+    "2022-04": {
+      "monthly_PRENEI_Q": 0.4,
+      "monthly_PRELIQ_Q": 32.8,
+      "monthly_PE_Q": -29.4
+    },
+    "2022-05": {
+      "monthly_PRENEI_Q": 0.0,
+      "monthly_PRELIQ_Q": 22.7,
+      "monthly_PE_Q": -56.9
+    },
+    "2022-06": {
+      "monthly_PRENEI_Q": 0.0,
+      "monthly_PRELIQ_Q": 106.7,
+      "monthly_PE_Q": 18.700000000000003
+    },
+    "2022-07": {
+      "monthly_PRENEI_Q": 0.0,
+      "monthly_PRELIQ_Q": 10.1,
+      "monthly_PE_Q": -54.1
+    },
+    "2022-08": {
+      "monthly_PRENEI_Q": 0.0,
+      "monthly_PRELIQ_Q": 25.6,
+      "monthly_PE_Q": -5.4
+    },
+    "2022-09": {
+      "monthly_PRENEI_Q": 0.0,
+      "monthly_PRELIQ_Q": 91.9,
+      "monthly_PE_Q": 48.99999999999999
+    },
+    "2022-10": {
+      "monthly_PRENEI_Q": 0.0,
+      "monthly_PRELIQ_Q": 77.89999999999999,
+      "monthly_PE_Q": 45.7
+    },
+    "2022-11": {
+      "monthly_PRENEI_Q": 0.0,
+      "monthly_PRELIQ_Q": 71.2,
+      "monthly_PE_Q": 58.0
+    },
+    "2022-12": {
+      "monthly_PRENEI_Q": 3.5,
+      "monthly_PRELIQ_Q": 86.60000000000001,
+      "monthly_PE_Q": 87.8
+    },
+    "2023-01": {
+      "monthly_PRENEI_Q": 1.1,
+      "monthly_PRELIQ_Q": 119.7,
+      "monthly_PE_Q": 112.0
+    },
+    "2023-02": {
+      "monthly_PRENEI_Q": 0.0,
+      "monthly_PRELIQ_Q": 10.8,
+      "monthly_PE_Q": -1.1999999999999997
+    },
+    "2023-03": {
+      "monthly_PRENEI_Q": 9.6,
+      "monthly_PRELIQ_Q": 138.1,
+      "monthly_PE_Q": 122.2
+    },
+    "2023-04": {
+      "monthly_PRENEI_Q": 0.0,
+      "monthly_PRELIQ_Q": 80.60000000000001,
+      "monthly_PE_Q": 31.0
+    },
+    "2023-05": {
+      "monthly_PRENEI_Q": 0.0,
+      "monthly_PRELIQ_Q": 49.6,
+      "monthly_PE_Q": -46.699999999999996
+    },
+    "2023-06": {
+      "monthly_PRENEI_Q": 0.0,
+      "monthly_PRELIQ_Q": 59.9,
+      "monthly_PE_Q": -46.3
+    },
+    "2023-07": {
+      "monthly_PRENEI_Q": 0.0,
+      "monthly_PRELIQ_Q": 133.39999999999998,
+      "monthly_PE_Q": 60.3
+    },
+    "2023-08": {
+      "monthly_PRENEI_Q": 0.0,
+      "monthly_PRELIQ_Q": 121.6,
+      "monthly_PE_Q": 34.9
+    },
+    "2023-09": {
+      "monthly_PRENEI_Q": 0.0,
+      "monthly_PRELIQ_Q": 72.9,
+      "monthly_PE_Q": -6.899999999999999
+    },
+    "2023-10": {
+      "monthly_PRENEI_Q": 0.0,
+      "monthly_PRELIQ_Q": 130.5,
+      "monthly_PE_Q": 94.0
+    },
+    "2023-11": {
+      "monthly_PRENEI_Q": 0.9,
+      "monthly_PRELIQ_Q": 153.2,
+      "monthly_PE_Q": 137.1
+    },
+    "2023-12": {
+      "monthly_PRENEI_Q": 0.0,
+      "monthly_PRELIQ_Q": 97.7,
+      "monthly_PE_Q": 88.39999999999999
+    },
+    "2024-01": {
+      "monthly_PRENEI_Q": 8.7,
+      "monthly_PRELIQ_Q": 105.60000000000001,
+      "monthly_PE_Q": 108.5
+    },
+    "2024-02": {
+      "monthly_PRENEI_Q": 0.0,
+      "monthly_PRELIQ_Q": 154.79999999999998,
+      "monthly_PE_Q": 138.2
+    },
+    "2024-03": {
+      "monthly_PRENEI_Q": 0.7,
+      "monthly_PRELIQ_Q": 81.8,
+      "monthly_PE_Q": 49.7
+    },
+    "2024-04": {
+      "monthly_PRENEI_Q": 2.6,
+      "monthly_PRELIQ_Q": 71.1,
+      "monthly_PE_Q": 20.2
+    },
+    "2024-05": {
+      "monthly_PRENEI_Q": 0.0,
+      "monthly_PRELIQ_Q": 117.7,
+      "monthly_PE_Q": 47.5
+    },
+    "2024-06": {
+      "monthly_PRENEI_Q": 0.0,
+      "monthly_PRELIQ_Q": 52.800000000000004,
+      "monthly_PE_Q": -49.5
+    },
+    "2024-07": {
+      "monthly_PRENEI_Q": 0.0,
+      "monthly_PRELIQ_Q": 104.6,
+      "monthly_PE_Q": -4.699999999999998
+    },
+    "2024-08": {
+      "monthly_PRENEI_Q": 0.0,
+      "monthly_PRELIQ_Q": 74.4,
+      "monthly_PE_Q": -28.4
+    },
+    "2024-09": {
+      "monthly_PRENEI_Q": 0.0,
+      "monthly_PRELIQ_Q": 121.4,
+      "monthly_PE_Q": 61.6
+    },
+    "2024-10": {
+      "monthly_PRENEI_Q": 0.0,
+      "monthly_PRELIQ_Q": 101.5,
+      "monthly_PE_Q": 66.4
+    },
+    "2024-11": {
+      "monthly_PRENEI_Q": 0.7,
+      "monthly_PRELIQ_Q": 55.0,
+      "monthly_PE_Q": 41.7
+    },
+    "2024-12": {
+      "monthly_PRENEI_Q": 0.0,
+      "monthly_PRELIQ_Q": 0.3,
+      "monthly_PE_Q": 0.4
+    }
+  }
+}
