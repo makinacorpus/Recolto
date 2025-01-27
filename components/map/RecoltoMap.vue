@@ -4,7 +4,7 @@
 
 <script lang="ts">
 const runtime_config = useRuntimeConfig();
-let center_coordinates = runtime_config.public.CENTER_COORDINATES ;
+let center_coordinates = runtime_config.public.CENTER_COORDINATES as L.LatLngTuple;
 let zoom = runtime_config.public.ZOOM ;
 export default {};
 </script>
@@ -12,19 +12,16 @@ export default {};
 <script setup lang="ts">
 import L from "leaflet";
 import "./leaflet-deps";
-import { LocateControl } from "leaflet.locatecontrol";
-import "leaflet.locatecontrol/dist/L.Control.Locate.min.css";
-import "leaflet-search/dist/leaflet-search.min.js";
-import "leaflet-search/dist/leaflet-search.min.css";
-import "leaflet-search-types";
 
 let map: L.DrawMap;
 let polygonDrawer: L.Draw.Polygon;
 let drawControl: L.Control.Draw;
 
 const props = withDefaults(defineProps<{
+  center?: { latlng: L.LatLngExpression, accuracy?: number },
   drawEnabled: null | { area: "roof" | "garden" | "vegetable" | "allUsage", action?: "draw" | "clear" }
 }>(), {
+  center: () => ({ latlng: center_coordinates }),
   drawEnabled: null,
 });
 
@@ -46,37 +43,6 @@ onMounted(() => {
     position: "topright",
     zoomInTitle: "Zoomer",
     zoomOutTitle: "Dézoomer"
-  }).addTo(map);
-
-  new L.Control.Search({
-    position: "topright",
-    url: 'https://api-adresse.data.gouv.fr/search/?q={s}&limit=3',
-    minLength: 3,
-    formatData: (d: any) => {
-      const ret: any[] = []
-
-      d.features.forEach((i: any) => {
-        ret[i.properties.label] = [i.geometry.coordinates[1], i.geometry.coordinates[0]]
-      })
-
-      return ret
-    },
-    autoCollapse: true,
-    moveToLocation: (latlng, title, map) => {
-      map.flyTo(latlng, 16, {animate: true})
-    },
-    marker: false
-  }).addTo(map)
-
-  new LocateControl({
-    position: "topright",
-    strings: {
-      title: "Zoomer sur ma position"
-    },
-    locateOptions: {
-      enableHighAccuracy: true,
-    },
-    flyTo: true,
   }).addTo(map);
 
   // Set up the OSM layer
@@ -149,7 +115,7 @@ onMounted(() => {
       },
       remove: {
         tooltip: {
-          text: "Cliqué sur un tracé à supprimer", // Pas utilisé
+          text: "Cliquez sur un tracé à supprimer", // Pas utilisé
         },
       },
     },
@@ -315,12 +281,14 @@ function disableDraw () {
  * When center prop evolve, we center the map to this new center,
  * with the initial zoom
  */
-watch(() => props.center, () => {
-  if (!map) return;
-  map.setView([
-    props.center.geometry.coordinates[1],
-    props.center.geometry.coordinates[0],
-  ], 18);
+watch(() => props.center, (to) => {
+  if (!map) return
+
+  if (to.accuracy === undefined) {
+    map.flyTo(to.latlng, 16, { animate: true })
+  } else {
+    map.flyToBounds(L.latLng(to.latlng).toBounds(to.accuracy), { animate: true })
+  }
 });
 
 watch(() => props.drawEnabled, () => {
@@ -356,23 +324,26 @@ watch(() => props.drawEnabled, () => {
   box-shadow: unset;
 }
 
-.leaflet-control-search {
-  .search-input {
-    border: none;
-    border-bottom: solid 1px;
-    margin: 4px;
-    border-radius: none;
-    width: 200px;
-    color: #000;
-  }
-  .search-tooltip {
-    background-color: #fff;
-    right: 0;
-    left: auto;
-    min-width: 100%;
-    .search-tip {
-      background: none;
+.leaflet-touch .leaflet-bar {
+  @apply rounded-md;
+
+  a {
+    @apply p-2.5 h-10 w-10 leading-none;
+
+    &:first-child {
+      @apply rounded-t-md;
     }
+    &:last-child {
+      @apply rounded-b-md;
+    }
+
   }
+
+  &.leaflet-draw-toolbar a {
+    background-size: 307px 42px;
+  }
+}
+.leaflet-touch .leaflet-right .leaflet-draw-actions {
+  @apply mt-1.5 right-[42px];
 }
 </style>

@@ -1,5 +1,9 @@
 <template>
   <div class="md:mb-2">
+    <SearchBar
+      class="mb-6"
+      @new-location="$emit('newCenter', $event)"
+    />
     <SubStep
       :number="1"
       title="Quel est votre type de toiture&nbsp;?"
@@ -7,7 +11,7 @@
       <template v-slot:subtitle>
         Certains matériaux ou formes de toit perdent ± d’eau selon le volume qu’il tombe. Un coefficient de perte est pris en compte.
       </template>
-      <div class="flex gap-3 justify-between">
+      <div class="flex gap-3 flex-wrap justify-between">
         <URadio
           class="w-fit text-white font-semibold"
           v-for="typeRoof of typeOfRoofWithCoeff"
@@ -73,10 +77,11 @@
 </template>
 
 <script setup lang="ts">
+import SearchBar from '../map/SearchBar.vue';
 import SubStep from './SubStep.vue';
 
 const emit = defineEmits([
-  "search",
+  "newCenter",
   "update:selectedTypeRoof",
   "update:selectedSewageSystem",
   "select",
