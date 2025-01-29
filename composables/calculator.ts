@@ -24,7 +24,7 @@ const coeffWaterUsage = {
   },
 };
 
-const system_efficiency = 0.9 // System efficiency ratio
+const systemEfficiency = 0.9 // System efficiency ratio
 const fromMonth = "04"; // Avril
 const toMonth = "10"; // October
 
@@ -87,7 +87,7 @@ export function computeWaterCollectorCapacity (
   // Get the last known year
   result.lastKnownYear = yearsFromCopernicus[yearsFromCopernicus.length - 1];
 
-  const waterRecoverableQuantityForLastKnownYear = Math.round(copernicusData.years[result.lastKnownYear] * roofSurfaceArea * system_efficiency); // (mm * m²) => L
+  const waterRecoverableQuantityForLastKnownYear = Math.round(copernicusData.years[result.lastKnownYear] * roofSurfaceArea * systemEfficiency); // (mm * m²) => L
 
   result.waterNeeds = computeWaterNeeds(
     gardenSurfaceArea,
@@ -98,7 +98,7 @@ export function computeWaterCollectorCapacity (
     residentNumber
   )
 
-  const waterNeeds = (result.waterNeeds.indoor + result.waterNeeds.outdoor, result.waterNeeds.other)
+  const waterNeeds = result.waterNeeds.indoor + result.waterNeeds.outdoor + result.waterNeeds.other
   result.idealCapacity = Math.round((waterRecoverableQuantityForLastKnownYear + waterNeeds) / 2 * (reserveDays / 365));
 
   // Amount saved
