@@ -8,9 +8,23 @@ export interface CopernicusData {
 const coeffWaterUsage = {
   garden: 20, // L/m²/an
   vegetable: 450, // L/m²/an
+  // For toilets, we can consider the following statistics:
+  //   with a single button flush, 10L / flush
+  //   with a double button flush, 5L / flush
+  //   On average, a person flushes 4 times a day.
+  toilets: 14600, // 4 * 10 * 365, L/personne/an
+  // Typically, a washing machine consumes 75 L per use and is used on average :
+  //   2 times a week for 1 or 2 people (i.e. 21.5L / day)
+  //   4 times a week for a family of 3 or 4 (i.e. 43L / day)
+  //   6 times a week for more (i.e. 64L / day).
+  washingMachine: {
+    '1_to_2': 7847.5, // 21.5 * 365 L/personne/an
+    '3_to_4': 15695, // 43 * 365 L/personne/an
+    '5_or_more': 23360, // 64 * 365 L/personne/an
+  },
 };
 
-const system_efficiency = 0.9 // System efficiency ratio
+const systemEfficiency = 0.9 // System efficiency ratio
 const fromMonth = "04"; // Avril
 const toMonth = "10"; // October
 
@@ -38,6 +52,9 @@ export function computeWaterCollectorCapacity (
   gardenSurfaceArea: number,
   vegetableSurfaceArea: number,
   exteriorMaintenance: number,
+  toiletsConnected: boolean,
+  washingMachineConnected: boolean,
+  residentNumber: number,
   reserveDays: number = 30,
 ): CalculatorResult {
 
@@ -45,13 +62,21 @@ export function computeWaterCollectorCapacity (
     waterPrice, // price : €/m3
     lastKnownYear: "2023",
     waterRecoverableQuantity: {}, // (mm * m²) => L
+    evolutionNeededWater: {}, // L
     savingForLastKnownYear: 0, // (L / 1000 * €/m3) => €/m3/year  (depends on waterNeeds)
     idealCapacity: 0, // L + L/year => L/year (depends on waterRecoverableQuantityForLastKnownYear + waterNeeds)
-    waterNeeds: 0,  // m² * L/m²/year => L/year
+    waterNeeds: {
+      outdoor: 0, // L/year
+      indoor: 0, // L/year
+      other: 0, // L/year
+    },  // m² * L/m²/year => L/year
     copernicusData, // (mm/m²)
     roofSurfaceArea, // m²
     gardenSurfaceArea, // m²
     vegetableSurfaceArea, // m²
+    toiletsConnected,
+    washingMachineConnected,
+    residentNumber,
     evolutionStockWater: [], // L
     consumptionByTapWater: [], // L
     driestYear: "",
@@ -62,14 +87,22 @@ export function computeWaterCollectorCapacity (
   // Get the last known year
   result.lastKnownYear = yearsFromCopernicus[yearsFromCopernicus.length - 1];
 
-  const waterRecoverableQuantityForLastKnownYear = Math.round(copernicusData.years[result.lastKnownYear] * roofSurfaceArea * system_efficiency); // (mm * m²) => L
+  const waterRecoverableQuantityForLastKnownYear = Math.round(copernicusData.years[result.lastKnownYear] * roofSurfaceArea * systemEfficiency); // (mm * m²) => L
 
-  result.waterNeeds = gardenSurfaceArea * coeffWaterUsage.garden + vegetableSurfaceArea * coeffWaterUsage.vegetable + exteriorMaintenance;
+  result.waterNeeds = computeWaterNeeds(
+    gardenSurfaceArea,
+    vegetableSurfaceArea,
+    exteriorMaintenance,
+    toiletsConnected,
+    washingMachineConnected,
+    residentNumber
+  )
 
-  result.idealCapacity = Math.round((waterRecoverableQuantityForLastKnownYear + result.waterNeeds) / 2 * (reserveDays / 365));
+  const waterNeeds = result.waterNeeds.indoor + result.waterNeeds.outdoor + result.waterNeeds.other
+  result.idealCapacity = Math.round((waterRecoverableQuantityForLastKnownYear + waterNeeds) / 2 * (reserveDays / 365));
 
   // Amount saved
-  result.savingForLastKnownYear = Number(((result.waterNeeds / 1000) * waterPrice.price).toFixed(2));
+  result.savingForLastKnownYear = Number(((waterNeeds / 1000) * waterPrice.price).toFixed(2));
 
   const dataGraph = prepareDataForGraph(
     copernicusData,
@@ -87,7 +120,11 @@ export function prepareDataForGraph (
   idealCapacity: number,
   roofSurfaceArea: number,
   lastKnownYear: string,
-  waterNeeds: number,
+  waterNeeds: {
+    outdoor: number, // L/year
+    indoor: number, // L/year
+    other: number, // L/year
+  },
   scenario = "recently",
 ) {
 
@@ -212,16 +249,23 @@ const prepareDataLineEvolution = (
   copernicusData: CopernicusData,
   roofSurfaceArea: number,
   idealCapacity: number,
-  waterNeeds: number,
+  waterNeeds: {
+    outdoor: number, // L/year
+    indoor: number, // L/year
+    other: number, // L/year
+  },
 ) => {
   // Regroup conso + precipitation data
   const consoAndPrecipitationByMonth = waterForCurrentYearByMonth.reduce((acc, key, currentIndex) => {
     if (currentIndex < 3 || currentIndex > 9) {
-      acc.push({ "precipitation": Math.round(copernicusData.months[key] * roofSurfaceArea), "consumption": 0 });
+      acc.push({
+        "precipitation": Math.round(copernicusData.months[key] * roofSurfaceArea),
+        "consumption": Math.round((waterNeeds.indoor + waterNeeds.other) / 12)
+      });
     } else {
       acc.push({
         "precipitation": Math.round(copernicusData.months[key] * roofSurfaceArea),
-        "consumption": Math.round(waterNeeds / 7),
+        "consumption": Math.round((waterNeeds.indoor + waterNeeds.other) / 12 + waterNeeds.outdoor / 7),
       });
     }
     return acc;
@@ -242,9 +286,48 @@ const prepareDataLineEvolution = (
     acc.push(currentVolume);
     return acc;
   }, [] as number[]);
+
+  const evolutionNeededWater = consoAndPrecipitationByMonth.map(d => d.consumption)
+
   return {
     consumptionByTapWater,
     evolutionStockWater,
+    evolutionNeededWater
   };
 };
 
+const computeWaterNeeds = (
+  gardenSurfaceArea: number,
+  vegetableSurfaceArea: number,
+  exteriorMaintenance: number,
+  toiletsConnected: boolean,
+  washingMachineConnected: boolean,
+  residentNumber: number,
+): {
+  outdoor: number, // L/year
+  indoor: number, // L/year
+  other: number, // L/year
+} => {
+  const outdoorNeeds = (gardenSurfaceArea * coeffWaterUsage.garden) + (vegetableSurfaceArea * coeffWaterUsage.vegetable);
+
+  let indoorNeeds = 0
+  if ((residentNumber > 0) && toiletsConnected) {
+    indoorNeeds += residentNumber * coeffWaterUsage.toilets;
+  }
+
+  if (residentNumber > 0 && washingMachineConnected) {
+    if (residentNumber <= 2) {
+      indoorNeeds += coeffWaterUsage.washingMachine["1_to_2"];
+    } else if (residentNumber <= 4) {
+      indoorNeeds += coeffWaterUsage.washingMachine["3_to_4"];
+    } else {
+      indoorNeeds += coeffWaterUsage.washingMachine["5_or_more"];
+    }
+  }
+
+  return {
+    indoor: indoorNeeds,
+    outdoor: outdoorNeeds,
+    other: exteriorMaintenance,
+  };
+}

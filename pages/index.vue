@@ -54,11 +54,17 @@ const data = ref<{
   surfaceVegetable: number,
   exteriorMaintenance: number,
   roofSurface: number,
+  toiletsConnected: boolean,
+  washingMachineConnected: boolean,
+  residentNumber: number,
 }>({
   surfaceGarden: 0,
   surfaceVegetable: 0,
   exteriorMaintenance: 0,
   roofSurface: 0,
+  toiletsConnected: false,
+  washingMachineConnected: false,
+  residentNumber: 0,
 });
 
 const surfaceGardenByDraw = ref(0);
@@ -214,11 +220,17 @@ async function onCompute (usageData: {
   surfaceGarden: number,
   surfaceVegetable: number,
   exteriorMaintenance: number,
+  toiletsConnected: boolean,
+  washingMachineConnected: boolean,
+  residentNumber: number,
 }) {
   loading.value = true;
   data.value.surfaceGarden = usageData.surfaceGarden || 0;
   data.value.surfaceVegetable = usageData.surfaceVegetable || 0;
   data.value.exteriorMaintenance = usageData.exteriorMaintenance || 0;
+  data.value.toiletsConnected = usageData.toiletsConnected;
+  data.value.washingMachineConnected = usageData.washingMachineConnected;
+  data.value.residentNumber = usageData.residentNumber;
 
   currentStepIndex.value++;
 
@@ -289,9 +301,12 @@ async function onCompute (usageData: {
     data.value.roofSurface * selectedTypeRoof.value.value,
     waterPrice,
     copernicusData,
-    Number(data.value.surfaceGarden),
-    Number(data.value.surfaceVegetable),
-    Number(data.value.exteriorMaintenance),
+    data.value.surfaceGarden,
+    data.value.surfaceVegetable,
+    data.value.exteriorMaintenance,
+    data.value.toiletsConnected,
+    data.value.washingMachineConnected,
+    data.value.residentNumber,
   );
 
   loading.value = false;
@@ -353,7 +368,8 @@ const getWaterPriceDepartement = async (departement: string, isSewageSystem: boo
 const updateResultCalculator = (scenario = "recently") => {
   if (result.value) {
     result.value = {
-      ...result.value, ...prepareDataForGraph(
+      ...result.value,
+      ...prepareDataForGraph(
         result.value.copernicusData,
         result.value.idealCapacity,
         result.value.roofSurfaceArea,
