@@ -41,9 +41,28 @@
         "other_uses_info": "Par exemple : pour l'arrosage de vos plantes intérieures, le lavage des sols, le nettoyage d'équipement ou d'outil…",
         "compute": "Calculer"
     },
-    "step3": {},
+    "step3": {
+        "estimation": "Votre estimation",
+        "optimal_volume": "Volume idéal de stockage",
+        "optimal_volume_info": "Le mot clé dans une utilisation optimale est roulement et non stockage. Pour une utilisation adaptée, privilégiez un roulement régulier et un renouvellement à chaque épisode de pluie de votre récupérateur plutôt qu'un stockage trop long.",
+        "estim_saving": "Économie estimée",
+        "water_price": "Prix de l'eau",
+        "water_price_info": "Ce tarif est fourni par l'observatoire national des services d'eau et assainissement.",
+        "needs": "Vos besoins en eau",
+        "estimation_failure": "Malheureusement, il a été impossible de réaliser l'estimation, veuillez soit réessayer ou modifier certains paramètres.",
+        "needs_analysis": "Analyse de vos besoins au regard des précipitations enregistrées l'année :",
+        "last_known": "La plus récente",
+        "driest": "La plus sèche",
+        "wettest": "La plus pluvieuse",
+        "commune_level": "dans votre commune",
+        "dept_level": "dans votre département",
+        "national_level": "au niveau national"
+
+    },
     "yes": "Oui",
     "no": "Non",
     "or": "ou",
-    "L_per_year": "L/an"
+    "in": "en",
+    "L_per_year": "L/an",
+    "euro_per_year": "€/an"
   }

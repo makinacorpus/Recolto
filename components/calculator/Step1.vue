@@ -46,7 +46,7 @@
       <div v-else class="flex flex-wrap my-2 md:mt-6 md:mb-4 mx-2">
         <p class="w-2/3 text-base md:text-lg font-semibold">{{ t("step1.useful_surface") }}</p>
         <p class="w-1/3 text-lg md:text-xl font-bold flex justify-end self-center">
-          {{ (props.roofSurface).toLocaleString("fr-FR") }} m²
+          {{ (props.roofSurface).toLocaleString(locale.value) }} m²
         </p>
       </div>
     </SubStep>
@@ -77,10 +77,11 @@
 </template>
 
 <script setup lang="ts">
+import { localeHead } from '@nuxtjs/i18n/dist/runtime/routing/head';
 import SearchBar from '../map/SearchBar.vue';
 import SubStep from './SubStep.vue';
 
-const { t } = useI18n();
+const { t, locale } = useI18n();
 
 const emit = defineEmits([
   "newCenter",

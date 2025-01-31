@@ -1,21 +1,15 @@
 <template>
   <SubStep
     :number="5"
-    title="Votre estimation"
+    v-bind:title=stepTitles.substep5
   >
     <div class="-mx-2">
       <div v-if="result && !loading" class="flex flex-wrap">
         <div class="w-2/3 text-md lg:text-lg font-semibold mb-2 self-center">
           <div class="flex">
-            <p class="w-auto md:w-5/6">Volume idéal de stockage</p>
+            <p class="w-auto md:w-5/6">{{ t("step3.optimal_volume") }}</p>
             <InformationTooltip class="hidden md:ml-2 md:w-1/6 md:block md:self-center">
-              <p class="text-sm m-1">
-                Le mot clé dans une utilisation optimale est
-                <span class="underline">roulement</span> et non stockage.
-                Pour une utilisation adaptée, privilégiez un roulement régulier
-                et un renouvellement à chaque épisode de pluie de votre récupérateur
-                plutôt qu'un stockage trop long.
-              </p>
+                <p v-html='t("step3.optimal_volume_info")'></p>
             </InformationTooltip>
           </div>
         </div>
@@ -24,10 +18,10 @@
         </div>
 
         <div class="w-2/3 text-md lg:text-lg font-semibold mb-2 self-center">
-          Économie estimée
+          {{ t("step3.estim_saving") }}
         </div>
         <div class="w-1/3 text-xl md:text-2xl font-bold flex justify-end self-center">
-          {{ (result?.savingForLastKnownYear ?? '').toLocaleString("fr-FR") }} €/an
+          {{ (result?.savingForLastKnownYear ?? '').toLocaleString(locale.value) }} {{ t("euro_per_year")}}
         </div>
 
         <hr class="border border-t border-purple w-full my-2">
@@ -35,39 +29,32 @@
         <div class="w-2/3 text-sm lg:text-base font-semibold mb-2 self-center">
           <div class="flex">
             <p class="w-auto md:w-5/6">
-              Prix de l'eau {{ getDivisionForWaterPrice }} en {{
+              {{ t("step3.water_price") }} {{ getDivisionForWaterPrice }} {{ t("in") }} {{
                 result.waterPrice.year
               }}
             </p>
 
             <InformationTooltip class="hidden md:ml-2 md:w-1/6 md:block md:self-center">
               <p class="text-sm m-1">
-                Ce tarif est fourni par l'observatoire national des services d'eau et assainissement.
-                <a
-                  href="https://services.eaufrance.fr/carte-interactive"
-                  target="_blank"
-                  rel="noopener"
-                  class="underline"
-                >
-                  (Voir leur carte)
-                </a>
+                {{ t("step3.water_price_info") }}
+                <a href="https://services.eaufrance.fr/carte-interactive" target="_blank" rel="noopener" class="underline" >services.eaufrance.fr</a>
               </p>
             </InformationTooltip>
           </div>
         </div>
         <div class="w-1/3 text-base md:text-lg font-bold flex justify-end self-center">
-          {{ (result.waterPrice.price).toLocaleString("fr-FR") }} €/m³
+          {{ (result.waterPrice.price).toLocaleString(locale.value) }} €/m³
         </div>
 
         <div class="w-2/3 text-sm lg:text-base font-semibold mb-2 self-center">
-          Vos besoins en eau
+          {{ t("step3.needs") }}
         </div>
         <div class="w-1/3 text-base md:text-lg font-bold flex justify-end self-center">
-          {{ waterNeeds }} L/an
+          {{ waterNeeds }}&nbsp;{{ t("L_per_year") }}
         </div>
       </div>
       <div v-if="!result && !loading">
-        Malheureusement, il a été impossible de réaliser l'estimation, veuillez soit réessayer ou modifier certains paramètres.
+        {{ t("step3.estimation_failure") }}
       </div>
       <div v-if="loading">
         <div class="flex items-center space-x-4 mt-2">
@@ -92,7 +79,7 @@
         <h3
           class="font-semibold text-center text-white"
         >
-          Analyse de vos besoins au regard des précipitations enregistrées l'année :
+          {{ t("step3.needs_analysis") }}
         </h3>
         <div class="flex w-full gap-1 sm:gap-2">
           <UButton
@@ -103,7 +90,7 @@
             :class="{'bg-purple-200 text-purple hover:bg-purple-200 dark:bg-purple-200 dark:text-purple dark:hover:bg-purple-200': graphToDisplay === 'recently'}"
           >
             <div class="flex flex-col text-xs md:text-base">
-              <span>La plus récente</span>
+              <span>{{ t("step3.last_known") }}</span>
               <span>{{ props.result?.lastKnownYear }}</span>
             </div>
           </UButton>
@@ -115,7 +102,7 @@
             :class="{'bg-purple-200 text-purple hover:bg-purple-200 dark:bg-purple-200 dark:text-purple dark:hover:bg-purple-200': graphToDisplay === 'driest'}"
           >
             <div class="flex flex-col text-xs md:text-base">
-              <span>La plus sèche</span>
+              <span>{{ t("step3.driest") }}</span>
               <span>{{ props.result?.driestYear }}</span>
             </div>
           </UButton>
@@ -127,7 +114,7 @@
             :class="{'bg-purple-200 text-purple hover:bg-purple-200 dark:bg-purple-200 dark:text-purple dark:hover:bg-purple-200': graphToDisplay === 'wettest'}"
           >
             <div class="flex flex-col text-xs md:text-base">
-              <span>La plus pluvieuse</span>
+              <span>{{ t("step3.wettest") }}</span>
               <span>{{ props.result?.wettestYear }}</span>
             </div>
           </UButton>
@@ -157,10 +144,15 @@
 
 <script setup lang="ts">
 import Plotly from "plotly.js-dist-min";
-import type { Layout } from "plotly.js-dist-min";
 import InformationTooltip from "./InformationTooltip.vue";
 import SubStep from "./SubStep.vue";
 import { CalculatorResult } from "~/declaration";
+
+const { t, locale } = useI18n();
+
+const stepTitles = {
+  substep5: t("step3.estimation")
+};
 
 const emit = defineEmits([
   "updateResult",
@@ -176,15 +168,15 @@ const idealCapacity = computed<string>(() => {
   if (props.result) {
     const realIdealCapacity = props.result.idealCapacity;
     const roundedIeadCapacity =  Math.ceil(realIdealCapacity / 100) * 100;
-    return roundedIeadCapacity.toLocaleString("fr-FR");
+    return roundedIeadCapacity.toLocaleString(locale.value);
   }
   return '';
 })
 const getDivisionForWaterPrice = computed(() => {
   const division = props.result?.waterPrice.division;
-  if (division === "communal") return "dans votre commune";
-  if (division === "departemental") return "dans votre département";
-  return "au niveau national";
+  if (division === "communal") return t("step3.commune_level");
+  if (division === "departemental") return t("step3.dept_level");
+  return t("step3.national_level");
 });
 
 const selectedScenario = (scenario: "recently" | "driest" | "wettest") => {
@@ -196,7 +188,7 @@ const waterNeeds = computed<string>(() => {
   if (!props.result) {
     return ''
   }
-  return (props.result.waterNeeds.indoor + props.result.waterNeeds.other + props.result.waterNeeds.outdoor).toLocaleString("fr-FR");
+  return (props.result.waterNeeds.indoor + props.result.waterNeeds.other + props.result.waterNeeds.outdoor).toLocaleString(locale.value);
 })
 const drawGraph = () => {
   if (props.result?.waterNeeds && props.result.waterRecoverableQuantity) {

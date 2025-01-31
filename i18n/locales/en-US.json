@@ -42,9 +42,26 @@
         "other_uses_info": "For example: watering interior plants, washing floors, tools or other equipment…",
         "compute": "Compute"
     },
-    "step3": {},
+    "step3": {
+        "estimation": "Your estimation",
+        "optimal_volume": "Optimal storage volume",
+        "optimal_volume_info": "The important variable here is the rolling capacity, to renew the stored water regularly.",
+        "estim_saving": "Estimated savings",
+        "water_price": "Water price",
+        "water_price_info": "The prices are provided by the national water office",
+        "needs": "Your water needs",
+        "estimation_failure": "Unfortunately, the computation failed; please retry after checking the parameters.",
+        "needs_analysis": "Analysis of your needs, based on yearly rain levels:",
+        "last_known": "Last year known",
+        "driest": "Driest year",
+        "wettest": "Wettest year",
+        "commune_level": "in your commune",
+        "dept_level": "in your département",
+        "national_level": "at the national level"
+    },
     "yes": "Yes",
     "no": "No",
     "or": "or",
-    "L_per_year": "L/year"
+    "L_per_year": "L/year",
+    "euro_per_year": "€/year"
   }
