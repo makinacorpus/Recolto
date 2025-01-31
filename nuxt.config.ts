@@ -15,6 +15,7 @@ export default defineNuxtConfig({
         },
       },
     ],
+    "@nuxtjs/i18n",
   ],
   runtimeConfig: {
     public: {
@@ -37,5 +38,21 @@ export default defineNuxtConfig({
     //   routes: ["/"],
     //   ignore: ['/blog/**', '/app', ]
     // },
+  },
+  i18n: {
+    locales: [
+      {
+        code: 'fr',
+        file: 'fr-FR.json',
+        name: "Français",
+      },
+      {
+        code: 'en',
+        file: 'en-US.json',
+        name: "English"
+      }
+    ],
+    lazy: true,
+    defaultLocale: 'fr',
   },
 });

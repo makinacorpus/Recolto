@@ -23,7 +23,14 @@
             square
             @click="isAboutModalOpen = true"
           />
+          <NuxtLink v-for="locale in availableLocales"
+            :key="locale.code" 
+            :to="switchLocalePath(locale.code)"
+            class="[vertical-align:super]">
+            {{ locale.name }}
+          </NuxtLink>
         </div>
+        
       </div>
     </header>
     <div class="flex-grow flex">
@@ -67,5 +74,11 @@
 
 <script setup lang="ts">
 const isAboutModalOpen = ref(false);
+const { locale, locales } = useI18n()
+const switchLocalePath = useSwitchLocalePath()
+
+const availableLocales = computed(() => {
+  return locales.value.filter(i => i.code !== locale.value)
+})
 </script>
 

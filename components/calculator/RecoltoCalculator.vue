@@ -104,6 +104,8 @@ import Step1 from "./Step1.vue";
 import Step2 from "./Step2.vue";
 import Step3 from "./Step3.vue";
 
+const { t } = useI18n();
+
 const emit = defineEmits([
   "drawRoof",
   "drawWaterUsage",
@@ -119,15 +121,15 @@ const emit = defineEmits([
 const steps = [
   {
     value: 1,
-    label: "Toiture",
+    label: t("calculateur.roof"),
     icon: "i-heroicons-home",
   }, {
     value: 2,
-    label: "Habitudes",
+    label: t("calculateur.habits"),
     icon: "faucet_drip",
   }, {
     value: 3,
-    label: "Résultats",
+    label: t("calculateur.results"),
     icon: "i-heroicons-chart-bar-square",
   },
 ];
