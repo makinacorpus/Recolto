@@ -16,7 +16,7 @@
         <span v-if="currentAddress?.properties" class="truncate max-w-[calc(100vw-12rem)] md:max-w-[15rem] lg:max-w-[20rem]">
           {{ currentAddress?.properties?.label }}
         </span>
-        <span v-else class="truncate">Cherchez une adresse…</span>
+        <span v-else class="truncate"> {{ t("search.address") }}</span>
       </template>
       <template #option="{ option: searchResults }">
         <span class="truncate">
@@ -24,7 +24,7 @@
         </span>
       </template>
       <template #option-empty>
-        Aucun résultat trouvé
+        {{ t("search.no_results") }}
       </template>
     </USelectMenu>
     <UButton
@@ -34,7 +34,7 @@
         'text-red-800': geolocateError,
         'text-sky-500': geolocated,
       }"
-      title="Zoomer sur ma position"
+      v-bind:title=geolocTooltip
       size="xl"
       :loading="geolocating"
       color="white"
@@ -45,6 +45,8 @@
 
 <script setup lang="ts">
 import { ApiAddress } from "~/declaration";
+
+const { t } = useI18n();
 
 const emit = defineEmits<{
   (e: 'new-location', to: { latlng: L.LatLngExpression, accuracy?: number }): void
@@ -71,6 +73,7 @@ const geolocationApi = navigator.geolocation
 const geolocating = ref(false)
 const geolocateError = ref(false)
 const geolocated = ref(false)
+const geolocTooltip = t("search.geoloc_tooltip");
 const fetchGeolocation = () => {
   if (!geolocationApi) {
     return

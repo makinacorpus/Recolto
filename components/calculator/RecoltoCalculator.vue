@@ -5,7 +5,7 @@
     <div class="flex flex-col">
       <header class="mb-4 hidden md:block">
         <h2 class="text-center mb-4">
-          Étapes de l'estimation
+          {{ t("calculateur.steps") }} 
         </h2>
 
         <div class="grid grid-cols-3 justify-items-stretch">
@@ -66,7 +66,7 @@
             class="sm:h-12 sm:w-48 mx-auto my-2 flex justify-center items-center"
             :ui="{ variant: { outline: 'shadow-sm bg-transparent text-white-900 dark:text-white ring-1 ring-inset ring-white dark:ring-white-400 focus:ring-2 focus:ring-purple dark:focus:ring-white hover:bg-purple' }}"
           >
-            Redessiner
+            {{ t("calculateur.redraw") }}
           </UButton>
           <UButton
             @click="changeStep(1)"
@@ -74,7 +74,7 @@
             :disabled="!props.roofSurface"
             :title="!props.roofSurface ? 'Vous devez sélectionner une adresse' : ''"
           >
-            Étape suivante
+            {{ t("calculateur.next_step") }}
           </UButton>
         </div>
       </template>

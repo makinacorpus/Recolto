@@ -6,10 +6,10 @@
     />
     <SubStep
       :number="1"
-      title="Quel est votre type de toiture&nbsp;?"
+      v-bind:title=stepTitles.substep1
     >
       <template v-slot:subtitle>
-        Certains matériaux ou formes de toit perdent ± d’eau selon le volume qu’il tombe. Un coefficient de perte est pris en compte.
+        {{ t("step1.roof_type_info") }}
       </template>
       <div class="flex gap-3 flex-wrap justify-between">
         <URadio
@@ -26,10 +26,10 @@
     </SubStep>
     <SubStep
       :number="2"
-      title="Dessiner la pente utile de votre toit"
+      v-bind:title=stepTitles.substep2
     >
       <template v-slot:subtitle>
-        En fonction de l’implantation de vos gouttières, dessinez la ou les pentes qui desserviront votre récupérateur d’eau.
+        {{ t("step1.draw_roof_info") }}
       </template>
       <div v-if="!props.roofSurface">
         <UButton
@@ -40,11 +40,11 @@
           @click="$emit('drawRoof', { area: 'roof'})"
           class="h-8 w-32 md:h-12 md:w-48 mx-auto my-2 bg-purple flex justify-center items-center hover:bg-purple-900 focus:ring-2"
         >
-          Dessiner
+          {{ t("step1.draw_roof") }}
         </UButton>
       </div>
       <div v-else class="flex flex-wrap my-2 md:mt-6 md:mb-4 mx-2">
-        <p class="w-2/3 text-base md:text-lg font-semibold">Surface de pente utile</p>
+        <p class="w-2/3 text-base md:text-lg font-semibold">{{ t("step1.useful_surface") }}</p>
         <p class="w-1/3 text-lg md:text-xl font-bold flex justify-end self-center">
           {{ (props.roofSurface).toLocaleString("fr-FR") }} m²
         </p>
@@ -52,7 +52,7 @@
     </SubStep>
     <SubStep
       :number="3"
-      title="Votre logement est-il raccordé au tout-à-l'égout&nbsp;?"
+      v-bind:title=stepTitles.substep3
     >
       <div class="flex flex-row items-center">
         <UToggle
@@ -68,7 +68,7 @@
         />
         <label for="sewageSystem" class="ml-2 font-semibold text-base">
           {{
-            selectedSewageSystem ? "Oui" : "Non"
+            selectedSewageSystem ? t("yes") : t("no")
           }}
         </label>
       </div>
@@ -79,6 +79,8 @@
 <script setup lang="ts">
 import SearchBar from '../map/SearchBar.vue';
 import SubStep from './SubStep.vue';
+
+const { t } = useI18n();
 
 const emit = defineEmits([
   "newCenter",
@@ -95,10 +97,17 @@ const props = defineProps<{
 }>();
 
 const typeOfRoofWithCoeff = [
-  { label: "Ardoise", name: "ardoise", value: 0.8 }, // "slate"
-  { label: "Tuile / tôle", name: "tuile", value: 0.9 }, // "tile"
-  { label: "Plat", name: "plat", value: 0.6 }, // "flat"
-  { label: "Végétalisé", name: "vegetal", value: 0.4 }, // "planted"
+  { label: t("step1.slate"), name: "ardoise", value: 0.8 },
+  { label: t("step1.tile"), name: "tuile", value: 0.9 },
+  { label: t("step1.flat"), name: "plat", value: 0.6 },
+  { label: t("step1.vegetal"), name: "vegetal", value: 0.4 },
 ];
+
+// workaround to pass the titles, may be ugly
+const stepTitles = {
+  substep1: t("step1.roof_type_prompt"),
+  substep2: t("step1.draw_roof_prompt"),
+  substep3: t("step1.mains_drainage_prompt")
+};
 
 </script>

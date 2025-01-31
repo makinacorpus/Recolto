@@ -1,7 +1,32 @@
 {
     "calculateur": {
+        "steps": "Étapes de l'estimation",
         "roof": "Toiture",
         "habits": "Habitudes",
-        "results": "Résultats"
-    }
+        "results": "Résultats",
+        "redraw": "Redessiner",
+        "next_step": "Étape suivante"
+    },
+    "search": {
+        "address": "Cherchez une adresse…",
+        "no_results": "Aucun résultat trouvé",
+        "geoloc_tooltip": "Zoomer sur ma position"
+    },
+    "step1": {
+        "roof_type_prompt": "Quel est votre type de toiture ?",
+        "roof_type_info": "Certains matériaux ou formes de toit perdent ± d’eau selon le volume qu’il tombe. Un coefficient de perte est pris en compte.",
+        "slate": "Ardoise",
+        "tile": "Tuiles ou tôle",
+        "flat": "Plat",
+        "vegetal": "Végétalisé",
+        "draw_roof_prompt": "Dessiner la pente utile de votre toit",
+        "draw_roof_info": "En fonction de l’implantation de vos gouttières, dessinez la ou les pentes qui desserviront votre récupérateur d’eau.",
+        "draw_roof": "Dessiner",
+        "useful_surface": "Surface de pente utile",
+        "mains_drainage_prompt": "Votre logement est-il raccordé au tout-à-l'égout ?"
+    },
+    "step2": {},
+    "step3": {},
+    "yes": "Oui",
+    "no": "Non"
   }

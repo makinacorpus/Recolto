@@ -1,7 +1,33 @@
 {
     "calculateur": {
+        "steps": "Estimation steps",
         "roof": "Roof",
         "habits": "Habits",
-        "results": "Results"
-    }
+        "results": "Results",
+        "redraw": "Redraw",
+        "next_step": "Next step"
+    },
+    "search": {
+        "address": "Type your address to look it up",
+        "no_results": "No results found",
+        "geoloc_tooltip": "Zoom on my position"
+    },
+    "step1": {
+        "roof_type_prompt": "What is the type of your roof?",
+        "roof_type_info": "TODO",
+        "slate": "Slate",
+        "tile": "Tiles or ??",
+        "flat": "Flat",
+        "vegetal": "Planted",
+        "draw_roof_prompt": "Draw the shape of your roof",
+        "draw_roof_info": "TODO",
+        "draw_roof": "Draw",
+        "useful_surface": "Useful roof surface",
+        "mains_drainage_prompt": "Is your place connected to the mains drainage?"
+    
+    },
+    "step2": {},
+    "step3": {},
+    "yes": "Yes",
+    "no": "No"
   }
