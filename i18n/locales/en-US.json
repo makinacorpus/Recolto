@@ -26,8 +26,25 @@
         "mains_drainage_prompt": "Is your place connected to the mains drainage?"
     
     },
-    "step2": {},
+    "step2": {
+        "usage_prompt": "What is your water usage?",
+        "usage_info": "Knowing your usual water consumption enables to optimize the size of your water collector.",
+        "garden_irrigation": "Garden irrigation",
+        "veg_garden_irrigation": "Vegetable garden irrigation",
+        "interior_uses": "Interior use",
+        "interior_uses_prompt": "Would your water collector be connected to:",
+        "toilets": "toilets?",
+        "washing_machine": "a washing machine?",
+        "occupancy": "How many people live in your household?",
+        "persons": "persons",
+        "draw": "Draw",
+        "other_uses": "Other uses",
+        "other_uses_info": "For example: watering interior plants, washing floors, tools or other equipment…",
+        "compute": "Compute"
+    },
     "step3": {},
     "yes": "Yes",
-    "no": "No"
+    "no": "No",
+    "or": "or",
+    "L_per_year": "L/year"
   }
