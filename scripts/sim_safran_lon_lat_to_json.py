@@ -1,5 +1,3 @@
-import re
-import branca
 import pandas as pd
 import geopandas as gpd
 from pyproj import Transformer
@@ -29,7 +27,7 @@ def load_csv_and_create_datarame(csv_compress):
 
 def filter_by_date(df_preci, start_date, end_date):
     """
-    Filtre les enregistrements du DataFrame en fonction de la plage de dates donnée.
+    Conservation des enregistrements compris entre start_date et end_date.
     """
     return df_preci[(df_preci['DATE'] >= start_date) & (df_preci['DATE'] <= end_date)]
 
@@ -82,7 +80,7 @@ def locate_safran_points_geojson(df_preci, geojson_path, centroid_geojson_json):
     df_preci_fr = df_preci.merge(df_coord[['GID', 'LON', 'LAT']], on=['LON', 'LAT'], how='inner')
     print(df_preci_fr.head())
 
-    return df_coord, df_preci_fr
+    return gdf_fr, df_coord, df_preci_fr
 
 
 
@@ -95,7 +93,7 @@ def compute_statistics(df_preci_fr):
     df_preci_fr['MONTHS'] = df_preci_fr['DATE'].dt.to_period('M').astype(str)
     return df_preci_fr
 
-def export_station_stats(df_preci_fr, df_coord, outfolder):
+def export_station_stats(df_preci_fr_comp, df_coord, outfolder):
     """
     Pour chaque station (identifiée par gid) dans df_coord, calcule la somme annuelle et mensuelle des précipitations,
     construit un dictionnaire structuré et l'exporte en fichier JSON dans le dossier outfolder.
@@ -110,9 +108,9 @@ def export_station_stats(df_preci_fr, df_coord, outfolder):
         print(f"Processing GID {gid} at coordinates ({lon_val}, {lat_val})")
 
         # Filtrer les données pour la station actuelle
-        df_station = df_preci_fr[
-            (df_preci_fr['LON'] == lon_val) &
-            (df_preci_fr['LAT'] == lat_val)
+        df_station = df_preci_fr_comp[
+            (df_preci_fr_comp['LON'] == lon_val) &
+            (df_preci_fr_comp['LAT'] == lat_val)
         ]
         
         # Calcul des statistiques annuelles
@@ -176,7 +174,7 @@ def process_and_export_meteo_data(csv_compress, geojson_path,
     # 3.  Conversion en longitude et altitude
     df_preci_conv = convert_lambert2_to_long_lat(df_preci_filter)
     # 4. Filtrage spatial : conserver uniquement les enregistrements en France
-    df_coord, df_preci_fr = locate_safran_points_geojson(df_preci_conv, geojson_path, centroid_geojson_json)
+    _, df_coord, df_preci_fr = locate_safran_points_geojson(df_preci_conv, geojson_path, centroid_geojson_json)
     # 5. Calcul des colonnes d'années et de mois (pour le regroupement)
     df_preci_fr_comp = compute_statistics(df_preci_fr)
     # 6. Calcul et export des statistiques par station en JSON
@@ -193,7 +191,7 @@ if __name__ == "__main__":
     # Définir les paramètres
     csv_compress ="public/data/QUOT_SIM2_previous-2020-202412.csv.gz"
     centroid_geojson_json = "public/data/centroid_coordinates_SIM_LON_LAT.json"
-    geojson_path = "public/data/FRANCE_DOM_GEOJSON/arrondissements-avec-outre-mer.geojson"
+    geojson_path = "public/data/FRANCE_DOM_GEOJSON/departements_metropole.geojson"
     start_date = "2024-01-01" 
     end_date   = "2024-12-31"
     output_folder = 'public/data/FR-ID-JSON_TEST_SIM_LON_LAT'
