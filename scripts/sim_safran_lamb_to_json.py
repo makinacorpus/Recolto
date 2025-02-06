@@ -163,9 +163,9 @@ def process_and_export_meteo_data(csv_compress,
     df_preci, _ = load_csv_and_create_datarame(csv_compress)
     # 2.Filtrage temporel pour ne conserver que les enregistrements entre start_date et end_date.
     df_preci_filter = filter_by_date(df_preci, start_date, end_date)
-    #3
+    #3 Utlisation des coordonnées issues de la grille Safran
     df_coord, df_preci_fr= locate_safran_points_csv(df_preci_filter, csv_grid_safran_path, centroid_csv_json)
-    #4 Configuration  du paramètre de la precipitation efficace
+    #4 Configure la sélection et le traitement de PE_Q
     peq_config = configure_pq_selection(df_preci_fr, use_PEQ, use_negative_PEQ)
     # 5. Calcul des colonnes d'années et de mois (pour le regroupement)
     df_preci_fr_comp = compute_statistics(peq_config)
