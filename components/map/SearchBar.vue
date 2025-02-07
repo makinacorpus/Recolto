@@ -34,7 +34,7 @@
         'text-red-800': geolocateError,
         'text-sky-500': geolocated,
       }"
-      v-bind:title=geolocTooltip
+      :title="t('search.geoloc_tooltip')"
       size="xl"
       :loading="geolocating"
       color="white"
@@ -73,7 +73,6 @@ const geolocationApi = navigator.geolocation
 const geolocating = ref(false)
 const geolocateError = ref(false)
 const geolocated = ref(false)
-const geolocTooltip = t("search.geoloc_tooltip");
 const fetchGeolocation = () => {
   if (!geolocationApi) {
     return

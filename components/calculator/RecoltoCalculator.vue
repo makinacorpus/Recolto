@@ -5,7 +5,7 @@
     <div class="flex flex-col">
       <header class="mb-4 hidden md:block">
         <h2 class="text-center mb-4">
-          {{ t("calculateur.steps") }} 
+          {{ t("calculator.steps") }} 
         </h2>
 
         <div class="grid grid-cols-3 justify-items-stretch">
@@ -66,7 +66,7 @@
             class="sm:h-12 sm:w-48 mx-auto my-2 flex justify-center items-center"
             :ui="{ variant: { outline: 'shadow-sm bg-transparent text-white-900 dark:text-white ring-1 ring-inset ring-white dark:ring-white-400 focus:ring-2 focus:ring-purple dark:focus:ring-white hover:bg-purple' }}"
           >
-            {{ t("calculateur.redraw") }}
+            {{ t("calculator.redraw") }}
           </UButton>
           <UButton
             @click="changeStep(1)"
@@ -74,7 +74,7 @@
             :disabled="!props.roofSurface"
             :title="!props.roofSurface ? 'Vous devez sélectionner une adresse' : ''"
           >
-            {{ t("calculateur.next_step") }}
+            {{ t("calculator.next_step") }}
           </UButton>
         </div>
       </template>
@@ -121,7 +121,7 @@ const emit = defineEmits([
 const steps = [
   {
     value: 1,
-    label: t("calculateur.roof"),
+    label: t("calculator.roof"),
     icon: "i-heroicons-home",
   }, {
     value: 2,

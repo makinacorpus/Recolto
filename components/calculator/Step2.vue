@@ -130,7 +130,7 @@
           type="number"
           v-model="exteriorMaintenance"
         />
-        <p> {{ t("L_per_year") }}</p>
+        <p>&nbsp;{{ t("L_per_year") }}</p>
       </div>
     </UsageAccordion>
 

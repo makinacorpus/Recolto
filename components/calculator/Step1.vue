@@ -6,7 +6,7 @@
     />
     <SubStep
       :number="1"
-      v-bind:title=stepTitles.substep1
+      :title="t('step1.substep1')"
     >
       <template v-slot:subtitle>
         {{ t("step1.roof_type_info") }}
