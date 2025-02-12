@@ -40,3 +40,6 @@ public/data/FR-ID-JSON_SIM_LAMBX_LAMBY/*
 !public/data/FR-ID-JSON_SIM_LAMBX_LAMBY/.gitkeep
 public/data/FR-ID-JSON_TEST_SIM_LON_LAT/*
 !public/data/FR-ID-JSON_TEST_SIM_LON_LAT/.gitkeep
+
+# pycache des scripts
+scripts/__pycache__/*
