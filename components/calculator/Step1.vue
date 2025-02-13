@@ -26,7 +26,7 @@
     </SubStep>
     <SubStep
       :number="2"
-      v-bind:title=stepTitles.substep2
+      :title="t('step1.substep2')"
     >
       <template v-slot:subtitle>
         {{ t("step1.draw_roof_info") }}
@@ -52,7 +52,7 @@
     </SubStep>
     <SubStep
       :number="3"
-      v-bind:title=stepTitles.substep3
+      :title="t('step1.substep3')"
     >
       <div class="flex flex-row items-center">
         <UToggle
@@ -103,12 +103,4 @@ const typeOfRoofWithCoeff = [
   { label: t("step1.flat"), name: "plat", value: 0.6 },
   { label: t("step1.vegetal"), name: "vegetal", value: 0.4 },
 ];
-
-// workaround to pass the titles, may be ugly
-const stepTitles = {
-  substep1: t("step1.roof_type_prompt"),
-  substep2: t("step1.draw_roof_prompt"),
-  substep3: t("step1.mains_drainage_prompt")
-};
-
 </script>

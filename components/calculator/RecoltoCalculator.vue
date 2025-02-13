@@ -125,11 +125,11 @@ const steps = [
     icon: "i-heroicons-home",
   }, {
     value: 2,
-    label: t("calculateur.habits"),
+    label: t("calculator.habits"),
     icon: "faucet_drip",
   }, {
     value: 3,
-    label: t("calculateur.results"),
+    label: t("calculator.results"),
     icon: "i-heroicons-chart-bar-square",
   },
 ];

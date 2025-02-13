@@ -1,12 +1,12 @@
 <template>
   <SubStep
     :number="4"
-    v-bind:title=stepTitles.substep4
+    :title="t('step2.substep4')"
   >
     <template v-slot:subtitle>
       {{ t("step2.usage_info") }}
     </template>
-    <UsageAccordion v-bind:title=stepTitles.garden class="curved-corner-garden">
+    <UsageAccordion :title="t('step2.garden_irrigation')" class="curved-corner-garden">
       <UButton
         color="white"
         variant="outline"
@@ -35,7 +35,7 @@
         <p>&nbsp;m²</p>
       </div>
     </UsageAccordion>
-    <UsageAccordion v-bind:title=stepTitles.veg_garden class="curved-corner-vegetable">
+    <UsageAccordion :title="t('step2.veg_garden_irrigation')" class="curved-corner-vegetable">
       <UButton
         color="white"
         variant="outline"
@@ -64,7 +64,7 @@
         <p>&nbsp;m²</p>
       </div>
     </UsageAccordion>
-    <UsageAccordion v-bind:title=stepTitles.interior>
+    <UsageAccordion :title="t('step2.interior_uses')">
       <div class="flex flex-col items-start text-base text-left">
         <p class="mb-2">{{ t("step2.interior_uses_prompt") }}</p>
         <ul class="list-disc pl-5 mb-4">
@@ -118,7 +118,7 @@
         </div>
       </div>
     </UsageAccordion>
-    <UsageAccordion v-bind:title=stepTitles.other>
+    <UsageAccordion :title="t('step2.other_uses')">
       <template v-slot:help>
         {{ t("step2.other_uses_info") }}
       </template>
@@ -154,13 +154,6 @@ import SubStep from "./SubStep.vue";
 import UsageAccordion from "./UsageAccordion.vue";
 
 const { t } = useI18n();
-const stepTitles = {
-  substep4: t("step2.usage_prompt"),
-  garden: t("step2.garden_irrigation"),
-  veg_garden: t("step2.veg_garden_irrigation"),
-  interior: t("step2.interior_uses"),
-  other: t("step2.other_uses")
-};
 
 const emit = defineEmits(["compute", "drawWaterUsage"]);
 
