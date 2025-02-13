@@ -6,62 +6,68 @@
     <template v-slot:subtitle>
       La connaissance de vos habitudes de consommation permet d'affiner la taille de votre récupérateur d'eau.
     </template>
-    <UsageAccordion title="Arrosage du jardin" class="curved-corner-garden">
-      <UButton
-        color="white"
-        label="Dessiner"
-        variant="outline"
-        :trailing="false"
-        @click="$emit('drawWaterUsage', { area: 'garden', action: 'draw' })"
-        class="h-10 w-2/6 text-sm sm:text-base mx-auto bg-purple flex justify-center items-center hover:bg-purple-900 focus:ring-2 z-50"
-      >
-        <template #leading>
-          <UIcon
-            class="h-5 w-5 hidden sm:block"
-            name="i-heroicons-paint-brush-20-solid"
-          />
-        </template>
-      </UButton>
-      <p class="w-1/6">ou</p>
-      <div
-        class="w-3/6 flex items-center"
-      >
-        <UInput
-          inputClass="h-10 dark:bg-slate-700 "
-          type="number"
-          v-model="surfaceGarden"
-          @blur="removeDraw('garden')"
-        />
-        <p>&nbsp;m²</p>
-      </div>
-    </UsageAccordion>
-    <UsageAccordion title="Arrosage du potager" class="curved-corner-vegetable">
-      <UButton
-        color="white"
-        label="Dessiner"
-        variant="outline"
-        :trailing="false"
-        @click="$emit('drawWaterUsage', { area: 'vegetable', action: 'draw' })"
-        class="h-10 w-2/6 text-sm sm:text-base mx-auto bg-purple flex justify-center items-center hover:bg-purple-900 focus:ring-2 z-50"
-      >
-        <template #leading>
-          <UIcon
-            class="h-5 w-5 hidden sm:block"
-            name="i-heroicons-paint-brush-20-solid"
-          />
-        </template>
-      </UButton>
-      <p class="w-1/6">ou</p>
-      <div
-        class="w-3/6 flex items-center"
-      >
-        <UInput
-          inputClass="h-10 dark:bg-slate-700"
-          type="number"
-          v-model="surfaceVegetable"
-          @blur="removeDraw('vegetable')"
-        />
-        <p>&nbsp;m²</p>
+    <UsageAccordion title="Usages extérieurs">
+      <div class="flex flex-col">
+        <div class="flex flex-row items-center text-base text-center my-2">
+          <p class="mb-2 mx-2 w-3/6">Arrosage du jardin</p>
+          <UButton
+            color="white"
+            label="Dessiner"
+            variant="outline"
+            :trailing="false"
+            @click="$emit('drawWaterUsage', { area: 'garden', action: 'draw' })"
+            class="h-10 w-2/6 text-sm sm:text-base mx-auto bg-purple flex justify-center items-center hover:bg-purple-900 focus:ring-2 z-50"
+          >
+            <template #leading>
+              <UIcon
+                class="h-5 w-5 hidden sm:block"
+                name="i-heroicons-paint-brush-20-solid"
+              />
+            </template>
+          </UButton>
+          <p class="w-1/6">ou</p>
+          <div
+            class="w-3/6 flex items-center"
+          >
+            <UInput
+              inputClass="h-10 dark:bg-slate-700 "
+              type="number"
+              v-model="surfaceGarden"
+              @blur="removeDraw('garden')"
+            />
+            <p>&nbsp;m²</p>
+          </div>
+        </div>
+        <div class="flex flex-row items-center text-base text-center my-2">
+          <p class="mb-2 mx-2 w-3/6">Arrosage du potager</p>
+          <UButton
+            color="white"
+            label="Dessiner"
+            variant="outline"
+            :trailing="false"
+            @click="$emit('drawWaterUsage', { area: 'vegetable', action: 'draw' })"
+            class="h-10 w-2/6 text-sm sm:text-base mx-auto bg-purple flex justify-center items-center hover:bg-purple-900 focus:ring-2 z-50"
+          >
+            <template #leading>
+              <UIcon
+                class="h-5 w-5 hidden sm:block"
+                name="i-heroicons-paint-brush-20-solid"
+              />
+            </template>
+          </UButton>
+          <p class="w-1/6">ou</p>
+          <div
+            class="w-3/6 flex items-center"
+          >
+            <UInput
+              inputClass="h-10 dark:bg-slate-700"
+              type="number"
+              v-model="surfaceVegetable"
+              @blur="removeDraw('vegetable')"
+            />
+            <p>&nbsp;m²</p>
+          </div>
+        </div>
       </div>
     </UsageAccordion>
     <UsageAccordion title="Usages intérieurs">
