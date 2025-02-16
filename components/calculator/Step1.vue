@@ -101,6 +101,6 @@ const typeOfRoofWithCoeff = [
   { label: t("step1.slate"), name: "ardoise", value: 0.8 },
   { label: t("step1.tile"), name: "tuile", value: 0.9 },
   { label: t("step1.flat"), name: "plat", value: 0.6 },
-  { label: t("step1.vegetal"), name: "vegetal", value: 0.4 },
+  { label: t("step1.planted"), name: "vegetal", value: 0.4 },
 ];
 </script>
