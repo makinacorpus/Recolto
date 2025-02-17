@@ -30,8 +30,6 @@ public/data/SQR_RR_Outremer/*
 # Ignore everything in public/data/SQR_RR_metropole/
 public/data/SQR_RR_metropole/*
 !public/data/SQR_RR_metropole/.gitkeep
-
-public/data/QUOT_SIM2_previous-2020-202412.csv.gz
 public/data/coordonnees_grille_safran_lambert-2-etendu.csv
 public/data/FR-ID-JSON_SIM_LAMBX_LAMBY/*
 !public/data/FR-ID-JSON_SIM_LAMBX_LAMBY/.gitkeep
