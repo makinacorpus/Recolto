@@ -9,6 +9,7 @@
     <UsageAccordion title="Usages extérieurs">
       <div class="flex flex-col">
         <div class="flex flex-row items-center text-base text-center my-2">
+          <span class="garden-icon mx-2 w-1/6">⬤</span>
           <p class="mb-2 mx-2 w-3/6">Arrosage du jardin</p>
           <UButton
             color="white"
@@ -39,6 +40,7 @@
           </div>
         </div>
         <div class="flex flex-row items-center text-base text-center my-2">
+          <span class="vegetable-icon mx-2 w-1/6">⬤</span>
           <p class="mb-2 mx-2 w-3/6">Arrosage du potager</p>
           <UButton
             color="white"
@@ -224,35 +226,11 @@ watch(() => props.surfaceVegetableByDraw, () => {
 
 <style scoped>
 
-.curved-corner-garden:before, .curved-corner-vegetable:before {
-  content: "";
-  display: block;
-  width: 25%;
-  height: 120%;
-  position: absolute;
-  border-radius: 32%;
-  top: 0;
-  left: 0;
+.garden-icon {
+  color: #6ce868;
 }
 
-@media (min-width: 768px) {
-  .curved-corner-garden:before, .curved-corner-vegetable:before {
-    content: "";
-    display: block;
-    width: 25%;
-    height: 150%;
-    position: absolute;
-    border-radius: 32%;
-    top: 0;
-    left: 0;
-  }
-}
-
-.curved-corner-garden:before {
-  box-shadow: -50px -50px 0 0 #6ce868;
-}
-
-.curved-corner-vegetable:before {
-  box-shadow: -50px -50px 0 0 #f47e27;
+.vegetable-icon {
+  color: #f47e27;
 }
 </style>
