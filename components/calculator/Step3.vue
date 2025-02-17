@@ -20,7 +20,7 @@
           </div>
         </div>
         <div class="w-1/3 text-xl md:text-2xl font-bold flex justify-end self-center">
-          {{ (result.idealCapacity).toLocaleString("fr-FR") }} L
+          {{ idealCapacity }} L
         </div>
 
         <div class="w-2/3 text-md lg:text-lg font-semibold mb-2 self-center">
@@ -63,7 +63,7 @@
           Vos besoins en eau
         </div>
         <div class="w-1/3 text-base md:text-lg font-bold flex justify-end self-center">
-          {{ (waterNeeds).toLocaleString("fr-FR") }} L/an
+          {{ waterNeeds }} L/an
         </div>
       </div>
       <div v-if="!result && !loading">
@@ -157,6 +157,7 @@
 
 <script setup lang="ts">
 import Plotly from "plotly.js-dist-min";
+import type { Layout } from "plotly.js-dist-min";
 import InformationTooltip from "./InformationTooltip.vue";
 import SubStep from "./SubStep.vue";
 import { CalculatorResult } from "~/declaration";
@@ -171,7 +172,14 @@ const props = defineProps<{
 }>();
 
 const graphToDisplay: Ref<"recently" | "driest" | "wettest"> = ref("recently");
-
+const idealCapacity = computed<string>(() => {
+  if (props.result) {
+    const realIdealCapacity = props.result.idealCapacity;
+    const roundedIeadCapacity =  Math.ceil(realIdealCapacity / 100) * 100;
+    return roundedIeadCapacity.toLocaleString("fr-FR");
+  }
+  return '';
+})
 const getDivisionForWaterPrice = computed(() => {
   const division = props.result?.waterPrice.division;
   if (division === "communal") return "dans votre commune";
@@ -184,11 +192,11 @@ const selectedScenario = (scenario: "recently" | "driest" | "wettest") => {
   emit("updateResult", scenario);
 };
 
-const waterNeeds = computed(() => {
+const waterNeeds = computed<string>(() => {
   if (!props.result) {
-    return undefined
+    return ''
   }
-  return props.result.waterNeeds.indoor + props.result.waterNeeds.other + props.result.waterNeeds.outdoor
+  return (props.result.waterNeeds.indoor + props.result.waterNeeds.other + props.result.waterNeeds.outdoor).toLocaleString("fr-FR");
 })
 const drawGraph = () => {
   if (props.result?.waterNeeds && props.result.waterRecoverableQuantity) {
@@ -312,7 +320,7 @@ watch(() => props.result, () => {
     Plotly.react(
       refChart!,
       res.data,
-      res.layout,
+      res.layout as Layout,
       {
         showTips: false,
         modeBarButtonsToRemove: [
