@@ -1,0 +1,201 @@
+{
+  "years": {
+    "2020": {
+      "annual_PRELIQ_Q": 803.5
+    },
+    "2021": {
+      "annual_PRELIQ_Q": 636.9
+    },
+    "2022": {
+      "annual_PRELIQ_Q": 611.1
+    },
+    "2023": {
+      "annual_PRELIQ_Q": 1090.5
+    },
+    "2024": {
+      "annual_PRELIQ_Q": 932.8
+    }
+  },
+  "months": {
+    "2020-01": {
+      "monthly_PRELIQ_Q": 1.8
+    },
+    "2020-02": {
+      "monthly_PRELIQ_Q": 2.2
+    },
+    "2020-03": {
+      "monthly_PRELIQ_Q": 12.2
+    },
+    "2020-04": {
+      "monthly_PRELIQ_Q": 46.5
+    },
+    "2020-05": {
+      "monthly_PRELIQ_Q": 145.9
+    },
+    "2020-06": {
+      "monthly_PRELIQ_Q": 171.7
+    },
+    "2020-07": {
+      "monthly_PRELIQ_Q": 69.0
+    },
+    "2020-08": {
+      "monthly_PRELIQ_Q": 69.89999999999999
+    },
+    "2020-09": {
+      "monthly_PRELIQ_Q": 67.4
+    },
+    "2020-10": {
+      "monthly_PRELIQ_Q": 182.89999999999998
+    },
+    "2020-11": {
+      "monthly_PRELIQ_Q": 29.5
+    },
+    "2020-12": {
+      "monthly_PRELIQ_Q": 4.5
+    },
+    "2021-01": {
+      "monthly_PRELIQ_Q": 5.2
+    },
+    "2021-02": {
+      "monthly_PRELIQ_Q": 3.2
+    },
+    "2021-03": {
+      "monthly_PRELIQ_Q": 1.5999999999999999
+    },
+    "2021-04": {
+      "monthly_PRELIQ_Q": 34.2
+    },
+    "2021-05": {
+      "monthly_PRELIQ_Q": 161.70000000000002
+    },
+    "2021-06": {
+      "monthly_PRELIQ_Q": 78.4
+    },
+    "2021-07": {
+      "monthly_PRELIQ_Q": 76.8
+    },
+    "2021-08": {
+      "monthly_PRELIQ_Q": 30.0
+    },
+    "2021-09": {
+      "monthly_PRELIQ_Q": 105.1
+    },
+    "2021-10": {
+      "monthly_PRELIQ_Q": 100.7
+    },
+    "2021-11": {
+      "monthly_PRELIQ_Q": 35.4
+    },
+    "2021-12": {
+      "monthly_PRELIQ_Q": 4.6
+    },
+    "2022-01": {
+      "monthly_PRELIQ_Q": 1.3
+    },
+    "2022-02": {
+      "monthly_PRELIQ_Q": 0.1
+    },
+    "2022-03": {
+      "monthly_PRELIQ_Q": 1.9
+    },
+    "2022-04": {
+      "monthly_PRELIQ_Q": 8.2
+    },
+    "2022-05": {
+      "monthly_PRELIQ_Q": 52.4
+    },
+    "2022-06": {
+      "monthly_PRELIQ_Q": 115.8
+    },
+    "2022-07": {
+      "monthly_PRELIQ_Q": 29.6
+    },
+    "2022-08": {
+      "monthly_PRELIQ_Q": 139.4
+    },
+    "2022-09": {
+      "monthly_PRELIQ_Q": 95.39999999999999
+    },
+    "2022-10": {
+      "monthly_PRELIQ_Q": 27.900000000000002
+    },
+    "2022-11": {
+      "monthly_PRELIQ_Q": 107.7
+    },
+    "2022-12": {
+      "monthly_PRELIQ_Q": 31.4
+    },
+    "2023-01": {
+      "monthly_PRELIQ_Q": 3.3000000000000003
+    },
+    "2023-02": {
+      "monthly_PRELIQ_Q": 0.0
+    },
+    "2023-03": {
+      "monthly_PRELIQ_Q": 24.1
+    },
+    "2023-04": {
+      "monthly_PRELIQ_Q": 32.0
+    },
+    "2023-05": {
+      "monthly_PRELIQ_Q": 158.4
+    },
+    "2023-06": {
+      "monthly_PRELIQ_Q": 195.1
+    },
+    "2023-07": {
+      "monthly_PRELIQ_Q": 5.6
+    },
+    "2023-08": {
+      "monthly_PRELIQ_Q": 135.3
+    },
+    "2023-09": {
+      "monthly_PRELIQ_Q": 99.10000000000001
+    },
+    "2023-10": {
+      "monthly_PRELIQ_Q": 230.10000000000002
+    },
+    "2023-11": {
+      "monthly_PRELIQ_Q": 122.7
+    },
+    "2023-12": {
+      "monthly_PRELIQ_Q": 84.8
+    },
+    "2024-01": {
+      "monthly_PRELIQ_Q": 52.0
+    },
+    "2024-02": {
+      "monthly_PRELIQ_Q": 5.7
+    },
+    "2024-03": {
+      "monthly_PRELIQ_Q": 26.9
+    },
+    "2024-04": {
+      "monthly_PRELIQ_Q": 31.3
+    },
+    "2024-05": {
+      "monthly_PRELIQ_Q": 107.3
+    },
+    "2024-06": {
+      "monthly_PRELIQ_Q": 78.39999999999999
+    },
+    "2024-07": {
+      "monthly_PRELIQ_Q": 32.1
+    },
+    "2024-08": {
+      "monthly_PRELIQ_Q": 40.4
+    },
+    "2024-09": {
+      "monthly_PRELIQ_Q": 190.2
+    },
+    "2024-10": {
+      "monthly_PRELIQ_Q": 331.2
+    },
+    "2024-11": {
+      "monthly_PRELIQ_Q": 37.3
+    },
+    "2024-12": {
+      "monthly_PRELIQ_Q": 0.0
+    }
+  }
+}
