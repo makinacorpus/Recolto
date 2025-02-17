@@ -51,28 +51,31 @@ def locate_safran_points_csv(df_preci, csv_grid_safran_path, centroid_csv_json):
     return grid_sfr_cood, df_preci_fr
 
 
-def configure_pq_selection(df_preci_fr, use_PEQ=True, use_negative_PEQ=True):
+def configure_pq_selection(df_preci_fr, use_PRENEI_Q_and_PEQ=True, use_negative_PEQ=True):
 
     """
     Configure la sélection et le traitement de PE_Q
     """
     df_processed = df_preci_fr.copy()
-    columns_selected = ['PRENEI_Q', 'PRELIQ_Q']
+    columns_selected = ['PRELIQ_Q']
     rename_annual= {
-            'PRENEI_Q': 'annual_PRENEI_Q',
             'PRELIQ_Q': 'annual_PRELIQ_Q'
         }
     rename_monthly = {
-            'PRENEI_Q': 'monthly_PRENEI_Q',
             'PRELIQ_Q': 'monthly_PRELIQ_Q'
         }
 
-    if use_PEQ:
+    if use_PRENEI_Q_and_PEQ:
+        columns_selected.append('PRENEI_Q')
         columns_selected.append('PE_Q')
+
+        rename_annual['PRENEI_Q'] = 'annual_PRENEI_Q'
+        rename_monthly['PRENEI_Q'] = 'annual_PRENEI_Q'
+
         rename_annual['PE_Q'] = 'annual_PE_Q'
         rename_monthly['PE_Q'] = 'monthly_PE_Q'
 
-    if use_PEQ and not use_negative_PEQ:
+    if use_PRENEI_Q_and_PEQ and not use_negative_PEQ:
         df_processed['PE_Q'] = df_processed['PE_Q'].clip(lower=0)
 
  
@@ -137,8 +140,8 @@ def process_and_export_meteo_data(csv_compress,
                                   end_date,
                                   centroid_csv_json,
                                   output_folder,
-                                  use_PEQ=True, 
-                                  use_negative_PEQ=False):
+                                  use_PRENEI_Q_and_PEQ, 
+                                  use_negative_PEQ):
     """
     Ce script permet de traiter et d’exporter les données météorologiques de SIM Safran au format csv comprimé. 
     Il réalise les opérations suivantes :
@@ -166,7 +169,7 @@ def process_and_export_meteo_data(csv_compress,
     #3 Utlisation des coordonnées issues de la grille Safran
     df_coord, df_preci_fr= locate_safran_points_csv(df_preci_filter, csv_grid_safran_path, centroid_csv_json)
     #4 Configure la sélection et le traitement de PE_Q
-    peq_config = configure_pq_selection(df_preci_fr, use_PEQ, use_negative_PEQ)
+    peq_config = configure_pq_selection(df_preci_fr, use_PRENEI_Q_and_PEQ, use_negative_PEQ)
     # 5. Calcul des colonnes d'années et de mois (pour le regroupement)
     df_preci_fr_comp = compute_statistics(peq_config)
     # 6. Calcul et export des statistiques par station en JSON
@@ -181,12 +184,12 @@ def process_and_export_meteo_data(csv_compress,
 
 if __name__ == "__main__":
     # Définir les paramètres
-    csv_compress ="public/data/QUOT_SIM2_previous-2020-202412.csv.gz"
+    csv_compress ="public/data/QUOT_SIM2_previous-2020-202501.csv.gz"
     csv_grid_safran_path = "public/data/coordonnees_grille_safran_lambert-2-etendu.csv"
-    centroid_csv_json = "public/data/centroid_coordinates_SIM_LAMBX_LAMBY.json"
-    start_date = "2023-12-01" 
+    centroid_csv_json = "public/data/centroid_coordinates_all.json"
+    start_date = "2020-01-01" 
     end_date   = "2024-12-01"
-    output_folder = 'public/data/FR-ID-JSON_SIM_LAMBX_LAMBY'
+    output_folder = 'public/data/FR-ID-JSON'
 
     
     process_and_export_meteo_data(csv_compress,  
@@ -195,6 +198,6 @@ if __name__ == "__main__":
                                   end_date,
                                   centroid_csv_json,
                                   output_folder,
-                                  use_PEQ=True, 
+                                  use_PRENEI_Q_and_PEQ=False, 
                                   use_negative_PEQ=True
                                   )

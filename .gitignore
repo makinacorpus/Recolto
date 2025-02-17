@@ -41,5 +41,11 @@ public/data/FR-ID-JSON_SIM_LAMBX_LAMBY/*
 public/data/FR-ID-JSON_TEST_SIM_LON_LAT/*
 !public/data/FR-ID-JSON_TEST_SIM_LON_LAT/.gitkeep
 
+<<<<<<< HEAD
 # pycache des scripts
 scripts/__pycache__/*
+=======
+scripts/__pycache__/
+scripts/Analyse_Rainwater_Tank_Sizing.ipynb
+scripts/rainwater_tank_sizing.py
+>>>>>>> 2717fd44 (Update precipitation data and SIM Safran station centroids)
