@@ -23,6 +23,8 @@ logs
 .env.*
 !.env.example
 
+# vs code
+.vscode
 
 
 # Ignore everything in public/data/SQR_RR_Outremer/
