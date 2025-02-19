@@ -255,6 +255,7 @@ const drawGraph = () => {
       },
       barmode: "group",
       bargap: 0.2,
+      separators: "  .",
       bargroupgap: 0.15,
       showlegend: true,
       legend: { orientation: "h", x: 0, y: -0.2 },
