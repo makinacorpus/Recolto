@@ -54,7 +54,7 @@ def locate_safran_points_csv(df_preci, csv_grid_safran_path, centroid_csv_json):
 def configure_pq_selection(df_preci_fr, use_PRENEI_Q_and_PEQ=True, use_negative_PEQ=True):
 
     """
-    Configure la sélection et le traitement de PE_Q
+    Configure la sélection et le traitement de PRENEI_Q et PE_Q
     """
     df_processed = df_preci_fr.copy()
     columns_selected = ['PRELIQ_Q']
@@ -178,7 +178,7 @@ def process_and_export_meteo_data(csv_compress,
       - end_date (str) : Date de fin du filtrage temporel (format "YYYY-MM-DD").
       - output_folder (str) : Dossier où seront exportés les fichiers JSON des statistiques par station.
       - centroid_csv_json : Sauvegarde la liste des centres (coordonnées uniques) en JSON.
-      -use_PEQ (bool): Indique si la colonne 'PE_Q' doit être incluse.
+      -use_PRENEI_Q_and_PEQ,(bool): Indique si les colonnes 'PRENEI_Q' et 'PE_Q' doit être incluse.
       -use_negative_PEQ (bool): Indique si les valeurs négatives de 'PE_Q' doivent être mises à zéro.
     """
     # 1. Chargement des données CSV compressé
