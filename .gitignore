@@ -22,3 +22,6 @@ logs
 .env
 .env.*
 !.env.example
+
+public/data/QUOT_SIM2_previous-2020-202501.csv.gz
+public/data/coordonnees_grille_safran_lambert-2-etendu.csv
