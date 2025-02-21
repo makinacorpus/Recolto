@@ -52,7 +52,6 @@ export default defineNuxtConfig({
         name: "English"
       }
     ],
-    lazy: true,
     defaultLocale: 'fr-FR',
   },
 });

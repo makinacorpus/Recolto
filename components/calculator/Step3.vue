@@ -1,7 +1,7 @@
 <template>
   <SubStep
     :number="5"
-    v-bind:title=stepTitles.substep5
+    :title="t('step3.estimation')"
   >
     <div class="-mx-2">
       <div v-if="result && !loading" class="flex flex-wrap">
@@ -149,10 +149,6 @@ import SubStep from "./SubStep.vue";
 import { CalculatorResult } from "~/declaration";
 
 const { t, locale } = useI18n();
-
-const stepTitles = {
-  substep5: t("step3.estimation")
-};
 
 const emit = defineEmits([
   "updateResult",

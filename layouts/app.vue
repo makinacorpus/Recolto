@@ -23,14 +23,19 @@
             square
             @click="isAboutModalOpen = true"
           />
-          <NuxtLink v-for="locale in availableLocales"
-            :key="locale.code" 
-            :to="switchLocalePath(locale.code)"
-            class="[vertical-align:super]">
-            {{ locale.name }}
-          </NuxtLink>
+          <UDropdown
+            :items="localeOptions"
+            :popper="{ placement: 'bottom-start' }"
+            class="z-[2000]"
+          >
+            <UButton
+              icon="i-heroicons-language"
+              color="white"
+              :label="localeName"
+              trailing-icon="i-heroicons-chevron-down-20-solid"
+            />
+          </UDropdown>
         </div>
-        
       </div>
     </header>
     <div class="flex-grow flex">
@@ -74,11 +79,17 @@
 
 <script setup lang="ts">
 const isAboutModalOpen = ref(false);
-const { locale, locales } = useI18n()
-const switchLocalePath = useSwitchLocalePath()
+const { locale, locales, setLocale } = useI18n()
 
-const availableLocales = computed(() => {
-  return locales.value.filter(i => i.code !== locale.value)
+const localeName = computed(() => locales.value.find(l => l.code = locale.value)?.name)
+const localeOptions = computed(() => {
+  return [ locales.value.map(l => ({
+    label: l.name,
+    click: () => {
+      console.log(l)
+      setLocale(l.code)
+    }
+  })) ]
 })
 </script>
 
