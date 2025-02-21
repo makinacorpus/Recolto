@@ -81,12 +81,12 @@
 const isAboutModalOpen = ref(false);
 const { locale, locales, setLocale } = useI18n()
 
-const localeName = computed(() => locales.value.find(l => l.code = locale.value)?.name)
+const localeName = computed(() => locales.value.find(l => l.code === locale.value)?.name)
+
 const localeOptions = computed(() => {
   return [ locales.value.map(l => ({
     label: l.name,
     click: () => {
-      console.log(l)
       setLocale(l.code)
     }
   })) ]
