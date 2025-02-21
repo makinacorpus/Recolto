@@ -14,20 +14,53 @@ def dict_to_json(dictionnary, outpath):
         outfile.write(json_object)
 
 
-def load_csv_and_create_datarame(csv_compress):
+def load_csv_and_create_dataframe(csv_compress_list, pc_pierrick=False):
     """
     Charge le csv compressé, crée le dataframe et extrait les valeurs des
-    preciitations.
+    precipitations.
     """  
     columns_to_keep = [
         'LAMBX', 'LAMBY', 'DATE', 'PRENEI_Q', 'PRELIQ_Q', 'PE_Q'
     ]
-    df = pd.read_csv(csv_compress, sep=";", decimal=".", compression="gzip")
-    df['DATE'] = pd.to_datetime(df['DATE'], format='%Y%m%d')
-    df_preci = df[columns_to_keep]
+    dtypes = {
+        'LAMBX': 'float32',
+        'LAMBY': 'float32',
+        'DATE': 'str',
+        'PRENEI_Q': 'float32',
+        'PRELIQ_Q': 'float32',
+        'PE_Q': 'float32'
+    }
+    df_list = []
 
-    print(df_preci.head())
-    return df_preci
+    # for each file in the list
+    for file in csv_compress_list:
+        if pc_pierrick:
+            df = pd.read_csv(
+                file,
+                sep=";",
+                encoding="latin1",
+                usecols=columns_to_keep,
+                dtype=dtypes
+            )
+        else:
+            df = pd.read_csv(
+                file,
+                sep=";",
+                decimal=".",
+                compression="gzip",
+                usecols=columns_to_keep,
+                dtype=dtypes
+            )
+        df_list.append(df)
+        print(f"\nLoaded {file} with {len(df)} lines.")
+
+    # Concatenate the dataframes
+    df = pd.concat(df_list, ignore_index=True)
+
+    # Convert DATE to datetime
+    df['DATE'] = pd.to_datetime(df['DATE'], format='%Y%m%d')
+    print(df.head())
+    return df
 
 
 def filter_by_date(df_preci, start_date, end_date):
@@ -55,8 +88,8 @@ def convert_lambert2_to_long_lat(df_preci):
     )
     df_preci = df_preci.copy()
     df_preci['LON'], df_preci['LAT'] = transformer.transform(
-        df_preci['LAMBX']*100,
-        df_preci['LAMBY']*100
+        df_preci['LAMBX'] * 100,
+        df_preci['LAMBY'] * 100
     )
     columns= [
         'LAMBX', 'LAMBY', 'LON', 'LAT', 'DATE', 'PRENEI_Q', 'PRELIQ_Q', 'PE_Q'
@@ -179,12 +212,13 @@ def export_station_stats(df_preci_fr_comp, df_coord, outfolder):
 
 
 def process_and_export_meteo_data(
-    csv_compress,
+    csv_compress_list,
     geojson_path,
     start_date,
     end_date,
     centroid_geojson_json,
-    output_folder
+    output_folder,
+    pc_pierrick=False
 ):
     """
     Ce script permet de traiter et d’exporter les données météorologiques de
@@ -200,7 +234,7 @@ def process_and_export_meteo_data(
     5. Calcul et export des statistiques
 
     Paramètres :
-    - csv_compress (str) : Chemins vers le dossier contenant CSV compressé.
+    - csv_compress_list (str) : Chemins vers le dossier contenant CSV compressé.
     - geojson_path(str) : Chemin vers le fichier geojson contenant la grille.
     - start_date (str) : Date de début du filtrage temporel (format
     "YYYY-MM-DD").
@@ -211,7 +245,7 @@ def process_and_export_meteo_data(
     (coordonnées uniques) en JSON.
     """
     # 1. Chargement des données CSV combinées
-    df_preci = load_csv_and_create_datarame(csv_compress)
+    df_preci = load_csv_and_create_dataframe(csv_compress_list, pc_pierrick)
 
     # 2. Filtrage temporel
     df_preci_filter = filter_by_date(df_preci, start_date, end_date)
@@ -238,22 +272,34 @@ def process_and_export_meteo_data(
 #######################################
 
 if __name__ == "__main__":
+
+    # Script sur PC de Pierrick
+    pc_pierrick = True
+    print("Script sur pc de Pierrick")
+    print("\nCurrent working directory:", os.getcwd())
+
     # Définir les paramètres
-    csv_compress ="public/data/QUOT_SIM2_previous-2020-202412.csv.gz"
+    # csv_compress ="public/data/QUOT_SIM2_previous-2020-202412.csv.gz"
+    csv_compress_list =[
+        "../.data/meteo_france/QUOT_SIM2_previous-2020-202412.csv",
+        "../.data/meteo_france/SIM2_2010_2019.csv",
+        "../.data/meteo_france/SIM2_2000_2009.csv"
+    ]
     centroid_geojson_json = "public/data/centroid_coordinates_SIM_LON_LAT.json"
     geojson_path = (
         "public/data/FRANCE_DOM_GEOJSON/departements_metropole.geojson"
     )
-    start_date = "2024-01-01" 
+    start_date = "2000-01-01" 
     end_date   = "2024-12-31"
-    output_folder = 'public/data/FR-ID-JSON_TEST_SIM_LON_LAT'
+    output_folder = 'public/data/FR-ID-JSON_SIM_LON_LAT_PB'
 
     # Execute the function
     process_and_export_meteo_data(
-        csv_compress, 
+        csv_compress_list, 
         geojson_path, 
         start_date, 
         end_date,
         centroid_geojson_json, 
-        output_folder
+        output_folder,
+        pc_pierrick
     )
