@@ -29,6 +29,7 @@
         <UInput
           inputClass="h-10 dark:bg-slate-700 "
           type="number"
+          :min="0"
           v-model="surfaceGarden"
           @blur="removeDraw('garden')"
         />
@@ -58,6 +59,7 @@
         <UInput
           inputClass="h-10 dark:bg-slate-700"
           type="number"
+          :min="0"
           v-model="surfaceVegetable"
           @blur="removeDraw('vegetable')"
         />
@@ -111,6 +113,7 @@
             <UInput
               inputClass="h-10 dark:bg-slate-700"
               type="number"
+              :min="0"
               v-model="residentNumber"
             />
             <p>&nbsp;personnes</p>
@@ -129,6 +132,7 @@
         <UInput
           inputClass="h-10 dark:bg-slate-700"
           type="number"
+          :min="0"
           v-model="exteriorMaintenance"
         />
         <p>&nbsp;L/an</p>
@@ -165,7 +169,6 @@ const props = defineProps<{
 const surfaceGarden: Ref<number> = ref(props.surfaceGardenByDraw);
 const surfaceVegetable: Ref<number> = ref(props.surfaceVegetableByDraw);
 const exteriorMaintenance: Ref<number> = ref(0);
-
 const toiletsConnected = ref(false);
 const washingMachineConnected = ref(false);
 const residentNumber = ref(0)
