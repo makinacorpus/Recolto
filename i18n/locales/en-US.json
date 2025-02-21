@@ -14,17 +14,17 @@
     },
     "step1": {
         "substep1": "What is the type of your roof?",
-        "roof_type_info": "TODO",
+        "roof_type_info": "Certain roof materials or shapes lose ± water depending on the volume it falls. A loss coefficient is taken into account.",
         "slate": "Slate",
         "tile": "Tiles or ??",
         "flat": "Flat",
         "planted": "Planted",
         "substep2": "Draw the shape of your roof",
-        "draw_roof_info": "TODO",
+        "draw_roof_info": "Depending on the location of your gutters, design the slope(s) that will serve your water collector.",
         "draw_roof": "Draw",
         "useful_surface": "Useful roof surface",
         "substep3": "Is your place connected to the mains drainage?"
-    
+
     },
     "step2": {
         "substep4": "What is your water usage?",
