@@ -200,142 +200,92 @@ const waterNeeds = computed<string>(() => {
 })
 const drawGraph = () => {
   if (props.result?.waterNeeds && props.result.waterRecoverableQuantity) {
-    let waterRecovery: any = {
+    let waterRecovery = {
       x: ["Janv", "Févr", "Mars", "Avril", "Mai", "Juin", "Juil", "Août", "Sept", "Oct", "Nov", "Déc"],
       y: Object.values(props.result.waterRecoverableQuantity),
-      hovertemplate: "%{y} L<extra></extra>",
+      hovertemplate: "%{y:,} L<extra></extra>",
       type: "bar",
       name: `Précipitations enregistrées`,
+      marker: {
+        color: graphToDisplay.value === "recently" ? "#29235c" : graphToDisplay.value === "driest" ? "#af6708" : "#085421",
+        opacity: 0.8,
+      },
     };
-    if (graphToDisplay.value === "recently") {
-      waterRecovery = {
-        ...waterRecovery,
-        marker: {
-          color: "#29235c",
-        },
-      };
-    } else if (graphToDisplay.value === "driest") {
-      waterRecovery = {
-        ...waterRecovery,
-        marker: {
-          color: "#af6708",
-          opacity: 0.6,
-        },
-      };
-    } else {
-      waterRecovery = {
-        ...waterRecovery,
-        marker: {
-          color: "#085421",
-          opacity: 0.6,
-        },
-      };
-    }
 
     const waterNeeded = {
-      x: ["Janv", "Févr", "Mars", "Avril", "Mai", "Juin", "Juil", "Août", "Sept", "Oct", "Nov", "Déc"],
+      x: waterRecovery.x,
       y: Object.values(props.result.evolutionNeededWater),
-      hovertemplate: "%{y} L<extra></extra>",
+      hovertemplate: "%{y:,} L<extra></extra>",
       type: "bar",
       name: "Besoin en eau par mois",
-      marker: {
-        color: "#009fe3",
-      },
+      marker: { color: "#009fe3" },
     };
 
     const evolutionStockWater = {
-      x: ["Janv", "Févr", "Mars", "Avril", "Mai", "Juin", "Juil", "Août", "Sept", "Oct", "Nov", "Déc"],
+      x: waterRecovery.x,
       y: props.result?.evolutionStockWater,
-      hovertemplate: "%{y} L<extra></extra>",
+      hovertemplate: "%{y:,} L<extra></extra>",
       type: "scatter",
       name: "Évolution du stockage au sein du récupérateur",
-      marker: {
-        color: "#9b093e",
-        opacity: 0.6,
-      },
-      line: {
-        dash: "dot",
-        shape: "spline",
-      },
-    };
-    const evolutionUseTapWater = {
-      x: ["Janv", "Févr", "Mars", "Avril", "Mai", "Juin", "Juil", "Août", "Sept", "Oct", "Nov", "Déc"],
-      y: props.result?.consumptionByTapWater,
-      hovertemplate: "%{y} L<extra></extra>",
-      type: "scatter",
-      name: "Usage de l'eau courante pour palier à l'insuffisance du récupérateur",
-      marker: {
-        color: "#9b8309",
-        opacity: 0.6,
-      },
-      line: {
-        dash: "dot",
-        shape: "spline",
-      },
+      marker: { color: "#9b093e", size: 6, opacity: 0.8 },
+      line: { dash: "dot", shape: "spline", width: 2.5 },
     };
 
+    const evolutionUseTapWater = {
+      x: waterRecovery.x,
+      y: props.result?.consumptionByTapWater,
+      hovertemplate: "%{y:,} L<extra></extra>",
+      type: "scatter",
+      name: "Usage de l'eau courante pour palier à l'insuffisance du récupérateur",
+      marker: { color: "#9b8309", size: 6, opacity: 0.8 },
+      line: { dash: "dot", shape: "spline", width: 2.5 },
+    };
+
+    const maxY = Math.max(
+      ...Object.values(props.result.waterRecoverableQuantity),
+      ...Object.values(props.result.evolutionNeededWater),
+      ...props.result.evolutionStockWater,
+      ...props.result.consumptionByTapWater
+    );
+
     const layout = {
-      font: {
-        size: 10,
-      },
+      font: { size: 12 },
       xaxis: {
         tickangle: -40,
-        tickfont: {
-          size: 10,
-        },
+        tickfont: { size: 12 },
       },
-      yaxis: { range: [0, 6000] },
+      yaxis: {
+        range: [0, maxY * 1.1],
+        tickfont: { size: 12 },
+        tickformat: ",d",
+        autorange: true,
+        ticksuffix: " L",
+      },
       barmode: "group",
-      bargap: 0.15,
-      bargroupgap: 0.1,
+      bargap: 0.2,
+      separators: "  .",
+      bargroupgap: 0.15,
       showlegend: true,
-      legend: { orientation: "h" },
+      legend: { orientation: "h", x: 0, y: -0.2 },
       height: 400,
-      margin: {
-        l: 50,
-        r: 50,
-        b: 0,
-        t: 40,
-        pad: 2,
-      },
+      margin: { l: 80, r: 80, b: 50, t: 40, pad: 2 },
     };
-    return {
-      data: [
-        waterRecovery,
-        waterNeeded,
-        evolutionStockWater,
-        evolutionUseTapWater,
-      ],
-      layout,
-    };
+
+    return { data: [waterRecovery, waterNeeded, evolutionStockWater, evolutionUseTapWater], layout };
   }
   return null;
 };
 
+
 watch(() => props.result, () => {
-  // Needed to always have the last result computed
   const res = drawGraph();
   if (res) {
     const refChart = document.getElementById("refChart");
-    Plotly.react(
-      refChart!,
-      res.data,
-      res.layout as Layout,
-      {
-        showTips: false,
-        modeBarButtonsToRemove: [
-          "zoom2d",
-          "zoomIn2d",
-          "zoomOut2d",
-          "pan2d",
-          "select2d",
-          "lasso2d",
-          "toImage",
-          "autoScale2d",
-        ],
-        displaylogo: false,
-      },
-    );
+    Plotly.react(refChart!, res.data, res.layout, {
+      showTips: false,
+      modeBarButtonsToRemove: ["zoom2d", "zoomIn2d", "zoomOut2d", "pan2d", "select2d", "lasso2d", "toImage", "autoScale2d"],
+      displaylogo: false,
+    });
   }
 });
 </script>
