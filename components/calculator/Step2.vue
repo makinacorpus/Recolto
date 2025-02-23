@@ -8,9 +8,11 @@
     </template>
     <UsageAccordion title="Usages extérieurs">
       <div class="flex flex-col">
+        <p class="mb-2 mx-2 justify-center text-base text-center my-2">
+          <span class="garden-icon mx-2">⬤</span>
+          Arrosage du jardin
+        </p>
         <div class="flex flex-row items-center text-base text-center my-2">
-          <span class="garden-icon mx-2 w-1/6">⬤</span>
-          <p class="mb-2 mx-2 w-3/6">Arrosage du jardin</p>
           <UButton
             color="white"
             label="Dessiner"
@@ -39,9 +41,11 @@
             <p>&nbsp;m²</p>
           </div>
         </div>
+        <p class="mb-2 mx-2 justify-center items-center text-base text-center my-2">
+          <span class="vegetable-icon mx-2">⬤</span>
+          Arrosage du potager
+        </p>
         <div class="flex flex-row items-center text-base text-center my-2">
-          <span class="vegetable-icon mx-2 w-1/6">⬤</span>
-          <p class="mb-2 mx-2 w-3/6">Arrosage du potager</p>
           <UButton
             color="white"
             label="Dessiner"
