@@ -1,87 +1,75 @@
 <template>
   <SubStep
     :number="4"
-    title="Quelles sont vos usages de l'eau&nbsp;?"
+    :title="t('step2.substep4')"
   >
     <template v-slot:subtitle>
-      La connaissance de vos habitudes de consommation permet d'affiner la taille de votre récupérateur d'eau.
+      {{ t("step2.usage_info") }}
     </template>
-    <UsageAccordion title="Usages extérieurs">
-      <div class="flex flex-col">
-        <p class="mb-2 mx-2 justify-center text-base text-center my-2">
-          <span class="garden-icon mx-2">⬤</span>
-          Arrosage du jardin
-        </p>
-        <div class="flex flex-row items-center text-base text-center my-2">
-          <UButton
-            color="white"
-            label="Dessiner"
-            variant="outline"
-            :trailing="false"
-            @click="$emit('drawWaterUsage', { area: 'garden', action: 'draw' })"
-            class="h-10 w-2/6 text-sm sm:text-base mx-auto bg-purple flex justify-center items-center hover:bg-purple-900 focus:ring-2 z-50"
-          >
-            <template #leading>
-              <UIcon
-                class="h-5 w-5 hidden sm:block"
-                name="i-heroicons-paint-brush-20-solid"
-              />
-            </template>
-          </UButton>
-          <p class="w-1/6">ou</p>
-          <div
-            class="w-3/6 flex items-center"
-          >
-            <UInput
-              inputClass="h-10 dark:bg-slate-700 "
-              type="number"
-              v-model="surfaceGarden"
-              @blur="removeDraw('garden')"
-            />
-            <p>&nbsp;m²</p>
-          </div>
-        </div>
-        <p class="mb-2 mx-2 justify-center items-center text-base text-center my-2">
-          <span class="vegetable-icon mx-2">⬤</span>
-          Arrosage du potager
-        </p>
-        <div class="flex flex-row items-center text-base text-center my-2">
-          <UButton
-            color="white"
-            label="Dessiner"
-            variant="outline"
-            :trailing="false"
-            @click="$emit('drawWaterUsage', { area: 'vegetable', action: 'draw' })"
-            class="h-10 w-2/6 text-sm sm:text-base mx-auto bg-purple flex justify-center items-center hover:bg-purple-900 focus:ring-2 z-50"
-          >
-            <template #leading>
-              <UIcon
-                class="h-5 w-5 hidden sm:block"
-                name="i-heroicons-paint-brush-20-solid"
-              />
-            </template>
-          </UButton>
-          <p class="w-1/6">ou</p>
-          <div
-            class="w-3/6 flex items-center"
-          >
-            <UInput
-              inputClass="h-10 dark:bg-slate-700"
-              type="number"
-              v-model="surfaceVegetable"
-              @blur="removeDraw('vegetable')"
-            />
-            <p>&nbsp;m²</p>
-          </div>
-        </div>
+    <UsageAccordion :title="t('step2.garden_irrigation')" class="curved-corner-garden">
+      <UButton
+        color="white"
+        variant="outline"
+        :trailing="false"
+        @click="$emit('drawWaterUsage', { area: 'garden', action: 'draw' })"
+        class="h-10 w-2/6 text-sm sm:text-base mx-auto bg-purple flex justify-center items-center hover:bg-purple-900 focus:ring-2 z-50"
+      >
+        <template #leading>
+          <UIcon
+            class="h-5 w-5 hidden sm:block"
+            name="i-heroicons-paint-brush-20-solid"
+          />
+          {{ t("step2.draw") }}
+        </template>
+      </UButton>
+      <p class="w-1/6">{{ t("or") }}</p>
+      <div
+        class="w-3/6 flex items-center"
+      >
+        <UInput
+          inputClass="h-10 dark:bg-slate-700 "
+          type="number"
+          v-model="surfaceGarden"
+          @blur="removeDraw('garden')"
+        />
+        <p>&nbsp;m²</p>
       </div>
     </UsageAccordion>
-    <UsageAccordion title="Usages intérieurs">
+    <UsageAccordion :title="t('step2.veg_garden_irrigation')" class="curved-corner-vegetable">
+      <UButton
+        color="white"
+        variant="outline"
+        :trailing="false"
+        @click="$emit('drawWaterUsage', { area: 'vegetable', action: 'draw' })"
+        class="h-10 w-2/6 text-sm sm:text-base mx-auto bg-purple flex justify-center items-center hover:bg-purple-900 focus:ring-2 z-50"
+      >
+        <template #leading>
+          <UIcon
+            class="h-5 w-5 hidden sm:block"
+            name="i-heroicons-paint-brush-20-solid"
+          />
+          {{ t("step2.draw") }}
+        </template>
+      </UButton>
+      <p class="w-1/6">{{ t("or") }}</p>
+      <div
+        class="w-3/6 flex items-center"
+      >
+        <UInput
+          inputClass="h-10 dark:bg-slate-700"
+          type="number"
+          v-model="surfaceVegetable"
+          @blur="removeDraw('vegetable')"
+        />
+        <p>&nbsp;m²</p>
+      </div>
+    </UsageAccordion>
+    <UsageAccordion :title="t('step2.interior_uses')">
       <div class="flex flex-col items-start text-base text-left">
-        <p class="mb-2">Votre récupérateur d'eau sera-t-il rattaché&nbsp;:</p>
+        <p class="mb-2">{{ t("step2.interior_uses_prompt") }}</p>
         <ul class="list-disc pl-5 mb-4">
           <li>
-            <span class="mr-2">À des toilettes&nbsp;?</span>
+            <span class="mr-2">{{ t("step2.toilets") }}</span>
             <UToggle
               class="mr-2"
               name="toiletsConnected" id="toiletsConnected"
@@ -94,11 +82,11 @@
               }"
             />
             <label for="toiletsConnected">
-              {{ toiletsConnected ? "Oui" : "Non" }}
+              {{ toiletsConnected ? t("yes") : t("no") }}
             </label>
           </li>
           <li>
-            <span class="mr-2">À une machine à laver&nbsp;?</span>
+            <span class="mr-2">{{ t("step2.washing_machine") }}</span>
             <UToggle
               class="mr-2"
               name="washingMachineConnected" id="washingMachineConnected"
@@ -111,12 +99,12 @@
               }"
             />
             <label for="washingMachineConnected">
-              {{ washingMachineConnected ? "Oui" : "Non" }}
+              {{ washingMachineConnected ? t("yes") : t("no") }}
             </label>
           </li>
         </ul>
         <div class="inline" for="residentNumber">
-          <p class="mb-2">De combien de personnes est composé votre foyer&nbsp;?</p>
+          <p class="mb-2">{{ t("step2.occupancy") }}</p>
           <div
             class="w-full flex items-center justify-center"
           >
@@ -125,15 +113,14 @@
               type="number"
               v-model="residentNumber"
             />
-            <p>&nbsp;personnes</p>
+            <p> {{ t("step2.persons") }}</p>
           </div>
         </div>
       </div>
     </UsageAccordion>
-    <UsageAccordion title="Autres usages">
+    <UsageAccordion :title="t('step2.other_uses')">
       <template v-slot:help>
-        Par exemple&nbsp;: pour l'arrossage de vos plantes intérieures, le lavage
-        des sols, le nettoyage d'équipement ou d'outil…
+        {{ t("step2.other_uses_info") }}
       </template>
       <div
         class="w-full flex items-center justify-center"
@@ -143,7 +130,7 @@
           type="number"
           v-model="exteriorMaintenance"
         />
-        <p>&nbsp;L/an</p>
+        <p>&nbsp;{{ t("L_per_year") }}</p>
       </div>
     </UsageAccordion>
 
@@ -156,7 +143,7 @@
       @click="triggerCompute"
       class="h-12 w-48 mx-auto my-4 bg-purple border border-white flex justify-center items-center disabled:bg-purple-300 ring-purple hover:bg-purple-900"
     >
-      Calculer
+      {{ t("step2.compute") }}
     </UButton>
   </SubStep>
 </template>
@@ -165,6 +152,8 @@
 
 import SubStep from "./SubStep.vue";
 import UsageAccordion from "./UsageAccordion.vue";
+
+const { t } = useI18n();
 
 const emit = defineEmits(["compute", "drawWaterUsage"]);
 
