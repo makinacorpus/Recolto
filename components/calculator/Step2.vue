@@ -6,8 +6,14 @@
     <template v-slot:subtitle>
       {{ t("step2.usage_info") }}
     </template>
-    <UsageAccordion :title="t('step2.garden_irrigation')" class="curved-corner-garden">
-      <UButton
+    <UsageAccordion :title="t('step2.exterior_uses')">
+      <div class="flex flex-col">
+        <p class="mb-2 mx-2 justify-center text-base text-center my-2">
+          <span class="garden-icon mx-2">⬤</span>
+          {{ t('step2.garden_irrigation') }}
+        </p>
+        <div class="flex flex-row items-center text-base text-center my-2">
+          <UButton
         color="white"
         variant="outline"
         :trailing="false"
@@ -34,9 +40,13 @@
         />
         <p>&nbsp;m²</p>
       </div>
-    </UsageAccordion>
-    <UsageAccordion :title="t('step2.veg_garden_irrigation')" class="curved-corner-vegetable">
-      <UButton
+        </div>
+        <p class="mb-2 mx-2 justify-center items-center text-base text-center my-2">
+          <span class="vegetable-icon mx-2">⬤</span>
+          {{ t('step2.veg_garden_irrigation') }}
+        </p>
+        <div class="flex flex-row items-center text-base text-center my-2">
+          <UButton
         color="white"
         variant="outline"
         :trailing="false"
@@ -62,6 +72,8 @@
           @blur="removeDraw('vegetable')"
         />
         <p>&nbsp;m²</p>
+      </div>
+        </div>
       </div>
     </UsageAccordion>
     <UsageAccordion :title="t('step2.interior_uses')">
