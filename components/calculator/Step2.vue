@@ -31,6 +31,7 @@
           type="number"
           :min="0"
           v-model="surfaceGarden"
+          @input="checkGardenValue"
           @blur="removeDraw('garden')"
         />
         <p>&nbsp;m²</p>
@@ -176,15 +177,17 @@ const residentNumber = ref(0)
 
 function triggerCompute () {
   emit("compute", {
-    surfaceGarden: surfaceGarden.value,
-    surfaceVegetable: surfaceVegetable.value,
-    exteriorMaintenance: exteriorMaintenance.value,
+    surfaceGarden: surfaceGarden.value >= 0 ? surfaceGarden.value : 0,
+    surfaceVegetable: surfaceVegetable.value >= 0 ? surfaceVegetable.value : 0,
+    exteriorMaintenance: exteriorMaintenance.value >= 0 ? exteriorMaintenance.value : 0,
     toiletsConnected: toiletsConnected.value,
     washingMachineConnected: washingMachineConnected.value,
-    residentNumber: residentNumber.value,
+    residentNumber: residentNumber.value >= 0 ? residentNumber.value : 0,
   });
 }
-
+const checkGardenValue = () => {
+  console.log(surfaceGarden.value)
+}
 const removeDraw = (area: "garden" | "vegetable") => {
   if (props.surfaceGardenByDraw > 0 && props.surfaceGardenByDraw !== surfaceGarden.value) {
     emit("drawWaterUsage", { area: area, action: "clear" });
