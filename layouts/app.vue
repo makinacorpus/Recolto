@@ -23,6 +23,18 @@
             square
             @click="isAboutModalOpen = true"
           />
+          <UDropdown
+            :items="localeOptions"
+            :popper="{ placement: 'bottom-start' }"
+            class="z-[2000]"
+          >
+            <UButton
+              icon="i-heroicons-language"
+              color="white"
+              :label="localeName"
+              trailing-icon="i-heroicons-chevron-down-20-solid"
+            />
+          </UDropdown>
         </div>
       </div>
     </header>
@@ -67,5 +79,17 @@
 
 <script setup lang="ts">
 const isAboutModalOpen = ref(false);
+const { locale, locales, setLocale } = useI18n()
+
+const localeName = computed(() => locales.value.find(l => l.code === locale.value)?.name)
+
+const localeOptions = computed(() => {
+  return [ locales.value.map(l => ({
+    label: l.name,
+    click: () => {
+      setLocale(l.code)
+    }
+  })) ]
+})
 </script>
 
