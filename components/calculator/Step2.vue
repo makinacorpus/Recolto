@@ -33,8 +33,10 @@
         class="w-3/6 flex items-center"
       >
         <UInput
-          inputClass="h-10 dark:bg-slate-700 "
+          inputClass="h-10 dark:bg-slate-700 bg-white"
           type="number"
+          :color="isErrorSurfaceGarden ? 'red' : 'white'"
+          :min="0"
           v-model="surfaceGarden"
           @blur="removeDraw('garden')"
         />
@@ -66,8 +68,10 @@
         class="w-3/6 flex items-center"
       >
         <UInput
-          inputClass="h-10 dark:bg-slate-700"
+          inputClass="h-10 dark:bg-slate-700 bg-white"
           type="number"
+          :min="0"
+          :color="isErrorSurfaceVegetable ? 'red' : 'white'"
           v-model="surfaceVegetable"
           @blur="removeDraw('vegetable')"
         />
@@ -121,8 +125,10 @@
             class="w-full flex items-center justify-center"
           >
             <UInput
-              inputClass="h-10 dark:bg-slate-700"
+              inputClass="h-10 dark:bg-slate-700 bg-white"
               type="number"
+              :min="0"
+              :color="isErrorResidentNumber ? 'red' : 'white'"
               v-model="residentNumber"
             />
             <p> {{ t("step2.persons") }}</p>
@@ -138,8 +144,10 @@
         class="w-full flex items-center justify-center"
       >
         <UInput
-          inputClass="h-10 dark:bg-slate-700"
+          inputClass="h-10 dark:bg-slate-700 bg-white"
           type="number"
+          :min="0"
+          :color="isErrorExteriorMaintenance ? 'red' : 'white'"
           v-model="exteriorMaintenance"
         />
         <p>&nbsp;{{ t("L_per_year") }}</p>
@@ -151,6 +159,7 @@
       size="xl"
       color="white"
       variant="outline"
+      :disabled="!areParamsValid"
       :trailing="false"
       @click="triggerCompute"
       class="h-12 w-48 mx-auto my-4 bg-purple border border-white flex justify-center items-center disabled:bg-purple-300 ring-purple hover:bg-purple-900"
@@ -178,7 +187,6 @@ const props = defineProps<{
 const surfaceGarden: Ref<number> = ref(props.surfaceGardenByDraw);
 const surfaceVegetable: Ref<number> = ref(props.surfaceVegetableByDraw);
 const exteriorMaintenance: Ref<number> = ref(0);
-
 const toiletsConnected = ref(false);
 const washingMachineConnected = ref(false);
 const residentNumber = ref(0)
@@ -193,6 +201,22 @@ function triggerCompute () {
     residentNumber: residentNumber.value,
   });
 }
+
+const isErrorSurfaceGarden = computed(() => {
+  return surfaceGarden.value < 0 || Number(surfaceGarden.value);
+})
+const isErrorSurfaceVegetable = computed(() => {
+  return surfaceVegetable.value < 0;
+})
+const areParamsValid = computed(() => {
+  return surfaceGarden.value >= 0 && surfaceVegetable.value >= 0 && exteriorMaintenance.value >= 0 && residentNumber.value >= 0;
+})
+const isErrorResidentNumber = computed(() => {
+  return residentNumber.value < 0;
+})
+const isErrorExteriorMaintenance = computed(() => {
+  return exteriorMaintenance.value < 0;
+})
 
 const removeDraw = (area: "garden" | "vegetable") => {
   if (props.surfaceGardenByDraw > 0 && props.surfaceGardenByDraw !== surfaceGarden.value) {
