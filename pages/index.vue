@@ -237,7 +237,7 @@ async function onCompute (usageData: {
   /**
    * Load all area coordinates
    */
-  const centroidsCoordinatesResponse = await fetch("/data/centroid_coordinates_all.json");
+  const centroidsCoordinatesResponse = await fetch("/data/centroid_coordinates_safran.json");
   const centroidsCoordinates: { lng: number, lat: number, gid: number }[] = await centroidsCoordinatesResponse.json();
 
   /**
@@ -261,10 +261,10 @@ async function onCompute (usageData: {
    * Unit is millimeter by square meter, mm/m²
    */
   if (nearestCentroidCoordinates === undefined) {
-    throw 'No Copernicus data found'
+    throw 'No weather data found'
   }
 
-  const copernicusDataResponse = await fetch("/data/copernicus/" + nearestCentroidCoordinates.gid + ".json");
+  const copernicusDataResponse = await fetch("/data/FR-ID-JSON/" + nearestCentroidCoordinates.gid + ".json");
   const copernicusData = await copernicusDataResponse.json();
 
   /**

@@ -142,13 +142,13 @@
         <p>
           Cette estimation se base sur les données
           <a
-            href="https://cds.climate.copernicus.eu/cdsapp#!/dataset/insitu-gridded-observations-global-and-regional?tab=overview"
+            href="https://meteo.data.gouv.fr/"
             target="_blank"
             rel="noopener"
           >
-            Copernicus
+            Météo France
           </a>
-          de 2001 à {{ result.lastKnownYear }}.
+          de 1960 à {{ result.lastKnownYear }}.
         </p>
       </div>
     </div>
