@@ -23,6 +23,7 @@ logs
 .env.*
 !.env.example
 
+
 # Weather data
 public/data/QUOT_SIM2/*
 public/data/coordonnees_grille_safran_lambert-2-etendu.csv
