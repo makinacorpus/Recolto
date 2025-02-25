@@ -99,6 +99,11 @@ Here's a summary of how Récolt'Ô can be extended to provide an even better exp
 - Monitor changes in consumption after the addition of this device to their home, and compare with the average consumption of equivalent households in the same area.
 
 
+## Adding other languages
+As of 2025, Récolt'Ô is available in French and English. To add another locale,
+- add the code, file and name in the `nuxt.config.ts`, in the object `i18n`
+- add the translation file into `i18n/locales`, you can copy an existing one and translate the strings by hand (for now)
+
 ## Licence
 
 This software is published under the [MIT License](./LICENCE.md).
