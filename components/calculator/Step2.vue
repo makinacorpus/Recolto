@@ -6,8 +6,14 @@
     <template v-slot:subtitle>
       {{ t("step2.usage_info") }}
     </template>
-    <UsageAccordion :title="t('step2.garden_irrigation')" class="curved-corner-garden">
-      <UButton
+    <UsageAccordion :title="t('step2.exterior_uses')">
+      <div class="flex flex-col">
+        <p class="mb-2 mx-2 justify-center text-base text-center my-2">
+          <span class="garden-icon mx-2">⬤</span>
+          {{ t('step2.garden_irrigation') }}
+        </p>
+        <div class="flex flex-row items-center text-base text-center my-2">
+          <UButton
         color="white"
         variant="outline"
         :trailing="false"
@@ -34,9 +40,13 @@
         />
         <p>&nbsp;m²</p>
       </div>
-    </UsageAccordion>
-    <UsageAccordion :title="t('step2.veg_garden_irrigation')" class="curved-corner-vegetable">
-      <UButton
+        </div>
+        <p class="mb-2 mx-2 justify-center items-center text-base text-center my-2">
+          <span class="vegetable-icon mx-2">⬤</span>
+          {{ t('step2.veg_garden_irrigation') }}
+        </p>
+        <div class="flex flex-row items-center text-base text-center my-2">
+          <UButton
         color="white"
         variant="outline"
         :trailing="false"
@@ -62,6 +72,8 @@
           @blur="removeDraw('vegetable')"
         />
         <p>&nbsp;m²</p>
+      </div>
+        </div>
       </div>
     </UsageAccordion>
     <UsageAccordion :title="t('step2.interior_uses')">
@@ -219,35 +231,11 @@ watch(() => props.surfaceVegetableByDraw, () => {
 
 <style scoped>
 
-.curved-corner-garden:before, .curved-corner-vegetable:before {
-  content: "";
-  display: block;
-  width: 25%;
-  height: 120%;
-  position: absolute;
-  border-radius: 32%;
-  top: 0;
-  left: 0;
+.garden-icon {
+  color: #6ce868;
 }
 
-@media (min-width: 768px) {
-  .curved-corner-garden:before, .curved-corner-vegetable:before {
-    content: "";
-    display: block;
-    width: 25%;
-    height: 150%;
-    position: absolute;
-    border-radius: 32%;
-    top: 0;
-    left: 0;
-  }
-}
-
-.curved-corner-garden:before {
-  box-shadow: -50px -50px 0 0 #6ce868;
-}
-
-.curved-corner-vegetable:before {
-  box-shadow: -50px -50px 0 0 #f47e27;
+.vegetable-icon {
+  color: #f47e27;
 }
 </style>

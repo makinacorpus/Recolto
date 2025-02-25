@@ -31,6 +31,7 @@
         "garden_irrigation": "Arrosage du jardin",
         "veg_garden_irrigation": "Arrosage du potager",
         "interior_uses": "Usages intérieurs",
+        "exterior_uses": "Usages extérieurs",
         "interior_uses_prompt": "Votre récupérateur d'eau sera-t-il rattaché :",
         "toilets": "À des toilettes ?",
         "washing_machine": "À une machine à laver ?",
