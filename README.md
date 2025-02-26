@@ -33,7 +33,7 @@ Récolt'Ô integrates multiple datasets to deliver precise water management insi
 - **calculating roof surface area**
 Using the [BAN API](https://www.data.gouv.fr/fr/dataservices/api-adresse-base-adresse-nationale-ban/) we convert addresses into precise latitude and longitude coordinates, enabling us to center satellite imagery on the desired building and accurately measure its roof area.
 - **estimating daily rainfall for specific locations:**
-Currently, we leverage Copernicus data for global rainfall estimates. However, we are transitioning to the Météo France API to enhance the accuracy of rainfall data, providing more reliable insights tailored to specific locales.
+We use local precipitation data supplied by [Météo France](https://meteo.data.gouv.fr/). These are provided on an 8 km x 8 km grid.
 - **estimating monthly water usage:**
 Water consumption calculations are based on national statistics provided by the Water Information Center, ensuring an accurate reflection of typical usage patterns.
 - **calculate water pricing:**
@@ -98,6 +98,11 @@ Here's a summary of how Récolt'Ô can be extended to provide an even better exp
 - Take into account the footprint required to install a water collector and validate the feasibility of such an installation.
 - Monitor changes in consumption after the addition of this device to their home, and compare with the average consumption of equivalent households in the same area.
 
+
+## Adding other languages
+As of 2025, Récolt'Ô is available in French and English. To add another locale,
+- add the code, file and name in the `nuxt.config.ts`, in the object `i18n`
+- add the translation file into `i18n/locales`, you can copy an existing one and translate the strings by hand (for now)
 
 ## Licence
 

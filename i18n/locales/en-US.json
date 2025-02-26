@@ -1,0 +1,67 @@
+{
+    "calculator": {
+        "steps": "Estimation steps",
+        "roof": "Roof",
+        "habits": "Habits",
+        "results": "Results",
+        "redraw": "Redraw",
+        "next_step": "Next step"
+    },
+    "search": {
+        "address": "Type your address to look it up",
+        "no_results": "No results found",
+        "geoloc_tooltip": "Zoom on my position"
+    },
+    "step1": {
+        "substep1": "What is the type of your roof?",
+        "roof_type_info": "Certain roof materials or shapes lose ± water depending on the volume it falls. A loss coefficient is taken into account.",
+        "slate": "Slate",
+        "tile": "Tiles or sheet metal",
+        "flat": "Flat",
+        "planted": "Planted",
+        "substep2": "Draw the shape of your roof",
+        "draw_roof_info": "Depending on the location of your gutters, design the slope(s) that will serve your water collector.",
+        "draw_roof": "Draw",
+        "useful_surface": "Useful roof surface",
+        "substep3": "Is your place connected to the mains drainage?"
+
+    },
+    "step2": {
+        "substep4": "What is your water usage?",
+        "usage_info": "Knowing your usual water consumption enables to optimize the size of your water collector.",
+        "garden_irrigation": "Garden irrigation",
+        "veg_garden_irrigation": "Vegetable garden irrigation",
+        "interior_uses": "Interior use",
+        "interior_uses_prompt": "Would your water collector be connected to:",
+        "toilets": "toilets",
+        "washing_machine": "a washing machine?",
+        "occupancy": "How many people live in your household?",
+        "persons": "persons",
+        "draw": "Draw",
+        "other_uses": "Other uses",
+        "other_uses_info": "For example: watering interior plants, washing floors, tools or other equipment…",
+        "compute": "Compute"
+    },
+    "step3": {
+        "estimation": "Your estimation",
+        "optimal_volume": "Optimal storage volume",
+        "optimal_volume_info": "The important variable here is the rolling capacity, to renew the stored water regularly.",
+        "estim_saving": "Estimated savings",
+        "water_price": "Water price",
+        "water_price_info": "The prices are provided by the national water office",
+        "needs": "Your water needs",
+        "estimation_failure": "Unfortunately, the computation failed; please retry after checking the parameters.",
+        "needs_analysis": "Analysis of your needs, based on yearly rain levels:",
+        "last_known": "Last year known",
+        "driest": "Driest year",
+        "wettest": "Wettest year",
+        "commune_level": "in your city",
+        "dept_level": "in your departement",
+        "national_level": "at the national level"
+    },
+    "yes": "Yes",
+    "no": "No",
+    "or": "or",
+    "L_per_year": "L/year",
+    "euro_per_year": "€/year"
+  }
