@@ -203,12 +203,12 @@ def process_and_export_meteo_data(csv_compress,
 
 if __name__ == "__main__":
     # Définir les paramètres
-    csv_compress ="Public/Data/QUOT_SIM2_previous-2020-202501.csv.gz"
-    csv_grid_safran_path = "Public/Data/coordonnees_grille_safran_lambert-2-etendu.csv"
-    centroid_csv_json = "Public/Data/centroid_coordinates_safran.json"
+    csv_compress ="public/data/QUOT_SIM2_previous-2020-202501.csv.gz"
+    csv_grid_safran_path = "public/data/coordonnees_grille_safran_lambert-2-etendu.csv"
+    centroid_csv_json = "public/data/centroid_coordinates_safran.json"
     start_date = "2020-01-01" 
     end_date   = "2024-12-01"
-    output_folder = "Public/data/FR-ID-JSON"
+    output_folder = "public/data/FR-ID-JSON"
 
     
     process_and_export_meteo_data(csv_compress,  
