@@ -315,7 +315,7 @@ async function onCompute (usageData: {
 const getWaterPriceCommune = async (codeInsee: string, departement: string, isSewageSystem: boolean) => {
   let res = null;
   try {
-    const resPriceWaterByCity = await fetch(`/data/prix_eau_communes_2022/${departement}.json`);
+    const resPriceWaterByCity = await fetch(`/data/prix_eau_communes/${departement}.json`);
     const priceWaterByCity = await resPriceWaterByCity.json();
     if (codeInsee && priceWaterByCity[codeInsee]) {
       if (isSewageSystem) {
@@ -341,7 +341,7 @@ const getWaterPriceCommune = async (codeInsee: string, departement: string, isSe
 const getWaterPriceDepartement = async (departement: string, isSewageSystem: boolean) => {
   let res = null;
   try {
-    const resPriceWaterByDepartment = await fetch(`/data/prix_eau_depts_2022.json`);
+    const resPriceWaterByDepartment = await fetch(`/data/prix_eau_depts.json`);
     const priceWaterByDepartment = await resPriceWaterByDepartment.json();
     if (priceWaterByDepartment[departement]) {
       if (isSewageSystem) {
