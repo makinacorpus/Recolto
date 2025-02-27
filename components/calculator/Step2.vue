@@ -187,7 +187,7 @@ function triggerCompute () {
   emit("compute", {
     surfaceGarden: surfaceGarden.value,
     surfaceVegetable: surfaceVegetable.value,
-    exteriorMaintenance: exteriorMaintenance.value,
+    exteriorMaintenance: Number(exteriorMaintenance.value),
     toiletsConnected: toiletsConnected.value,
     washingMachineConnected: washingMachineConnected.value,
     residentNumber: residentNumber.value,

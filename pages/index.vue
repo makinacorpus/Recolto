@@ -25,7 +25,6 @@
     />
     <recolto-map
       :draw-enabled="drawEnabled"
-      :showSearchBar="currentStepIndex === 0"
       :center="center"
       @polygon:created="onPolygonCreated"
       @polygon:edited="onPolygonEdited"
