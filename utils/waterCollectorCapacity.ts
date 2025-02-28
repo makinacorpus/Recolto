@@ -101,41 +101,41 @@ export function estimateWaterCollectorCapacity(
 }
 
 export function getWaterCollectorEvolutionPerMonth (
-  waterCollectorCapacity: number,
-  waterNeeds: WaterNeedsByMonth,
-  rainData: RainDataByMonth,
-  roofArea: number,
+  waterCollectorCapacity: number, // L
+  waterNeeds: WaterNeedsByMonth, // L / month
+  rainData: RainDataByMonth, // mm / month
+  roofArea: number, // m²
   roofAbsorbtionCoeff: number
 ) {
   const correctedRoofArea = roofArea * roofAbsorbtionCoeff * WATER_COLLECTOR_EFFICIENCY // m²
 
   const waterCollectorLevelPerMonth = []
+  const roofPotentialWaterCollectPerMonth = []
   const rainWaterConsumptionPerMonth = []
-  const tapWaterConsumptionPerMonth = []
   let currentWaterCollectorLevel = 0
   for (const month of Array(12).keys()) {
-    currentWaterCollectorLevel += rainData[month] * correctedRoofArea
+    const roofPotential = rainData[month] * correctedRoofArea // L
+    roofPotentialWaterCollectPerMonth.push(roofPotential)
+
+    currentWaterCollectorLevel += roofPotential
 
     if ((currentWaterCollectorLevel - waterNeeds[month]) > 0) {
       // We have enought water for our monthly needs
       rainWaterConsumptionPerMonth.push(waterNeeds[month])
-      tapWaterConsumptionPerMonth.push(0)
       currentWaterCollectorLevel -= waterNeeds[month]
     } else {
       // We have not enought water for our monthly needs
       rainWaterConsumptionPerMonth.push(currentWaterCollectorLevel)
-      tapWaterConsumptionPerMonth.push(waterNeeds[month] - currentWaterCollectorLevel)
       currentWaterCollectorLevel = 0
     }
-
-    // At then end of month, current water collector level can be more than its capacity
+    // At then end of month, current water collector level can't be more than its capacity
     currentWaterCollectorLevel = Math.min(waterCollectorCapacity, currentWaterCollectorLevel)
     waterCollectorLevelPerMonth.push(currentWaterCollectorLevel)
   }
 
   return {
+    roofPotentialWaterCollect: roofPotentialWaterCollectPerMonth as WaterByMonth,
     rainWaterConsumption: rainWaterConsumptionPerMonth as WaterByMonth,
-    tapWaterConsumption: tapWaterConsumptionPerMonth as WaterByMonth,
     waterCollectorLevel: waterCollectorLevelPerMonth as WaterByMonth,
   }
 }

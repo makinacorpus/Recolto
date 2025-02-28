@@ -6,10 +6,9 @@ import Plotly from "plotly.js-dist-min";
 import { RainDataByMonth, PrecipitationScenario, WaterNeedsByMonth, WaterByMonth } from '~/declaration';
 
 const props = defineProps<{
-  rainData?: RainDataByMonth,
+  roofPotentialWaterCollect?: WaterByMonth,
   waterNeeds?: WaterNeedsByMonth,
   waterCollectorLevel?: WaterByMonth,
-  tapWaterConsumption?: WaterByMonth,
   scenario: PrecipitationScenario
 }>();
 
@@ -17,13 +16,13 @@ const drawGraph = () => {
   const data: Partial<Plotly.PlotData>[] = []
   const x = ["Janv", "Févr", "Mars", "Avril", "Mai", "Juin", "Juil", "Août", "Sept", "Oct", "Nov", "Déc"]
 
-  if (props.rainData) {
+  if (props.roofPotentialWaterCollect) {
     data.push({
       x,
-      y: props.rainData,
-      hovertemplate: "%{y:,} L<extra></extra>",
+      y: props.roofPotentialWaterCollect,
+      hovertemplate: "%{y:.0f} L<extra></extra>",
       type: "bar",
-      name: `Précipitations enregistrées`,
+      name: `Potentiel de précipitations récupérables`,
       marker: {
         color: props.scenario === "nearest" ? "#29235c" : props.scenario === "driest" ? "#af6708" : "#085421",
         opacity: 0.8,
@@ -34,9 +33,9 @@ const drawGraph = () => {
     data.push({
       x,
       y: props.waterNeeds,
-      hovertemplate: "%{y:,} L<extra></extra>",
+      hovertemplate: "%{y:.0f} L<extra></extra>",
       type: "bar",
-      name: "Besoin en eau par mois",
+      name: "Besoin en eau de pluie par mois",
       marker: { color: "#009fe3" },
     })
   }
@@ -44,21 +43,10 @@ const drawGraph = () => {
     data.push({
       x,
       y: props.waterCollectorLevel,
-      hovertemplate: "%{y:,} L<extra></extra>",
+      hovertemplate: "%{y:.0f} L<extra></extra>",
       type: "scatter",
       name: "Évolution du stockage au sein du récupérateur",
       marker: { color: "#9b093e", size: 6, opacity: 0.8 },
-      line: { dash: "dot", shape: "spline", width: 2.5 },
-    })
-  }
-  if (props.tapWaterConsumption) {
-    data.push({
-      x,
-      y: props.tapWaterConsumption,
-      hovertemplate: "%{y:,} L<extra></extra>",
-      type: "scatter",
-      name: "Usage de l'eau courante pour palier à l'insuffisance du récupérateur",
-      marker: { color: "#9b8309", size: 6, opacity: 0.8 },
       line: { dash: "dot", shape: "spline", width: 2.5 },
     })
   }

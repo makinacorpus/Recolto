@@ -123,8 +123,7 @@
       <Step3Chart
         v-if="!loading"
         :scenario="selectedScenario"
-        :rain-data="chartData?.rainData"
-        :tap-water-consumption="chartData?.tapWaterConsumption"
+        :roof-potential-water-collect="chartData?.roofPotentialWaterCollect"
         :water-collector-level="chartData?.waterCollectorLevel"
         :water-needs="chartData?.waterNeeds"
       />
@@ -217,7 +216,6 @@ const chartData = computed(() => {
       rainData.value
     )
     return {
-      rainData: yearRainData,
       waterNeeds: waterNeeds.value,
       ...getWaterCollectorEvolutionPerMonth(
         idealCapacity.value,
