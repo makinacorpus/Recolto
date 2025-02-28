@@ -55,9 +55,11 @@
         "last_known": "Last year known",
         "driest": "Driest year",
         "wettest": "Wettest year",
-        "commune_level": "in your city",
-        "dept_level": "in your departement",
-        "national_level": "at the national level"
+        "water_price_division": {
+          "communal": "in your city",
+          "departemental": "in your departement",
+          "national": "at the national level"
+        }
     },
     "yes": "Yes",
     "no": "No",

@@ -35,7 +35,7 @@
         <UInput
           inputClass="h-10 dark:bg-slate-700 "
           type="number"
-          v-model="surfaceGarden"
+          v-model.number="surfaceGarden"
           @blur="removeDraw('garden')"
         />
         <p>&nbsp;m²</p>
@@ -68,7 +68,7 @@
         <UInput
           inputClass="h-10 dark:bg-slate-700"
           type="number"
-          v-model="surfaceVegetable"
+          v-model.number="surfaceVegetable"
           @blur="removeDraw('vegetable')"
         />
         <p>&nbsp;m²</p>
@@ -123,7 +123,7 @@
             <UInput
               inputClass="h-10 dark:bg-slate-700"
               type="number"
-              v-model="residentNumber"
+              v-model.number="residentNumber"
             />
             <p> {{ t("step2.persons") }}</p>
           </div>
@@ -140,7 +140,7 @@
         <UInput
           inputClass="h-10 dark:bg-slate-700"
           type="number"
-          v-model="exteriorMaintenance"
+          v-model.number="otherNeeds"
         />
         <p>&nbsp;{{ t("L_per_year") }}</p>
       </div>
@@ -152,7 +152,7 @@
       color="white"
       variant="outline"
       :trailing="false"
-      @click="triggerCompute"
+      @click="$emit('next')"
       class="h-12 w-48 mx-auto my-4 bg-purple border border-white flex justify-center items-center disabled:bg-purple-300 ring-purple hover:bg-purple-900"
     >
       {{ t("step2.compute") }}
@@ -167,38 +167,26 @@ import UsageAccordion from "./UsageAccordion.vue";
 
 const { t } = useI18n();
 
-const emit = defineEmits(["compute", "drawWaterUsage"]);
+const emit = defineEmits(["next", "drawWaterUsage"]);
+
+const surfaceGarden = defineModel<number>('surfaceGarden', {required: true})
+const surfaceVegetable = defineModel<number>('surfaceVegetable', {required: true})
+const otherNeeds = defineModel<number>('otherNeeds', {required: true})
+const toiletsConnected = defineModel<boolean>('toiletsConnected', {required: true})
+const washingMachineConnected = defineModel<boolean>('washingMachineConnected', {required: true})
+const residentNumber = defineModel<number>('residentNumber', {required: true})
 
 const props = defineProps<{
-  surfaceGardenByDraw: number,
-  surfaceVegetableByDraw: number,
+  surfaceGardenDrawn: number,
+  surfaceVegetableDrawn: number,
   forceResetInput: null | { area: "garden" | "vegetable", newValue: number },
 }>();
 
-const surfaceGarden: Ref<number> = ref(props.surfaceGardenByDraw);
-const surfaceVegetable: Ref<number> = ref(props.surfaceVegetableByDraw);
-const exteriorMaintenance: Ref<number> = ref(0);
-
-const toiletsConnected = ref(false);
-const washingMachineConnected = ref(false);
-const residentNumber = ref(0)
-
-function triggerCompute () {
-  emit("compute", {
-    surfaceGarden: surfaceGarden.value,
-    surfaceVegetable: surfaceVegetable.value,
-    exteriorMaintenance: exteriorMaintenance.value,
-    toiletsConnected: toiletsConnected.value,
-    washingMachineConnected: washingMachineConnected.value,
-    residentNumber: residentNumber.value,
-  });
-}
-
 const removeDraw = (area: "garden" | "vegetable") => {
-  if (props.surfaceGardenByDraw > 0 && props.surfaceGardenByDraw !== surfaceGarden.value) {
+  if (props.surfaceVegetableDrawn > 0 && props.surfaceVegetableDrawn !== surfaceGarden.value) {
     emit("drawWaterUsage", { area: area, action: "clear" });
   }
-  if (props.surfaceVegetableByDraw > 0 && props.surfaceVegetableByDraw !== surfaceVegetable.value) {
+  if (props.surfaceGardenDrawn > 0 && props.surfaceGardenDrawn !== surfaceVegetable.value) {
     emit("drawWaterUsage", { area: area, action: "clear" });
   }
 };
@@ -214,17 +202,17 @@ watch(() => props.forceResetInput, () => {
   }
 });
 
-watch(() => props.surfaceGardenByDraw, () => {
+watch(() => props.surfaceGardenDrawn, () => {
   // Avoid to override input value when user update manually surfaceGarden
-  if (props.surfaceGardenByDraw > 0) {
-    surfaceGarden.value = props.surfaceGardenByDraw;
+  if (props.surfaceGardenDrawn > 0) {
+    surfaceGarden.value = props.surfaceGardenDrawn;
   }
 });
 
-watch(() => props.surfaceVegetableByDraw, () => {
+watch(() => props.surfaceVegetableDrawn, () => {
   // Avoid to override input value when user update manually surfaceVegetable
-  if (props.surfaceVegetableByDraw > 0) {
-    surfaceVegetable.value = props.surfaceVegetableByDraw;
+  if (props.surfaceVegetableDrawn > 0) {
+    surfaceVegetable.value = props.surfaceVegetableDrawn;
   }
 });
 </script>
