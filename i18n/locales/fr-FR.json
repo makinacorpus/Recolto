@@ -55,10 +55,11 @@
         "last_known": "La plus récente",
         "driest": "La plus sèche",
         "wettest": "La plus pluvieuse",
-        "commune_level": "dans votre commune",
-        "dept_level": "dans votre département",
-        "national_level": "au niveau national"
-
+        "water_price_division": {
+          "communal": "dans votre commune",
+          "departemental": "dans votre département",
+          "national": "au niveau national"
+        }
     },
     "yes": "Oui",
     "no": "Non",

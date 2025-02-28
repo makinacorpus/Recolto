@@ -1,27 +1,21 @@
-export type CalculatorResult = {
-  waterPrice: { price: number, year: number, division: "national" | "departemental" | "communal" }, // price : €/m3
-  lastKnownYear: string,
-  waterRecoverableQuantity: Record<string, number>, // mm * m² => L
-  evolutionNeededWater: Record<string, number>, // L
-  savingForLastKnownYear?: number, // €/m3/year
-  idealCapacity: number, // L/year
-  waterNeeds: {
-    outdoor: number, // L/year
-    indoor: number, // L/year
-    other: number, // L/year
-  },
-  copernicusData: CopernicusData, // (mm/m²)
-  roofSurfaceArea: number, // m²
-  gardenSurfaceArea: number, // m²
-  vegetableSurfaceArea: number, // m²
-  toiletsConnected: boolean,
-  washingMachineConnected: boolean,
-  residentNumber: number,
-  evolutionStockWater: number[], // L
-  consumptionByTapWater: number[], // L
-  driestYear: string,
-  wettestYear: string,
+export type RainData = {
+  years: Record<string, number>,
+  months: Record<string, number>,
 }
+
+export type WaterPrice = {
+  price: number, // price : €/m3
+  year: number,
+  division: "national" | "departemental" | "communal"
+}
+
+export type RoofType = { label: string, name: string, coeff: number }
+export type RainDataByMonth = [number, number, number, number, number, number, number, number, number, number, number, number]
+export type WaterNeedsByMonth = [number, number, number, number, number, number, number, number, number, number, number, number]
+export type WaterByMonth = [number, number, number, number, number, number, number, number, number, number, number, number]
+
+export type PrecipitationScenario = "nearest" | "driest" | "wettest"
+export type RainDataYearsInfo = Record<PrecipitationScenario, string|undefined>
 
 export interface ApiAddress {
   id?: string
