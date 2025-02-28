@@ -85,7 +85,7 @@ async function getWaterPriceCommune(codeInsee: string, departement: string, hasS
 async function getWaterPriceDepartement(departement: string, hasSewageSystem: boolean) {
   let res: WaterPrice|null = null;
   try {
-    const resPriceWaterByDepartment = await fetch(`/data/prix_eau_depts_2022.json`);
+    const resPriceWaterByDepartment = await fetch(`/data/prix_eau_depts.json`);
     const priceWaterByDepartment = await resPriceWaterByDepartment.json();
     if (priceWaterByDepartment[departement]) {
       if (hasSewageSystem) {
