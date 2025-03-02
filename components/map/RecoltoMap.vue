@@ -19,10 +19,10 @@ let drawControl: L.Control.Draw;
 
 const props = withDefaults(defineProps<{
   center?: { latlng: L.LatLngExpression, accuracy?: number },
-  drawEnabled: null | { area: "roof" | "garden" | "vegetable" | "allUsage", action?: "draw" | "clear" }
+  drawEnabled: undefined | { area: "roof" | "garden" | "vegetable" | "allUsage", action?: "draw" | "clear" }
 }>(), {
   center: () => ({ latlng: center_coordinates }),
-  drawEnabled: null,
+  drawEnabled: undefined,
 });
 
 const emit = defineEmits(["polygon:created", "polygon:deleted", "polygon:edited"]);

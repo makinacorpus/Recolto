@@ -6,8 +6,14 @@
     <template v-slot:subtitle>
       {{ t("step2.usage_info") }}
     </template>
-    <UsageAccordion :title="t('step2.garden_irrigation')" class="curved-corner-garden">
-      <UButton
+    <UsageAccordion :title="t('step2.exterior_uses')">
+      <div class="flex flex-col">
+        <p class="mb-2 mx-2 justify-center text-base text-center my-2">
+          <span class="garden-icon mx-2">⬤</span>
+          {{ t('step2.garden_irrigation') }}
+        </p>
+        <div class="flex flex-row items-center text-base text-center my-2">
+          <UButton
         color="white"
         variant="outline"
         :trailing="false"
@@ -31,14 +37,18 @@
           type="number"
           :color="isErrorSurfaceGarden ? 'red' : 'white'"
           :min="0"
-          v-model="surfaceGarden"
+          v-model.number="surfaceGarden"
           @blur="removeDraw('garden')"
         />
         <p>&nbsp;m²</p>
       </div>
-    </UsageAccordion>
-    <UsageAccordion :title="t('step2.veg_garden_irrigation')" class="curved-corner-vegetable">
-      <UButton
+        </div>
+        <p class="mb-2 mx-2 justify-center items-center text-base text-center my-2">
+          <span class="vegetable-icon mx-2">⬤</span>
+          {{ t('step2.veg_garden_irrigation') }}
+        </p>
+        <div class="flex flex-row items-center text-base text-center my-2">
+          <UButton
         color="white"
         variant="outline"
         :trailing="false"
@@ -62,10 +72,12 @@
           type="number"
           :min="0"
           :color="isErrorSurfaceVegetable ? 'red' : 'white'"
-          v-model="surfaceVegetable"
+          v-model.number="surfaceVegetable"
           @blur="removeDraw('vegetable')"
         />
         <p>&nbsp;m²</p>
+      </div>
+        </div>
       </div>
     </UsageAccordion>
     <UsageAccordion :title="t('step2.interior_uses')">
@@ -117,7 +129,7 @@
               type="number"
               :min="0"
               :color="isErrorResidentNumber ? 'red' : 'white'"
-              v-model="residentNumber"
+              v-model.number="residentNumber"
             />
             <p> {{ t("step2.persons") }}</p>
           </div>
@@ -136,7 +148,7 @@
           type="number"
           :min="0"
           :color="isErrorExteriorMaintenance ? 'red' : 'white'"
-          v-model="exteriorMaintenance"
+          v-model.number="otherNeeds"
         />
         <p>&nbsp;{{ t("L_per_year") }}</p>
       </div>
@@ -149,7 +161,7 @@
       variant="outline"
       :disabled="!areParamsValid"
       :trailing="false"
-      @click="triggerCompute"
+      @click="$emit('next')"
       class="h-12 w-48 mx-auto my-4 bg-purple border border-white flex justify-center items-center disabled:bg-purple-300 ring-purple hover:bg-purple-900"
     >
       {{ t("step2.compute") }}
@@ -164,32 +176,20 @@ import UsageAccordion from "./UsageAccordion.vue";
 
 const { t } = useI18n();
 
-const emit = defineEmits(["compute", "drawWaterUsage"]);
+const emit = defineEmits(["next", "drawWaterUsage"]);
+
+const surfaceGarden = defineModel<number>('surfaceGarden', {required: true})
+const surfaceVegetable = defineModel<number>('surfaceVegetable', {required: true})
+const otherNeeds = defineModel<number>('otherNeeds', {required: true})
+const toiletsConnected = defineModel<boolean>('toiletsConnected', {required: true})
+const washingMachineConnected = defineModel<boolean>('washingMachineConnected', {required: true})
+const residentNumber = defineModel<number>('residentNumber', {required: true})
 
 const props = defineProps<{
-  surfaceGardenByDraw: number,
-  surfaceVegetableByDraw: number,
+  surfaceGardenDrawn: number,
+  surfaceVegetableDrawn: number,
   forceResetInput: null | { area: "garden" | "vegetable", newValue: number },
 }>();
-
-const surfaceGarden: Ref<number> = ref(props.surfaceGardenByDraw);
-const surfaceVegetable: Ref<number> = ref(props.surfaceVegetableByDraw);
-const exteriorMaintenance: Ref<number> = ref(0);
-const toiletsConnected = ref(false);
-const washingMachineConnected = ref(false);
-const residentNumber = ref(0)
-
-function triggerCompute () {
-  emit("compute", {
-    surfaceGarden: surfaceGarden.value,
-    surfaceVegetable: surfaceVegetable.value,
-    exteriorMaintenance: exteriorMaintenance.value,
-    toiletsConnected: toiletsConnected.value,
-    washingMachineConnected: washingMachineConnected.value,
-    residentNumber: residentNumber.value,
-  });
-}
-
 const isErrorSurfaceGarden = computed(() => {
   return surfaceGarden.value < 0 || Number(surfaceGarden.value);
 })
@@ -207,10 +207,10 @@ const isErrorExteriorMaintenance = computed(() => {
 })
 
 const removeDraw = (area: "garden" | "vegetable") => {
-  if (props.surfaceGardenByDraw > 0 && props.surfaceGardenByDraw !== surfaceGarden.value) {
+  if (props.surfaceVegetableDrawn > 0 && props.surfaceVegetableDrawn !== surfaceGarden.value) {
     emit("drawWaterUsage", { area: area, action: "clear" });
   }
-  if (props.surfaceVegetableByDraw > 0 && props.surfaceVegetableByDraw !== surfaceVegetable.value) {
+  if (props.surfaceGardenDrawn > 0 && props.surfaceGardenDrawn !== surfaceVegetable.value) {
     emit("drawWaterUsage", { area: area, action: "clear" });
   }
 };
@@ -226,52 +226,28 @@ watch(() => props.forceResetInput, () => {
   }
 });
 
-watch(() => props.surfaceGardenByDraw, () => {
+watch(() => props.surfaceGardenDrawn, () => {
   // Avoid to override input value when user update manually surfaceGarden
-  if (props.surfaceGardenByDraw > 0) {
-    surfaceGarden.value = props.surfaceGardenByDraw;
+  if (props.surfaceGardenDrawn > 0) {
+    surfaceGarden.value = props.surfaceGardenDrawn;
   }
 });
 
-watch(() => props.surfaceVegetableByDraw, () => {
+watch(() => props.surfaceVegetableDrawn, () => {
   // Avoid to override input value when user update manually surfaceVegetable
-  if (props.surfaceVegetableByDraw > 0) {
-    surfaceVegetable.value = props.surfaceVegetableByDraw;
+  if (props.surfaceVegetableDrawn > 0) {
+    surfaceVegetable.value = props.surfaceVegetableDrawn;
   }
 });
 </script>
 
 <style scoped>
 
-.curved-corner-garden:before, .curved-corner-vegetable:before {
-  content: "";
-  display: block;
-  width: 25%;
-  height: 120%;
-  position: absolute;
-  border-radius: 32%;
-  top: 0;
-  left: 0;
+.garden-icon {
+  color: #6ce868;
 }
 
-@media (min-width: 768px) {
-  .curved-corner-garden:before, .curved-corner-vegetable:before {
-    content: "";
-    display: block;
-    width: 25%;
-    height: 150%;
-    position: absolute;
-    border-radius: 32%;
-    top: 0;
-    left: 0;
-  }
-}
-
-.curved-corner-garden:before {
-  box-shadow: -50px -50px 0 0 #6ce868;
-}
-
-.curved-corner-vegetable:before {
-  box-shadow: -50px -50px 0 0 #f47e27;
+.vegetable-icon {
+  color: #f47e27;
 }
 </style>

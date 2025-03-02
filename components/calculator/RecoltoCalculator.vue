@@ -5,7 +5,7 @@
     <div class="flex flex-col">
       <header class="mb-4 hidden md:block">
         <h2 class="text-center mb-4">
-          {{ t("calculator.steps") }} 
+          {{ t("calculator.steps") }}
         </h2>
 
         <div class="grid grid-cols-3 justify-items-stretch">
@@ -15,14 +15,14 @@
             @click="onClickStep(index)"
             class="min-w-full w-full md:w-24 text-xs md:text-base text-center mx-auto rounded-xl p-2 disabled:text-gray disabled:bg-gray disabled:cursor-not-allowed flex flex-col items-center content-end"
             :class="{
-              'bg-white text-purple font-semibold dark:bg-slate-700 dark:text-white': currentStepIndex === index,
+              'bg-white text-purple font-semibold dark:bg-slate-700 dark:text-white': currentStep === index,
             }"
-            :disabled="currentStepIndex < index "
+            :disabled="currentStep < index "
           >
             <svg
               v-if="step.icon === 'faucet_drip'"
               :class="[
-                currentStepIndex === index ? 'stroke-purple dark:stroke-white' : 'stroke-white dark:stroke-white'
+                currentStep === index ? 'stroke-purple dark:stroke-white' : 'stroke-white dark:stroke-white'
               ]"
               class="w-6 h-6 m-auto"
               xmlns="http://www.w3.org/2000/svg"
@@ -45,62 +45,50 @@
         </div>
       </header>
 
-      <template v-if="currentStepIndex === 0">
-        <Step1
-          :roof-surface="roofSurface"
-          :selected-type-roof="selectedTypeRoof"
-          :selected-sewage-system="selectedSewageSystem"
-          @newCenter="$emit('newCenter', $event)"
-          @update:selected-type-roof="$emit('update:selectedTypeRoof', $event)"
-          @update:selected-sewage-system="$emit('update:selectedSewageSystem', $event)"
-          @draw-roof="$emit('drawRoof', $event)"
-        />
-        <div class="flex flex-row mt-2">
-          <UButton
-            v-if="roofSurface"
-            icon="i-heroicons-paint-brush-20-solid"
-            color="white"
-            variant="outline"
-            :trailing="false"
-            @click="$emit('drawRoof', { area: 'roof' })"
-            class="sm:h-12 sm:w-48 mx-auto my-2 flex justify-center items-center"
-            :ui="{ variant: { outline: 'shadow-sm bg-transparent text-white-900 dark:text-white ring-1 ring-inset ring-white dark:ring-white-400 focus:ring-2 focus:ring-purple dark:focus:ring-white hover:bg-purple' }}"
-          >
-            {{ t("calculator.redraw") }}
-          </UButton>
-          <UButton
-            @click="changeStep(1)"
-            class="sm:h-12 sm:w-56 mx-auto my-2 bg-purple border border-white flex justify-center items-center disabled:bg-purple-300 ring-purple hover:bg-purple-900 dark:bg-purple dark:text-white dark:hover:bg-purple-900"
-            :disabled="!props.roofSurface"
-            :title="!props.roofSurface ? 'Vous devez sélectionner une adresse' : ''"
-          >
-            {{ t("calculator.next_step") }}
-          </UButton>
-        </div>
-      </template>
-
+      <Step1
+        v-if="currentStep === 0"
+        :roof-surface="roofSurface"
+        v-model:roof-type="roofType"
+        v-model:has-sewage-system="selectedSewageSystem"
+        @next="changeStep(1)"
+        @new-center="$emit('newCenter', $event)"
+        @draw-roof="$emit('drawRoof', $event)"
+      />
       <Step2
-        v-else-if="currentStepIndex === 1"
-        :surface-garden-by-draw="surfaceGardenByDraw"
-        :surface-vegetable-by-draw="surfaceVegetableByDraw"
+        v-else-if="currentStep === 1"
+        v-model:surface-garden="surfaceGarden"
+        v-model:surface-vegetable="surfaceVegetable"
+        v-model:other-needs="otherNeeds"
+        v-model:toilets-connected="toiletsConnected"
+        v-model:washing-machine-connected="washingMachineConnected"
+        v-model:resident-number="residentNumber"
+        :surface-garden-drawn="surfaceGardenDrawn"
+        :surface-vegetable-drawn="surfaceVegetableDrawn"
         :force-reset-input="forceResetInput"
         @draw-water-usage="$emit('drawWaterUsage', $event)"
-        @compute="$emit('compute', $event)"
+        @next="changeStep(2)"
       />
 
       <Step3
-        :loading="loading"
-        v-else-if="currentStepIndex === 2"
-        :result="result"
-        @update-result="$emit('updateResult', $event)"
+        v-else-if="currentStep === 2"
+        :roof-surface="roofSurface"
+        :roof-absorbtion-coeff="roofType.coeff"
+        :roof-center="roofCenter"
+        :garden-surface="surfaceGarden"
+        :vegetable-surface="surfaceVegetable"
+        :other-needs="otherNeeds"
+        :toilets-connected="toiletsConnected"
+        :washing-machine-connected="washingMachineConnected"
+        :resident-number="residentNumber"
+        :has-sewage-system="selectedSewageSystem"
       />
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { CalculatorResult } from "~/declaration";
-import Step1 from "./Step1.vue";
+import { RoofType } from "~/declaration";
+import Step1, { roofTypeList } from "./Step1.vue";
 import Step2 from "./Step2.vue";
 import Step3 from "./Step3.vue";
 
@@ -111,11 +99,6 @@ const emit = defineEmits([
   "drawWaterUsage",
   "editableMap",
   "newCenter",
-  "update:currentStepIndex",
-  "update:selectedTypeRoof",
-  "update:selectedSewageSystem",
-  "compute",
-  "updateResult",
 ]);
 
 const steps = [
@@ -134,43 +117,35 @@ const steps = [
   },
 ];
 
-const props = withDefaults(defineProps<{
-  /**
-   * General
-   */
-  currentStepIndex: number,
-  /**
-   * Step 1
-   */
-  selectedTypeRoof: { name: string, value: number },
-  selectedSewageSystem: boolean,
+const currentStep = defineModel<number>('currentStep', {required: true})
+const roofType = ref<RoofType>(roofTypeList[0])
+const selectedSewageSystem = ref<boolean>(true)
+const surfaceGarden = ref<number>(0)
+const surfaceVegetable = ref<number>(0)
+const otherNeeds = ref<number>(0)
+const toiletsConnected = ref<boolean>(false)
+const washingMachineConnected = ref<boolean>(false)
+const residentNumber = ref<number>(0)
+
+defineProps<{
+  // step 1
   roofSurface: number,
-
-  /**
-   * Step 2
-   */
-  surfaceGardenByDraw: number,
-  surfaceVegetableByDraw: number,
+  roofCenter?: L.LatLng | L.LatLngLiteral,
+  // step 2
+  surfaceGardenDrawn: number,
+  surfaceVegetableDrawn: number,
   forceResetInput: null | { area: "garden" | "vegetable", newValue: number },
-
-  /**
-   * Step 3
-   */
-  loading: boolean,
-  result?: CalculatorResult
-}>(), {
-  currentStepIndex: 0,
-});
+}>();
 
 const onClickStep = (index: number) => {
-  if (props.currentStepIndex === 2 && index < 2) {
+  if (currentStep.value === 2 && index < 2) {
     emit("drawWaterUsage", { area: "allUsage", action: "clear" });
   }
-  emit("update:currentStepIndex", index);
+  currentStep.value = index
 };
 
 const changeStep = (step: number) => {
-  emit("update:currentStepIndex", step);
+  currentStep.value = step
   emit("editableMap", 2);
 };
 

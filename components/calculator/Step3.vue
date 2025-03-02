@@ -4,7 +4,7 @@
     :title="t('step3.estimation')"
   >
     <div class="-mx-2">
-      <div v-if="result && !loading" class="flex flex-wrap">
+      <div v-if="!loading" class="flex flex-wrap">
         <div class="w-2/3 text-md lg:text-lg font-semibold mb-2 self-center">
           <div class="flex">
             <p class="w-auto md:w-5/6">{{ t("step3.optimal_volume") }}</p>
@@ -14,14 +14,14 @@
           </div>
         </div>
         <div class="w-1/3 text-xl md:text-2xl font-bold flex justify-end self-center">
-          {{ idealCapacity }} L
+          {{ idealCapacity?.toLocaleString(locale) ?? '-' }} L
         </div>
 
         <div class="w-2/3 text-md lg:text-lg font-semibold mb-2 self-center">
           {{ t("step3.estim_saving") }}
         </div>
         <div class="w-1/3 text-xl md:text-2xl font-bold flex justify-end self-center">
-          {{ (result?.savingForLastKnownYear ?? '').toLocaleString(locale.value) }} {{ t("euro_per_year")}}
+          {{ savingPerYear.toLocaleString(locale) }} {{ t("euro_per_year")}}
         </div>
 
         <hr class="border border-t border-purple w-full my-2">
@@ -29,8 +29,8 @@
         <div class="w-2/3 text-sm lg:text-base font-semibold mb-2 self-center">
           <div class="flex">
             <p class="w-auto md:w-5/6">
-              {{ t("step3.water_price") }} {{ getDivisionForWaterPrice }} {{ t("in") }} {{
-                result.waterPrice.year
+              {{ t("step3.water_price") }} {{ t('step3.water_price_division.' + (waterPrice?.division ?? 'national')) }} {{ t("in") }} {{
+                waterPrice?.year
               }}
             </p>
 
@@ -43,17 +43,17 @@
           </div>
         </div>
         <div class="w-1/3 text-base md:text-lg font-bold flex justify-end self-center">
-          {{ (result.waterPrice.price).toLocaleString(locale.value) }} €/m³
+          {{ (waterPrice?.price ?? '-').toLocaleString(locale) }} €/m³
         </div>
 
         <div class="w-2/3 text-sm lg:text-base font-semibold mb-2 self-center">
           {{ t("step3.needs") }}
         </div>
         <div class="w-1/3 text-base md:text-lg font-bold flex justify-end self-center">
-          {{ waterNeeds }}&nbsp;{{ t("L_per_year") }}
+          {{ waterNeedsPerYear.toLocaleString(locale) }}&nbsp;{{ t("L_per_year") }}
         </div>
       </div>
-      <div v-if="!result && !loading">
+      <div v-if="!loading && !idealCapacity">
         {{ t("step3.estimation_failure") }}
       </div>
       <div v-if="loading">
@@ -75,7 +75,7 @@
 
       <hr class="border border-t border-purple w-full my-2">
 
-      <div v-if="result && !loading" class="w-full">
+      <div v-if="!loading" class="w-full">
         <h3
           class="font-semibold text-center text-white"
         >
@@ -85,57 +85,59 @@
           <UButton
             variant="outline"
             :trailing="false"
-            @click="selectedScenario('recently')"
+            @click="selectedScenario = 'nearest'"
             class="my-3 md:my-2 bg-purple border border-white flex justify-center items-center text-white disabled:bg-purple-300 ring-purple hover:bg-purple-900 dark:bg-purple dark:text-white dark:hover:bg-purple-900 flex-1 px-0.5"
-            :class="{'bg-purple-200 text-purple hover:bg-purple-200 dark:bg-purple-200 dark:text-purple dark:hover:bg-purple-200': graphToDisplay === 'recently'}"
+            :class="{'bg-purple-200 text-purple hover:bg-purple-200 dark:bg-purple-200 dark:text-purple dark:hover:bg-purple-200': selectedScenario === 'nearest'}"
           >
             <div class="flex flex-col text-xs md:text-base">
               <span>{{ t("step3.last_known") }}</span>
-              <span>{{ props.result?.lastKnownYear }}</span>
+              <span>{{ rainDataYearsInfo?.nearest }}</span>
             </div>
           </UButton>
           <UButton
             variant="outline"
             :trailing="false"
-            @click="selectedScenario('driest')"
+            @click="selectedScenario = 'driest'"
             class="my-3 md:my-2 bg-purple border border-white flex justify-center items-center text-white disabled:bg-purple-300 ring-purple hover:bg-purple-900 dark:bg-purple dark:text-white dark:hover:bg-purple-900 flex-1 px-0.5"
-            :class="{'bg-purple-200 text-purple hover:bg-purple-200 dark:bg-purple-200 dark:text-purple dark:hover:bg-purple-200': graphToDisplay === 'driest'}"
+            :class="{'bg-purple-200 text-purple hover:bg-purple-200 dark:bg-purple-200 dark:text-purple dark:hover:bg-purple-200': selectedScenario === 'driest'}"
           >
             <div class="flex flex-col text-xs md:text-base">
               <span>{{ t("step3.driest") }}</span>
-              <span>{{ props.result?.driestYear }}</span>
+              <span>{{ rainDataYearsInfo?.driest }}</span>
             </div>
           </UButton>
           <UButton
             variant="outline"
             :trailing="false"
-            @click="selectedScenario('wettest')"
+            @click="selectedScenario = 'wettest'"
             class="my-3 md:my-2 bg-purple border border-white flex justify-center items-center text-white disabled:bg-purple-300 ring-purple hover:bg-purple-900 dark:bg-purple dark:text-white dark:hover:bg-purple-900 flex-1 px-0.5"
-            :class="{'bg-purple-200 text-purple hover:bg-purple-200 dark:bg-purple-200 dark:text-purple dark:hover:bg-purple-200': graphToDisplay === 'wettest'}"
+            :class="{'bg-purple-200 text-purple hover:bg-purple-200 dark:bg-purple-200 dark:text-purple dark:hover:bg-purple-200': selectedScenario === 'wettest'}"
           >
             <div class="flex flex-col text-xs md:text-base">
               <span>{{ t("step3.wettest") }}</span>
-              <span>{{ props.result?.wettestYear }}</span>
+              <span>{{ rainDataYearsInfo?.wettest }}</span>
             </div>
           </UButton>
         </div>
       </div>
-
-      <div
-        id="refChart"
+      <Step3Chart
+        v-if="!loading"
+        :scenario="selectedScenario"
+        :roof-potential-water-collect="chartData?.roofPotentialWaterCollect"
+        :water-collector-level="chartData?.waterCollectorLevel"
+        :water-needs="chartData?.waterNeeds"
       />
-
-      <div v-if="result && !loading" class="text-xs font-medium">
+      <div v-if="!loading" class="text-xs font-medium">
         <p>
           Cette estimation se base sur les données
           <a
-            href="https://cds.climate.copernicus.eu/cdsapp#!/dataset/insitu-gridded-observations-global-and-regional?tab=overview"
+            href="https://meteo.data.gouv.fr/"
             target="_blank"
             rel="noopener"
           >
-            Copernicus
+            Météo France
           </a>
-          de 2001 à {{ result.lastKnownYear }}.
+          de 1960 à {{ rainDataYearsInfo?.nearest }}.
         </p>
       </div>
     </div>
@@ -143,137 +145,103 @@
 </template>
 
 <script setup lang="ts">
-import Plotly from "plotly.js-dist-min";
+import L from "leaflet";
 import InformationTooltip from "./InformationTooltip.vue";
+import Step3Chart from "./Step3Chart.vue";
 import SubStep from "./SubStep.vue";
-import { CalculatorResult } from "~/declaration";
+import { RainData, WaterPrice, WaterNeedsByMonth, PrecipitationScenario, RoofType } from "~/declaration";
+import { getWaterCollectorEvolutionPerMonth } from "~/utils/waterCollectorCapacity";
 
 const { t, locale } = useI18n();
 
-const emit = defineEmits([
-  "updateResult",
-]);
-
 const props = defineProps<{
-  loading: boolean,
-  result?: CalculatorResult,
+  roofSurface: number,
+  roofAbsorbtionCoeff: number,
+  roofCenter?: L.LatLng | L.LatLngLiteral,
+  gardenSurface: number,
+  vegetableSurface: number,
+  otherNeeds: number,
+  toiletsConnected: boolean,
+  washingMachineConnected: boolean,
+  residentNumber: number,
+  hasSewageSystem: boolean,
 }>();
 
-const graphToDisplay: Ref<"recently" | "driest" | "wettest"> = ref("recently");
-const idealCapacity = computed<string>(() => {
-  if (props.result) {
-    const realIdealCapacity = props.result.idealCapacity;
-    const roundedIeadCapacity =  Math.ceil(realIdealCapacity / 100) * 100;
-    return roundedIeadCapacity.toLocaleString(locale.value);
+const loading = ref(true);
+const rainData = ref<RainData>();
+const waterPrice = ref<WaterPrice>();
+const waterNeeds = ref<WaterNeedsByMonth>();
+const idealCapacity = ref<number>();
+
+watch(props, async (props) => {
+  loading.value = true;
+
+  if (!props.roofCenter) {
+    throw 'No centroid !'
   }
-  return '';
+
+  rainData.value = await getRainData(props.roofCenter)
+  waterPrice.value = await getWaterPrice(props.roofCenter, props.hasSewageSystem)
+
+  waterNeeds.value = getWaterNeedsByMonth(
+    props.gardenSurface,
+    props.vegetableSurface,
+    props.otherNeeds,
+    props.toiletsConnected,
+    props.washingMachineConnected,
+    props.residentNumber,
+  );
+
+  idealCapacity.value = estimateWaterCollectorCapacity(
+    waterNeeds.value,
+    rainData.value,
+    props.roofSurface,
+    props.roofAbsorbtionCoeff
+  )
+
+  loading.value = false;
+}, {immediate: true})
+
+const selectedScenario = ref<PrecipitationScenario>("nearest")
+const rainDataYearsInfo = computed(() => rainData.value ? getRainDataYearsInfo(rainData.value) : undefined)
+
+const chartData = computed(() => {
+  if (idealCapacity.value
+  && waterNeeds.value
+  && rainDataYearsInfo.value?.[selectedScenario.value]
+  && rainData.value
+) {
+    const yearRainData = getYearRainData(
+      rainDataYearsInfo.value[selectedScenario.value] as string,
+      rainData.value
+    )
+    return {
+      waterNeeds: waterNeeds.value,
+      ...getWaterCollectorEvolutionPerMonth(
+        idealCapacity.value,
+        waterNeeds.value,
+        yearRainData,
+        props.roofSurface,
+        props.roofAbsorbtionCoeff
+      )
+    }
+  }
 })
-const getDivisionForWaterPrice = computed(() => {
-  const division = props.result?.waterPrice.division;
-  if (division === "communal") return t("step3.commune_level");
-  if (division === "departemental") return t("step3.dept_level");
-  return t("step3.national_level");
-});
 
-const selectedScenario = (scenario: "recently" | "driest" | "wettest") => {
-  graphToDisplay.value = scenario;
-  emit("updateResult", scenario);
-};
-
-const waterNeeds = computed<string>(() => {
-  if (!props.result) {
-    return ''
+const waterNeedsPerYear = computed(() => {
+  if (!waterNeeds.value) {
+    return '-'
   }
-  return (props.result.waterNeeds.indoor + props.result.waterNeeds.other + props.result.waterNeeds.outdoor).toLocaleString(locale.value);
+  const needs = waterNeeds.value.reduce((a, b) => a + b, 0)
+  return Math.round(needs / 100) * 100
 })
-const drawGraph = () => {
-  if (props.result?.waterNeeds && props.result.waterRecoverableQuantity) {
-    let waterRecovery = {
-      x: ["Janv", "Févr", "Mars", "Avril", "Mai", "Juin", "Juil", "Août", "Sept", "Oct", "Nov", "Déc"],
-      y: Object.values(props.result.waterRecoverableQuantity),
-      hovertemplate: "%{y:,} L<extra></extra>",
-      type: "bar",
-      name: `Précipitations enregistrées`,
-      marker: {
-        color: graphToDisplay.value === "recently" ? "#29235c" : graphToDisplay.value === "driest" ? "#af6708" : "#085421",
-        opacity: 0.8,
-      },
-    };
 
-    const waterNeeded = {
-      x: waterRecovery.x,
-      y: Object.values(props.result.evolutionNeededWater),
-      hovertemplate: "%{y:,} L<extra></extra>",
-      type: "bar",
-      name: "Besoin en eau par mois",
-      marker: { color: "#009fe3" },
-    };
-
-    const evolutionStockWater = {
-      x: waterRecovery.x,
-      y: props.result?.evolutionStockWater,
-      hovertemplate: "%{y:,} L<extra></extra>",
-      type: "scatter",
-      name: "Évolution du stockage au sein du récupérateur",
-      marker: { color: "#9b093e", size: 6, opacity: 0.8 },
-      line: { dash: "dot", shape: "spline", width: 2.5 },
-    };
-
-    const evolutionUseTapWater = {
-      x: waterRecovery.x,
-      y: props.result?.consumptionByTapWater,
-      hovertemplate: "%{y:,} L<extra></extra>",
-      type: "scatter",
-      name: "Usage de l'eau courante pour palier à l'insuffisance du récupérateur",
-      marker: { color: "#9b8309", size: 6, opacity: 0.8 },
-      line: { dash: "dot", shape: "spline", width: 2.5 },
-    };
-
-    const maxY = Math.max(
-      ...Object.values(props.result.waterRecoverableQuantity),
-      ...Object.values(props.result.evolutionNeededWater),
-      ...props.result.evolutionStockWater,
-      ...props.result.consumptionByTapWater
-    );
-
-    const layout = {
-      font: { size: 12 },
-      xaxis: {
-        tickangle: -40,
-        tickfont: { size: 12 },
-      },
-      yaxis: {
-        range: [0, maxY * 1.1],
-        tickfont: { size: 12 },
-        tickformat: ",d",
-        autorange: true,
-        ticksuffix: " L",
-      },
-      barmode: "group",
-      bargap: 0.2,
-      separators: "  .",
-      bargroupgap: 0.15,
-      showlegend: true,
-      legend: { orientation: "h", x: 0, y: -0.2 },
-      height: 400,
-      margin: { l: 80, r: 80, b: 50, t: 40, pad: 2 },
-    };
-
-    return { data: [waterRecovery, waterNeeded, evolutionStockWater, evolutionUseTapWater], layout };
+const savingPerYear = computed(() => {
+  if (!chartData.value?.rainWaterConsumption || !waterPrice.value) {
+    return '-'
   }
-  return null;
-};
+  const savings = chartData.value?.rainWaterConsumption.reduce((a, b) => a + b, 0) * waterPrice.value.price / 1000
+  return Math.round(savings)
+})
 
-
-watch(() => props.result, () => {
-  const res = drawGraph();
-  if (res) {
-    const refChart = document.getElementById("refChart");
-    Plotly.react(refChart!, res.data, res.layout, {
-      showTips: false,
-      modeBarButtonsToRemove: ["zoom2d", "zoomIn2d", "zoomOut2d", "pan2d", "select2d", "lasso2d", "toImage", "autoScale2d"],
-      displaylogo: false,
-    });
-  }
-});
 </script>
