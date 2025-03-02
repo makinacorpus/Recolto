@@ -197,13 +197,13 @@ const isErrorSurfaceVegetable = computed(() => {
   return surfaceVegetable.value < 0;
 })
 const areParamsValid = computed(() => {
-  return surfaceGarden.value >= 0 && surfaceVegetable.value >= 0 && exteriorMaintenance.value >= 0 && residentNumber.value >= 0;
+  return surfaceGarden.value >= 0 && surfaceVegetable.value >= 0 && otherNeeds.value >= 0 && residentNumber.value >= 0;
 })
 const isErrorResidentNumber = computed(() => {
   return residentNumber.value < 0;
 })
 const isErrorExteriorMaintenance = computed(() => {
-  return exteriorMaintenance.value < 0;
+  return otherNeeds.value < 0;
 })
 
 const removeDraw = (area: "garden" | "vegetable") => {
