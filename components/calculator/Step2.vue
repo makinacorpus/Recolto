@@ -191,7 +191,7 @@ const props = defineProps<{
   forceResetInput: null | { area: "garden" | "vegetable", newValue: number },
 }>();
 const isErrorSurfaceGarden = computed(() => {
-  return surfaceGarden.value < 0 || Number(surfaceGarden.value);
+  return surfaceGarden.value < 0;
 })
 const isErrorSurfaceVegetable = computed(() => {
   return surfaceVegetable.value < 0;
