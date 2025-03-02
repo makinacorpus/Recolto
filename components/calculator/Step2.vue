@@ -159,7 +159,7 @@
       size="xl"
       color="white"
       variant="outline"
-      :disabled="!areParamsValid"
+      :disabled="isNotOk"
       :trailing="false"
       @click="$emit('next')"
       class="h-12 w-48 mx-auto my-4 bg-purple border border-white flex justify-center items-center disabled:bg-purple-300 ring-purple hover:bg-purple-900"
@@ -196,16 +196,15 @@ const isErrorSurfaceGarden = computed(() => {
 const isErrorSurfaceVegetable = computed(() => {
   return surfaceVegetable.value < 0;
 })
-const areParamsValid = computed(() => {
-  return surfaceGarden.value >= 0 && surfaceVegetable.value >= 0 && otherNeeds.value >= 0 && residentNumber.value >= 0;
-})
 const isErrorResidentNumber = computed(() => {
   return residentNumber.value < 0;
 })
 const isErrorExteriorMaintenance = computed(() => {
   return otherNeeds.value < 0;
 })
-
+const isNotOk = computed(() => {
+  return isErrorExteriorMaintenance.value || isErrorResidentNumber.value || isErrorSurfaceVegetable.value || isErrorSurfaceGarden.value;
+})
 const removeDraw = (area: "garden" | "vegetable") => {
   if (props.surfaceVegetableDrawn > 0 && props.surfaceVegetableDrawn !== surfaceGarden.value) {
     emit("drawWaterUsage", { area: area, action: "clear" });
