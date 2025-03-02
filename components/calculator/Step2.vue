@@ -33,8 +33,10 @@
         class="w-3/6 flex items-center"
       >
         <UInput
-          inputClass="h-10 dark:bg-slate-700 "
+          inputClass="h-10 dark:bg-slate-700 bg-white"
           type="number"
+          :color="isErrorSurfaceGarden ? 'red' : 'white'"
+          :min="0"
           v-model.number="surfaceGarden"
           @blur="removeDraw('garden')"
         />
@@ -66,8 +68,10 @@
         class="w-3/6 flex items-center"
       >
         <UInput
-          inputClass="h-10 dark:bg-slate-700"
+          inputClass="h-10 dark:bg-slate-700 bg-white"
           type="number"
+          :min="0"
+          :color="isErrorSurfaceVegetable ? 'red' : 'white'"
           v-model.number="surfaceVegetable"
           @blur="removeDraw('vegetable')"
         />
@@ -121,8 +125,10 @@
             class="w-full flex items-center justify-center"
           >
             <UInput
-              inputClass="h-10 dark:bg-slate-700"
+              inputClass="h-10 dark:bg-slate-700 bg-white"
               type="number"
+              :min="0"
+              :color="isErrorResidentNumber ? 'red' : 'white'"
               v-model.number="residentNumber"
             />
             <p> {{ t("step2.persons") }}</p>
@@ -138,8 +144,10 @@
         class="w-full flex items-center justify-center"
       >
         <UInput
-          inputClass="h-10 dark:bg-slate-700"
+          inputClass="h-10 dark:bg-slate-700 bg-white"
           type="number"
+          :min="0"
+          :color="isErrorExteriorMaintenance ? 'red' : 'white'"
           v-model.number="otherNeeds"
         />
         <p>&nbsp;{{ t("L_per_year") }}</p>
@@ -151,6 +159,7 @@
       size="xl"
       color="white"
       variant="outline"
+      :disabled="isNotOk"
       :trailing="false"
       @click="$emit('next')"
       class="h-12 w-48 mx-auto my-4 bg-purple border border-white flex justify-center items-center disabled:bg-purple-300 ring-purple hover:bg-purple-900"
@@ -181,7 +190,21 @@ const props = defineProps<{
   surfaceVegetableDrawn: number,
   forceResetInput: null | { area: "garden" | "vegetable", newValue: number },
 }>();
-
+const isErrorSurfaceGarden = computed(() => {
+  return surfaceGarden.value < 0;
+})
+const isErrorSurfaceVegetable = computed(() => {
+  return surfaceVegetable.value < 0;
+})
+const isErrorResidentNumber = computed(() => {
+  return residentNumber.value < 0;
+})
+const isErrorExteriorMaintenance = computed(() => {
+  return otherNeeds.value < 0;
+})
+const isNotOk = computed(() => {
+  return isErrorExteriorMaintenance.value || isErrorResidentNumber.value || isErrorSurfaceVegetable.value || isErrorSurfaceGarden.value;
+})
 const removeDraw = (area: "garden" | "vegetable") => {
   if (props.surfaceVegetableDrawn > 0 && props.surfaceVegetableDrawn !== surfaceGarden.value) {
     emit("drawWaterUsage", { area: area, action: "clear" });
