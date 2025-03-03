@@ -27,11 +27,25 @@ export async function getWaterPrice(centroid: L.LatLng | L.LatLngLiteral, hasSew
 }
 
 async function findInseeCode(centroid: L.LatLng | L.LatLngLiteral): Promise<string|undefined> {
-  const response = await fetch(`https://api-adresse.data.gouv.fr/reverse/?lon=${centroid.lng}&lat=${centroid.lat}`);
-  const res = await response.json();
+  // To avoid error from the reverse adresse API, we round the position to 3 digits,
+  // this give use a precision of ~100m which is enought for what we are doing.
+  const longitude = centroid.lng.toFixed(3)
+  const latitude = centroid.lat.toFixed(3)
 
-  if ( res.features?.length ) {
-    return res.features[0].properties.citycode
+  try {
+    const response = await fetch(`https://api-adresse.data.gouv.fr/reverse/?lon=${longitude}&lat=${latitude}`);
+
+    if (response.ok) {
+      const res = await response.json();
+
+      if ( res.features?.length ) {
+        return res.features[0].properties.citycode
+      }
+    } else {
+      console.warn(`can't find adress for location ${longitude};${latitude}`)
+    }
+  } catch (e) {
+    console.warn(`can't find adress for location ${longitude};${latitude}`)
   }
 }
 

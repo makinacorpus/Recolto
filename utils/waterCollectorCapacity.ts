@@ -88,16 +88,20 @@ export function estimateWaterCollectorCapacity(
     const month = Number(key.split('-')[1])
     const collectedRain = precipitation * correctedRoofArea // mm*m² => L
 
-    return accumulator + Math.min(1, collectedRain / waterNeeds[(month - 1)])
+    if (waterNeeds[(month - 1)] > 0) {
+      return accumulator + Math.min(1, collectedRain / waterNeeds[(month - 1)])
+    } else {
+      return accumulator + 1
+    }
+
   }, 0) / Object.keys(rainData.months).length
 
   // If coeffRef < 0.65, wate needs are superior to the rain the we can collect each
   // month. In this case, original algorithm from the ASTEE document recommends to simulate.
-  // For now, we do not do it and we keep the simple formula, rounded to the nearest 50.
-
+  // For now, we do not do it and we keep the simple formula, rounded to the nearest 100.
   const capacity = waterNeeds.reduce((a, b) => a + b, 0) / 12 * 0.7 / ( coeffRef * coeffRef )
 
-  return Math.round(capacity / 100) * 100
+  return (capacity < 100) ? Math.round(capacity / 10) * 10 : Math.round(capacity / 100) * 100
 }
 
 export function getWaterCollectorEvolutionPerMonth (
