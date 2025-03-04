@@ -8,7 +8,8 @@
     "habits": "Habits",
     "results": "Results",
     "redraw": "Redraw",
-    "next_step": "Next step"
+    "next_step": "Next step",
+    "previous_step": "Previous step"
   },
   "search": {
     "address": "Type your address to look it up",

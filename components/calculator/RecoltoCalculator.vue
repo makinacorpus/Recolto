@@ -12,7 +12,7 @@
           <button
             v-for="(step, index) in steps"
             :key="step.value"
-            @click="onClickStep(index)"
+            @click="changeStep(index)"
             class="min-w-full w-full md:w-24 text-xs md:text-base text-center mx-auto rounded-xl p-2 disabled:text-gray disabled:bg-gray disabled:cursor-not-allowed flex flex-col items-center content-end"
             :class="{
               'bg-white text-purple font-semibold dark:bg-slate-700 dark:text-white': currentStep === index,
@@ -67,6 +67,7 @@
         :force-reset-input="forceResetInput"
         @draw-water-usage="$emit('drawWaterUsage', $event)"
         @next="changeStep(2)"
+        @previous="changeStep(0)"
       />
 
       <Step3
@@ -81,6 +82,7 @@
         :washing-machine-connected="washingMachineConnected"
         :resident-number="residentNumber"
         :has-sewage-system="selectedSewageSystem"
+        @previous="changeStep(1)"
       />
     </div>
   </div>
@@ -97,7 +99,7 @@ const { t } = useI18n();
 const emit = defineEmits([
   "drawRoof",
   "drawWaterUsage",
-  "editableMap",
+  "disableDraw",
   "newCenter",
 ]);
 
@@ -137,16 +139,9 @@ defineProps<{
   forceResetInput: null | { area: "garden" | "vegetable", newValue: number },
 }>();
 
-const onClickStep = (index: number) => {
-  if (currentStep.value === 2 && index < 2) {
-    emit("drawWaterUsage", { area: "allUsage", action: "clear" });
-  }
-  currentStep.value = index
-};
-
 const changeStep = (step: number) => {
   currentStep.value = step
-  emit("editableMap", 2);
+  emit("disableDraw");
 };
 
 </script>
