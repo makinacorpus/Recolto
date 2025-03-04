@@ -4,8 +4,8 @@
     :title="t('step3.estimation')"
   >
     <div class="-mx-2">
-      <div v-if="!loading" class="flex flex-wrap">
-        <div class="w-2/3 text-md lg:text-lg font-semibold mb-2 self-center">
+      <div v-if="!loading" class="flex flex-wrap gap-y-2">
+        <div class="w-2/3 text-md lg:text-lg font-semibold self-center">
           <div class="flex">
             <p class="w-auto md:w-5/6">{{ t("step3.optimal_volume") }}</p>
             <InformationTooltip class="hidden md:ml-2 md:w-1/6 md:block md:self-center">
@@ -17,36 +17,34 @@
           {{ idealCapacity?.toLocaleString(locale) ?? '-' }} L
         </div>
 
-        <div class="w-2/3 text-md lg:text-lg font-semibold mb-2 self-center">
+        <div class="w-2/3 text-md lg:text-lg font-semibold self-center">
           {{ t("step3.estim_saving") }}
         </div>
         <div class="w-1/3 text-xl md:text-2xl font-bold flex justify-end self-center">
-          {{ savingPerYear.toLocaleString(locale) }} {{ t("euro_per_year")}}
+          {{ savingEuroPerYear.toLocaleString(locale) }} {{ t("euro_per_year")}}
         </div>
 
         <hr class="border border-t border-purple w-full my-2">
 
-        <div class="w-2/3 text-sm lg:text-base font-semibold mb-2 self-center">
-          <div class="flex">
-            <p class="w-auto md:w-5/6">
-              {{ t("step3.water_price") }} {{ t('step3.water_price_division.' + (waterPrice?.division ?? 'national')) }} {{ t("in") }} {{
-                waterPrice?.year
-              }}
-            </p>
+        <div class="w-2/3 text-sm lg:text-base font-semibold self-center flex items-start">
+          <p class="w-auto md:w-5/6">
+            {{ t("step3.water_price") }} {{ t('step3.water_price_division.' + (waterPrice?.division ?? 'national')) }} {{ t("in") }} {{
+              waterPrice?.year
+            }}
+          </p>
 
-            <InformationTooltip class="hidden md:ml-2 md:w-1/6 md:block md:self-center">
-              <p class="text-sm m-1">
-                {{ t("step3.water_price_info") }}
-                <a href="https://services.eaufrance.fr/carte-interactive" target="_blank" rel="noopener" class="underline" >services.eaufrance.fr</a>
-              </p>
-            </InformationTooltip>
-          </div>
+          <InformationTooltip class="hidden md:ml-2 md:w-1/6 md:block md:self-center">
+            <p class="text-sm m-1">
+              {{ t("step3.water_price_info") }}
+              <a href="https://services.eaufrance.fr/carte-interactive" target="_blank" rel="noopener" class="underline" >services.eaufrance.fr</a>
+            </p>
+          </InformationTooltip>
         </div>
         <div class="w-1/3 text-base md:text-lg font-bold flex justify-end self-center">
           {{ (waterPrice?.price ?? '-').toLocaleString(locale) }} €/m³
         </div>
 
-        <div class="w-2/3 text-sm lg:text-base font-semibold mb-2 self-center">
+        <div class="w-2/3 text-sm lg:text-base font-semibold self-center">
           {{ t("step3.needs") }}
         </div>
         <div class="w-1/3 text-base md:text-lg font-bold flex justify-end self-center">
@@ -236,11 +234,19 @@ const waterNeedsPerYear = computed(() => {
   return Math.round(needs / 100) * 100
 })
 
-const savingPerYear = computed(() => {
-  if (!chartData.value?.rainWaterConsumption || !waterPrice.value) {
+const savingLPerYear = computed(() => {
+  if (!chartData.value?.rainWaterConsumption) {
     return '-'
   }
-  const savings = chartData.value?.rainWaterConsumption.reduce((a, b) => a + b, 0) * waterPrice.value.price / 1000
+  const savings = chartData.value?.rainWaterConsumption.reduce((a, b) => a + b, 0) / 1000
+  return Math.round(savings)
+})
+
+const savingEuroPerYear = computed(() => {
+  if (savingLPerYear.value === '-' || !waterPrice.value) {
+    return '-'
+  }
+  const savings = savingLPerYear.value * waterPrice.value.price
   return Math.round(savings)
 })
 
