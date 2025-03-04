@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col h-full">
-    <header class="bg-[url('/assets/header_recolto.jpg')] bg-cover h-12 md:h-24">
+    <header class="bg-[url('/assets/header_recolto.jpg')] bg-cover h-18 md:h-24">
       <div
         class="flex justify-between items-center mx-auto p-2 md:p-4"
       >
@@ -9,10 +9,28 @@
             class="max-w-xs h-8 md:h-12"
             src="/assets/logo_recolto_blanc.png"
             alt="Logo de Récolt'Ô"
-
           />
         </NuxtLink>
-        <div>
+        <div class="flex items-center gap-2">
+          <UButton
+            class="hidden md:block"
+            :label="t('layout.give_opinion')"
+            color="white"
+            to="https://framaforms.org/donnez-votre-avis-sur-1739970454"
+            target="_blank"
+          />
+          <UDropdown
+            :items="localeOptions"
+            :popper="{ placement: 'bottom-start' }"
+            class="z-[2000] hidden md:block"
+          >
+            <UButton
+              icon="i-heroicons-language"
+              color="white"
+              :label="localeName"
+              trailing-icon="i-heroicons-chevron-down-20-solid"
+            />
+          </UDropdown>
           <UButton
             title="About"
             icon="i-heroicons-information-circle-20-solid"
@@ -23,18 +41,6 @@
             square
             @click="isAboutModalOpen = true"
           />
-          <UDropdown
-            :items="localeOptions"
-            :popper="{ placement: 'bottom-start' }"
-            class="z-[2000]"
-          >
-            <UButton
-              icon="i-heroicons-language"
-              color="white"
-              :label="localeName"
-              trailing-icon="i-heroicons-chevron-down-20-solid"
-            />
-          </UDropdown>
         </div>
       </div>
     </header>
@@ -73,13 +79,33 @@
           alt="Logo de Makina Corpus Territoires"
         />
       </a>
+      <hr class="flex md:hidden my-4">
+      <div class="flex md:hidden my-4 gap-2">
+        <UButton
+          :label="t('layout.give_opinion')"
+          to="https://framaforms.org/donnez-votre-avis-sur-1739970454"
+          target="_blank"
+        />
+        <UDropdown
+          :items="localeOptions"
+          :popper="{ placement: 'bottom-start' }"
+          class="z-[2000]"
+        >
+          <UButton
+            icon="i-heroicons-language"
+            :label="localeName"
+            trailing-icon="i-heroicons-chevron-down-20-solid"
+          />
+        </UDropdown>
+      </div>
     </div>
   </UModal>
 </template>
 
 <script setup lang="ts">
+
 const isAboutModalOpen = ref(false);
-const { locale, locales, setLocale } = useI18n()
+const { t, locale, locales, setLocale } = useI18n()
 
 const localeName = computed(() => locales.value.find(l => l.code === locale.value)?.name)
 
