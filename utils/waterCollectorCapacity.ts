@@ -118,17 +118,17 @@ export function getWaterCollectorEvolutionPerMonth (
   const rainWaterConsumptionPerMonth = []
   let currentWaterCollectorLevel = 0
   for (const month of Array(12).keys()) {
-    const roofPotential = rainData[month] * correctedRoofArea // L
-    roofPotentialWaterCollectPerMonth.push(roofPotential)
+    const currentMonthRoofPotential = rainData[month] * correctedRoofArea // L
+    roofPotentialWaterCollectPerMonth.push(currentMonthRoofPotential)
 
-    currentWaterCollectorLevel += roofPotential
+    currentWaterCollectorLevel += currentMonthRoofPotential
 
-    if ((currentWaterCollectorLevel - waterNeeds[month]) > 0) {
-      // We have enought water for our monthly needs
+    if (currentWaterCollectorLevel > waterNeeds[month]) {
+      // We have enough water for our monthly needs
       rainWaterConsumptionPerMonth.push(waterNeeds[month])
       currentWaterCollectorLevel -= waterNeeds[month]
     } else {
-      // We have not enought water for our monthly needs
+      // We have not enough water for our monthly needs
       rainWaterConsumptionPerMonth.push(currentWaterCollectorLevel)
       currentWaterCollectorLevel = 0
     }
