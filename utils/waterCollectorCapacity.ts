@@ -6,13 +6,13 @@ import { RainData, RainDataByMonth, WaterByMonth, WaterNeedsByMonth } from "~/de
 
 const WATER_USAGE_GARDEN_L_PER_M2_PER_YEAR = 20 // L/m²/an
 const WATER_USAGE_VEGETABLE_L_PER_M2_PER_YEAR = 450 // L/m²/an
-const WATER_USAGE_OUTDOOR_MONTH_DISTRIBUTION: WaterNeedsByMonth = [0, 0, 0, 1, 1, 2, 3, 3, 1, 0, 0, 0]
+const WATER_USAGE_OUTDOOR_MONTH_DISTRIBUTION: WaterNeedsByMonth = [0, 0, 0, 0.5, 1, 2, 3, 3, 1, 0, 0, 0]
 
 // For toilets, we can consider the following statistics:
-//   with a single button flush, 10L / flush
-//   with a double button flush, 5L / flush
+//   with a single button flush, 5L / flush
+//   with a double button flush, 3L / flush
 //   On average, a person flushes 4 times a day.
-const WATER_USAGE_TOILET_L_PER_PERSON_PER_YEAR = 14600 // 4 * 10 * 365, L/personne/an
+const WATER_USAGE_TOILET_L_PER_PERSON_PER_YEAR = 7300 // 4 * 5 * 365, L/personne/an
 
   // Typically, a washing machine consumes 75 L per use and is used on average :
   //   2 times a week for 1 or 2 people (i.e. 21.5L / day)
