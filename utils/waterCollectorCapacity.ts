@@ -6,13 +6,13 @@ import { RainData, RainDataByMonth, WaterByMonth, WaterNeedsByMonth } from "~/de
 
 const WATER_USAGE_GARDEN_L_PER_M2_PER_YEAR = 20 // L/m²/an
 const WATER_USAGE_VEGETABLE_L_PER_M2_PER_YEAR = 450 // L/m²/an
-const WATER_USAGE_OUTDOOR_MONTH_DISTRIBUTION: WaterNeedsByMonth = [0, 0, 0, 1, 1, 2, 3, 3, 1, 0, 0, 0]
+const WATER_USAGE_OUTDOOR_MONTH_DISTRIBUTION: WaterNeedsByMonth = [0, 0, 0, 0.5, 1, 2, 3, 3, 1, 0, 0, 0]
 
 // For toilets, we can consider the following statistics:
-//   with a single button flush, 10L / flush
-//   with a double button flush, 5L / flush
+//   with a single button flush, 5L / flush
+//   with a double button flush, 3L / flush
 //   On average, a person flushes 4 times a day.
-const WATER_USAGE_TOILET_L_PER_PERSON_PER_YEAR = 14600 // 4 * 10 * 365, L/personne/an
+const WATER_USAGE_TOILET_L_PER_PERSON_PER_YEAR = 7300 // 4 * 5 * 365, L/personne/an
 
   // Typically, a washing machine consumes 75 L per use and is used on average :
   //   2 times a week for 1 or 2 people (i.e. 21.5L / day)
@@ -88,16 +88,20 @@ export function estimateWaterCollectorCapacity(
     const month = Number(key.split('-')[1])
     const collectedRain = precipitation * correctedRoofArea // mm*m² => L
 
-    return accumulator + Math.min(1, collectedRain / waterNeeds[(month - 1)])
+    if (waterNeeds[(month - 1)] > 0) {
+      return accumulator + Math.min(1, collectedRain / waterNeeds[(month - 1)])
+    } else {
+      return accumulator + 1
+    }
+
   }, 0) / Object.keys(rainData.months).length
 
   // If coeffRef < 0.65, wate needs are superior to the rain the we can collect each
   // month. In this case, original algorithm from the ASTEE document recommends to simulate.
-  // For now, we do not do it and we keep the simple formula, rounded to the nearest 50.
-
+  // For now, we do not do it and we keep the simple formula, rounded to the nearest 100.
   const capacity = waterNeeds.reduce((a, b) => a + b, 0) / 12 * 0.7 / ( coeffRef * coeffRef )
 
-  return Math.round(capacity / 100) * 100
+  return (capacity < 100) ? Math.round(capacity / 10) * 10 : Math.round(capacity / 100) * 100
 }
 
 export function getWaterCollectorEvolutionPerMonth (
@@ -114,17 +118,17 @@ export function getWaterCollectorEvolutionPerMonth (
   const rainWaterConsumptionPerMonth = []
   let currentWaterCollectorLevel = 0
   for (const month of Array(12).keys()) {
-    const roofPotential = rainData[month] * correctedRoofArea // L
-    roofPotentialWaterCollectPerMonth.push(roofPotential)
+    const currentMonthRoofPotential = rainData[month] * correctedRoofArea // L
+    roofPotentialWaterCollectPerMonth.push(currentMonthRoofPotential)
 
-    currentWaterCollectorLevel += roofPotential
+    currentWaterCollectorLevel += currentMonthRoofPotential
 
-    if ((currentWaterCollectorLevel - waterNeeds[month]) > 0) {
-      // We have enought water for our monthly needs
+    if (currentWaterCollectorLevel > waterNeeds[month]) {
+      // We have enough water for our monthly needs
       rainWaterConsumptionPerMonth.push(waterNeeds[month])
       currentWaterCollectorLevel -= waterNeeds[month]
     } else {
-      // We have not enought water for our monthly needs
+      // We have not enough water for our monthly needs
       rainWaterConsumptionPerMonth.push(currentWaterCollectorLevel)
       currentWaterCollectorLevel = 0
     }

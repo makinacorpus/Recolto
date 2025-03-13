@@ -18,7 +18,7 @@
       @newCenter="($e) => center = $e"
       @draw-roof="allowDrawMap($event)"
       @draw-water-usage="allowDrawMap($event)"
-      @editable-map="drawEnabled = undefined"
+      @disable-draw="drawEnabled = undefined"
     />
     <recolto-map
       :draw-enabled="drawEnabled"
