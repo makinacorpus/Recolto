@@ -3,13 +3,7 @@
     "give_opinion": "Donnez-nous votre avis"
   },
   "calculator": {
-    "steps": "Étapes de l'estimation",
-    "roof": "Toiture",
-    "habits": "Habitudes",
-    "results": "Résultats",
-    "redraw": "Redessiner",
-    "next_step": "Étape suivante",
-    "previous_step": "Étape précédente"
+    "redraw": "Redessiner"
   },
   "search": {
     "address": "Cherchez une adresse…",

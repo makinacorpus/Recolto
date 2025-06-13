@@ -3,13 +3,7 @@
     "give_opinion": "Give us your opinion"
   },
   "calculator": {
-    "steps": "Estimation steps",
-    "roof": "Roof",
-    "habits": "Habits",
-    "results": "Results",
-    "redraw": "Redraw",
-    "next_step": "Next step",
-    "previous_step": "Previous step"
+    "redraw": "Redraw"
   },
   "search": {
     "address": "Type your address to look it up",
