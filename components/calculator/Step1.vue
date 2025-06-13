@@ -87,14 +87,6 @@
     >
       {{ t("calculator.redraw") }}
     </UButton>
-    <UButton
-      @click="$emit('next')"
-      class="sm:h-12 sm:w-56 mx-auto my-2 bg-purple border border-white flex justify-center items-center disabled:bg-purple-300 ring-purple hover:bg-purple-900 dark:bg-purple dark:text-white dark:hover:bg-purple-900"
-      :disabled="!props.roofSurface"
-      :title="!props.roofSurface ? 'Vous devez sélectionner une adresse' : ''"
-    >
-      {{ t("calculator.next_step") }}
-    </UButton>
   </div>
 </template>
 

@@ -18,7 +18,7 @@ export default {
     extend: {
       fontFamily: {
         sans: [
-          'Montserrat',
+          'Calibri',
           ...defaultTheme.fontFamily.sans,
         ]
       },

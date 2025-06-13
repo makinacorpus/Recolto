@@ -6,15 +6,6 @@ export default defineNuxtConfig({
   modules: [
     "@nuxt/content",
     "@nuxt/ui",
-    [
-      "@nuxtjs/google-fonts",
-      {
-        outputDir: "assets",
-        families: {
-          Montserrat: [400, 500, 600, 700],
-        },
-      },
-    ],
     "@nuxtjs/i18n",
   ],
   runtimeConfig: {

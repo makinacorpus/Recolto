@@ -1,26 +1,18 @@
 <template>
-  <div class="flex-grow relative">
-    <recolto-calculator
-      class="absolute bottom-0 left-0 right-0 md:top-[10px] md:left-[10px] md:right-[unset] md:bottom-[unset] z-[1002] overflow-auto md:max-h-[95%] scrolling-auto"
-      :class="{
-        'h-[30rem] md:h-[95%] scrolling-auto overflow-auto': currentStep === 2
-      }"
-
-      v-model:current-step="currentStep"
-
+  <div class="flex flex-col md:flex-row flex-grow h-full">
+    <TableForm
+      class="w-full md:w-1/2 md:max-w-none z-[1002] overflow-auto md:max-h-full"
       :roof-surface="roofSurface"
       :roof-center="roofCenter"
-
       :surface-garden-drawn="surfaceGardenDrawn"
       :surface-vegetable-drawn="surfaceVegetableDrawn"
       :force-reset-input="forceResetInput"
-
-      @newCenter="($e) => center = $e"
       @draw-roof="allowDrawMap($event)"
       @draw-water-usage="allowDrawMap($event)"
-      @disable-draw="drawEnabled = undefined"
+      @new-center="center = $event"
     />
     <recolto-map
+      class="w-full md:w-1/2 h-64 md:h-full"
       :draw-enabled="drawEnabled"
       :center="center"
       @polygon:created="onPolygonCreated"
@@ -33,7 +25,7 @@
 <script setup lang="ts">
 import L from "leaflet";
 import RecoltoMap from "../components/map/RecoltoMap.vue";
-import RecoltoCalculator from "../components/calculator/RecoltoCalculator.vue";
+import TableForm from "~/components/tableCalculator/TableForm.vue";
 
 definePageMeta({
   layout: "app",
@@ -57,15 +49,17 @@ const forceResetInput= ref<null | {
   newValue: number
 }>(null);
 
-const currentStep = ref(0);
-
 const drawEnabled = ref<{ area: "roof" | "garden" | "vegetable" | "allUsage", action?: "draw" | "clear" }>();
 
 /**
  * Allow to active leaflet draw
  * According to the area, user can draw or clear layer in map
  */
-const allowDrawMap = (data: { area: "roof" | "garden" | "vegetable" | "allUsage", action?: "draw" | "clear" }) => {
+const allowDrawMap = (data?: { area: "roof" | "garden" | "vegetable" | "allUsage", action?: "draw" | "clear" }) => {
+  if (!data) {
+    drawEnabled.value = undefined
+    return
+  }
   if (data.action === "clear" && data.area === "garden") {
     // Reset value when user update manually surfaceGarden
     surfaceGardenDrawn.value = 0;

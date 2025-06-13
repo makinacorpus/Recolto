@@ -27,13 +27,13 @@
     "draw_roof_info": "Depending on the location of your gutters, design the slope(s) that will serve your water collector.",
     "draw_roof": "Draw",
     "useful_surface": "Useful roof surface",
-    "substep3": "Is your place connected to the mains drainage?"
+    "substep3": "Are gutters linked to sewer?"
   },
   "step2": {
     "substep4": "What is your water usage?",
     "usage_info": "Knowing your usual water consumption enables to optimize the size of your water collector.",
-    "garden_irrigation": "Garden irrigation",
-    "veg_garden_irrigation": "Vegetable garden irrigation",
+    "garden_irrigation": "Garden Boundary",
+    "veg_garden_irrigation": "Potager Boundary",
     "interior_uses": "Interior use",
     "interior_uses_prompt": "Would your water collector be connected to:",
     "toilets": "toilets",
@@ -52,7 +52,7 @@
     "estim_saving": "Estimated savings",
     "water_price": "Water price",
     "water_price_info": "The prices are provided by the national water office",
-    "needs": "Your water needs",
+    "needs": "Water needed",
     "estimation_failure": "Unfortunately, the computation failed; please retry after checking the parameters.",
     "needs_analysis": "Analysis of your needs, based on yearly rain levels:",
     "last_known": "Last year known",

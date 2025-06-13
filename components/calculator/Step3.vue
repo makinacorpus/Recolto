@@ -1,5 +1,6 @@
 <template>
   <SubStep
+    v-if="props.roofCenter"
     :number="5"
     :title="t('step3.estimation')"
   >
@@ -175,7 +176,8 @@ watch(props, async (props) => {
   loading.value = true;
 
   if (!props.roofCenter) {
-    throw 'No centroid !'
+    loading.value = false;
+    return
   }
 
   rainData.value = await getRainData(props.roofCenter)
